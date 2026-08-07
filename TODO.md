@@ -4,5 +4,5 @@
 - [x] 2. Verify/complete root `.gitignore`
 - [x] 3. Stage all correct project files
 - [x] 4. Create initial commit
-- [ ] 5. Add GitHub remote and rename branch to `main`
-- [ ] 6. Push to GitHub `main` branch
+- [x] 5. Add GitHub remote and rename branch to `main`
+- [x] 6. Push to GitHub `main` branch

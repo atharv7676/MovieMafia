@@ -29,7 +29,7 @@ const protect = async (req, res, next) => {
 
     } catch (error) {
         return res.status(401).json({
-            message: "Session is expired please relogin"
+            message: "Invalid or expired access token"
         })
     }
 

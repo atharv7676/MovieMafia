@@ -189,5 +189,18 @@ const refreshAccessToken = async (req, res, next) => {
 
 }
 
+const getCurrentUser = async (req, res, next) => {
+    try {
 
-export { registerUser, loginUser, logoutUser, refreshAccessToken };
+        return res.status(200).json({
+            success: true,
+            user: req.user,
+        });
+
+    } catch (error) {
+        next(error);
+    }
+};
+
+
+export { registerUser, loginUser, logoutUser, refreshAccessToken, getCurrentUser };
