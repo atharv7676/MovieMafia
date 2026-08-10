@@ -1,11 +1,11 @@
 import { useState } from "react"
-import { login } from "../../services/authService"
 import { useAuth } from "../../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 
 function Login() {
   const { checkAuth } = useAuth();
+  const {login} = useAuth();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email : "",
@@ -25,7 +25,6 @@ function Login() {
     e.preventDefault();
     try {
       const response = await login(formData)
-      await checkAuth();
       navigate("/")
 
     } catch (error) {

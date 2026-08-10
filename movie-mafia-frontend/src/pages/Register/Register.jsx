@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { register } from "../../services/authService";
+import { useAuth } from "../../context/AuthContext";
 
 function Register() {
   const navigate = useNavigate();
-
+  const {register} = useAuth();
   const [formData, setFormData] = useState({
     fullName: "",
     username: "",
@@ -43,7 +43,7 @@ function Register() {
 
       navigate("/login");
 
-      
+
     } catch (error) {
       console.error(error);
       alert(error.response?.data?.message || "Something went wrong");
