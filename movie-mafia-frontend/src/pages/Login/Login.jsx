@@ -1,68 +1,72 @@
-import { useState } from "react"
+import { useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
-
 function Login() {
   const { checkAuth } = useAuth();
-  const {login} = useAuth();
+  const { login } = useAuth();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    email : "",
-    password : "",
-  })
+    email: "",
+    password: "",
+  });
+  const [error, setError] = useState();
+  const [loading, setLoading] = useState(false);
 
-  const handleChange = (e)=>{
-    const {name, value} = e.target
-    
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
     setFormData({
       ...formData,
-      [name] : value
-    })
-  }
+      [name]: value,
+    });
+  };
 
-  const handleSubmit = async(e)=>{
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setError("");
     try {
-      const response = await login(formData)
-      navigate("/")
-
+      const response = await login(formData);
+      navigate("/");
     } catch (error) {
-      console.error(error)
-      alert(error.response?.data?.message || "Something went wrong");
+      console.error(error);
+      setError(error.response?.data?.message || "Something went wrong");
+    } finally {
+      setLoading(false);
     }
-  }
+  };
 
   return (
     <main className="min-h-screen flex items-center justify-center">
+      {error && <p>{error}</p>}
+
       <form onSubmit={handleSubmit} noValidate>
-      <input
-      type="email" 
-      name="email" 
-      value={formData.email} 
-      required
-      onChange={handleChange}
-      placeholder="Enter Email"
-      autoComplete="email"
-       />
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          required
+          onChange={handleChange}
+          placeholder="Enter Email"
+          autoComplete="email"
+        />
 
+        <input
+          type="password"
+          name="password"
+          value={formData.password}
+          required
+          onChange={handleChange}
+          placeholder="Enter Password"
+          autoComplete="current-password"
+        />
 
-      <input 
-      type="password" 
-      name="password" 
-      value={formData.password} 
-      required
-      onChange={handleChange}
-      placeholder="Enter Password"
-      autoComplete="current-password"
-      />
-
-      <button 
-      type="submit"
-       className="bg-blue-500 hover:bg-blue-600 hover:scale-95 transition-all duration-200 p-2 rounded-md text-white">Login</button>
-  </form>
+        <button type="submit" disabled={loading}>
+          {loading ? "Logging in..." : "Login"}
+        </button>
+      </form>
     </main>
-  )
+  );
 }
 
-export default Login
+export default Login;
