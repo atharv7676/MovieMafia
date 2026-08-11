@@ -22,15 +22,14 @@ import Profile from "../pages/Profile/Profile";
 // Admin pages
 import Dashboard from "../pages/Dashboard/Dashboard";
 import AdminMovies from "../pages/AdminMovies/AdminMovies";
+import EditMovies from "../pages/AdminMovies/EditMovies";
 import Users from "../pages/Users/Users";
 
 function AppRoutes() {
   return (
     <Routes>
-
       {/* Main website */}
       <Route element={<MainLayout />}>
-
         <Route path="/" element={<Home />} />
 
         <Route path="/movie/:id" element={<MovieDetails />} />
@@ -41,35 +40,27 @@ function AppRoutes() {
         <Route element={<ProtectedRoute />}>
           <Route path="/profile" element={<Profile />} />
         </Route>
-
       </Route>
-
 
       {/* Login / Register */}
       <Route element={<PublicRoute />}>
-
         <Route path="/login" element={<Login />} />
 
         <Route path="/register" element={<Register />} />
-
       </Route>
-
 
       {/* Admin */}
       <Route path="/admin" element={<AdminRoute />}>
-
         <Route element={<AdminLayout />}>
-
           <Route index element={<Dashboard />} />
 
           <Route path="movies" element={<AdminMovies />} />
 
+          <Route path="movies/edit/:id" element={<EditMovies />} />
+
           <Route path="users" element={<Users />} />
-
         </Route>
-
       </Route>
-
     </Routes>
   );
 }
