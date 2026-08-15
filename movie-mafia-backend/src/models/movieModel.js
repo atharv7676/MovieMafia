@@ -9,7 +9,7 @@ const movieSchema = new mongoose.Schema({
 
     description: {
         type: String,
-        minlength: 100,
+        minlength: 50,
         maxlength: 300,
         required: true,
     },
@@ -28,9 +28,9 @@ const movieSchema = new mongoose.Schema({
     },
 
     director: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Director",
+        type: String,
         required: true,
+        trim: true,
     },
 
     rating: {
@@ -56,6 +56,27 @@ const movieSchema = new mongoose.Schema({
             required: true
         }
     },
+    watchOptions: [
+        {
+            platform: {
+                type: String,
+                required: true,
+                trim: true,
+            },
+
+            url: {
+                type: String,
+                required: true,
+                trim: true,
+            },
+
+            type: {
+                type: String,
+                enum: ["subscription", "rent", "buy", "free"],
+                required: true,
+            },
+        },
+    ],
 
     cast: {
         type: [String],
@@ -63,11 +84,11 @@ const movieSchema = new mongoose.Schema({
 },
     {
         timestamps: true,
-        toJSON : {
-            virtuals : true,
+        toJSON: {
+            virtuals: true,
         },
-        toObject : {
-            virtuals : true
+        toObject: {
+            virtuals: true
         }
     }
 )
@@ -80,7 +101,7 @@ movieSchema.virtual("movieAge").get(function () {
 
 });
 
-movieSchema.index({title : "text"});
+movieSchema.index({ title: "text" });
 movieSchema.index({ genre: 1 });
 movieSchema.index({ language: 1 });
 movieSchema.index({ rating: -1 });

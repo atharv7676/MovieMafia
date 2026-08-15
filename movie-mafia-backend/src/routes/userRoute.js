@@ -9,6 +9,7 @@ import express from "express"
 import validate from "../middleware/validationMiddleware.js";
 import { registerValidation } from "../validators/userValidator.js";
 import protect from "../middleware/authMiddleware.js";
+import limiter from "../middleware/rateLimiter.js";
 
 const router = express.Router()
 
@@ -21,7 +22,7 @@ router.post(
 
 router.post(
     "/login",
-    loginLimiter,
+    limiter,
     loginUser
 );
 

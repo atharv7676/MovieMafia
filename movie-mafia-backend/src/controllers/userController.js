@@ -28,7 +28,11 @@ const registerUser = async (req, res, next) => {
         });
 
     } catch (error) {
-        next(error)
+        console.log("REGISTER ERROR:", error);
+        return res.status(500).json({
+            success: false,
+            message: error.message
+        });
     }
 };
 
@@ -37,7 +41,7 @@ const loginUser = async (req, res, next) => {
     try {
         const { email, password } = req.body;
 
-        const user = await User.findByEmail(email).select("+password");
+        const user = await User.findByEmail(email)
 
         if (!user) {
             return res.status(404).json({

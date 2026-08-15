@@ -2,35 +2,31 @@ import cloudinary from "../config/cloudinary.js";
 import fs from "fs";
 
 const uploadOnCloudinary = async (localFilePath) => {
-
     try {
-
         if (!localFilePath) {
             return null;
         }
-
         const result = await cloudinary.uploader.upload(
             localFilePath,
             {
-                resource_type: "auto",
+                resource_type: "image",
             }
         );
-
-        // Delete temporary file
-        fs.unlinkSync(localFilePath);
+        
+        if (fs.existsSync(localFilePath)) {
+            fs.unlinkSync(localFilePath);
+            console.log("5. Local file deleted");
+        }
 
         return result;
 
     } catch (error) {
-
-        // Delete file if upload fails
-        if (localFilePath) {
+        if (localFilePath && fs.existsSync(localFilePath)) {
             fs.unlinkSync(localFilePath);
         }
 
         return null;
     }
-
 };
 
 export default uploadOnCloudinary;

@@ -24,7 +24,7 @@ export const updateMovie = async (id, data) => {
   return response.data;
 }
 
- export const deleteMovie = async(id)=>{
+export const deleteMovie = async(id)=>{
     const response = await api.delete(`/movies/${id}`);
     return response.data
  }

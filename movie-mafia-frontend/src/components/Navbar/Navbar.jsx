@@ -13,9 +13,11 @@ function Navbar() {
     }
   };
   return (
-    <div>
-      <button onClick={handleLogout}>Logout</button>
-    </div>
+    <nav className="absolute top-0 left-0 z-50 w-full">
+      <button
+      
+      onClick={handleLogout}>Logout</button>
+    </nav>
   );
 }
 

@@ -23,7 +23,6 @@ import Profile from "../pages/Profile/Profile";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import AdminMovies from "../pages/AdminMovies/AdminMovies";
 import EditMovies from "../pages/AdminMovies/EditMovies";
-import Users from "../pages/Users/Users";
 
 function AppRoutes() {
   return (
@@ -57,8 +56,6 @@ function AppRoutes() {
           <Route path="movies" element={<AdminMovies />} />
 
           <Route path="movies/edit/:id" element={<EditMovies />} />
-
-          <Route path="users" element={<Users />} />
         </Route>
       </Route>
     </Routes>

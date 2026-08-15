@@ -8,6 +8,7 @@ import rateLimit from "express-rate-limit";
 import morgan from "morgan";
 import cookieParser from "cookie-parser";
 import limiter from "./middleware/rateLimiter.js";
+import tmdbRouter from "./routes/tmdbRoute.js";
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use(cookieParser());
 
 app.use("/movies", movieRouter);
 app.use("/users", userRouter);
+app.use("/tmdb", tmdbRouter);
 
 app.use(errorHandler)
 export default app;

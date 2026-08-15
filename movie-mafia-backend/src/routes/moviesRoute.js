@@ -12,14 +12,14 @@ router.get("/:id", getMovie);
 router.post(
     "/",
     protect,
-    authorize,
+    authorize("admin", "moderator"),
     upload.single("poster"),
     createMovie
 );
 
 
 router.put(
-    "/movies/:id",
+    "/:id",
     protect,
     authorize("admin", "moderator"),
     updateMovie
@@ -27,7 +27,7 @@ router.put(
 
 
 router.delete(
-    "/movies/:id",
+    "/:id",
     protect,
     authorize("admin"),
     deleteMovie

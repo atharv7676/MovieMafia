@@ -6,12 +6,22 @@ import cloudinary from "../config/cloudinary.js";
 
 const createMovie = asyncHandler(async (req, res) => {
 
+    if (!req.file) {
+        throw new ApiError(400, "Movie poster is required");
+    }
     const result = await uploadOnCloudinary(req.file.path);
 
     if (!result) {
-        return res.status(500).json({
-            message: "Image upload failed",
-        });
+        throw new ApiError(500, "Image upload failed");
+    }
+
+    // Convert watchOptions from form-data string → array
+    if (req.body.watchOptions) {
+        try {
+            req.body.watchOptions = JSON.parse(req.body.watchOptions);
+        } catch (error) {
+            throw new ApiError(400, "Invalid watchOptions format");
+        }
     }
 
     const movie = await Movie.create({
@@ -22,20 +32,16 @@ const createMovie = asyncHandler(async (req, res) => {
             public_id: result.public_id,
         },
     });
+
     res.status(201).json({
-        message: "Movie created Succesfully",
-        data: movie
-    })
-
-    logger.info(`Movie ${movie.title} created`);
-
-
-})
-
+        message: "Movie created successfully",
+        data: movie,
+    });
+});
 
 const getMovie = asyncHandler(async (req, res) => {
 
-    const movie = await Movie.findById(req.params.id).populate("director", "name")
+    const movie = await Movie.findById(req.params.id)
     if (!movie) {
         throw new ApiError(404, "Movie not found");
     }
@@ -60,11 +66,11 @@ const getAllMovies = asyncHandler(async (req, res) => {
     const pageNumber = Number(page) || 1;
     const limitNumber = Number(limit) || 10;
 
-    const totalMovies = await Movie.countDocuments();
+    const totalMovies = await Movie.countDocuments(filters);
 
     const totalPages = Math.ceil(totalMovies / limitNumber);
 
-    const movies = await Movie.find(filters).sort(sort).skip((pageNumber - 1) * limitNumber).limit(limitNumber).populate("director", "name").explain("executionStats");
+    const movies = await Movie.find(filters).sort(sort).skip((pageNumber - 1) * limitNumber).limit(limitNumber)
 
     if (movies.length === 0) {
         throw new ApiError(404, "Movie not found");

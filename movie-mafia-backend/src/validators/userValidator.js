@@ -1,4 +1,5 @@
 import { body, validationResult } from "express-validator";
+import User from "../models/userModel.js";
 
 const registerValidation = [
     body("name")
