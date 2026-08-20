@@ -1,10 +1,12 @@
 import api from "./api.js";
 
-export const getMovies = async () => {
-    const response = await api.get("/movies");
+export const getMovies = async (search = "") => {
+  const response = await api.get("/movies", {
+    params: search ? { search } : {},
+  });
 
-    return response.data
-}
+  return response.data;
+};
 
 
 export const getMovieById = async (id)=>{

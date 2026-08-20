@@ -10,7 +10,7 @@ const movieSchema = new mongoose.Schema({
     description: {
         type: String,
         minlength: 50,
-        maxlength: 300,
+        maxlength: 500,
         required: true,
     },
 
@@ -81,6 +81,12 @@ const movieSchema = new mongoose.Schema({
     cast: {
         type: [String],
     },
+
+    tmdbId: {
+        type: Number,
+        unique: true,
+        sparse: true
+    }
 },
     {
         timestamps: true,

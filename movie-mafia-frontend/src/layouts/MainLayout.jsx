@@ -1,15 +1,16 @@
+import { StarsBackground } from "@/components/animate-ui/components/backgrounds/stars";
 import Navbar from "@/components/Navbar/Navbar";
 import { Outlet } from "react-router-dom";
 
 function MainLayout() {
   return (
-    <div className="relative">
+    <StarsBackground className="min-h-screen">
       <Navbar />
 
-      <main>
+      <main className="pt-24">
         <Outlet />
       </main>
-    </div>
+    </StarsBackground>
   );
 }
 

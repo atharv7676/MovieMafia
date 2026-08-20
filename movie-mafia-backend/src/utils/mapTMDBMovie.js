@@ -27,6 +27,11 @@ const mapTMDBMovie = (movie) => {
         rating: movie.vote_average,
         language: movie.original_language,
         cast,
+
+        // this is used because tmdb gives us just the poster name like relative path we created it to actual path by creating default url and lastly its relative path ath end to make a compete path 
+        posterUrl: movie.poster_path
+            ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+            : "",
     };
 };
 

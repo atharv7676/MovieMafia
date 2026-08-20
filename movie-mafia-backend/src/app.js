@@ -12,7 +12,7 @@ import tmdbRouter from "./routes/tmdbRoute.js";
 
 const app = express();
 
-app.use(limiter);
+// app.use(limiter);
 app.use(helmet())
 app.use(cors({
     origin: process.env.CLIENT_URL,

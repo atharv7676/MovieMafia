@@ -84,7 +84,7 @@ userSchema.methods.generateAccessToken = function () {
     );
 };
 
-userSchema.index({email : 1});
+userSchema.index();
 
 const User = mongoose.model("User", userSchema);
 
