@@ -70,8 +70,8 @@ const loginUser = async (req, res, next) => {
         // securing the cookies 
         const options = {
             httpOnly: true,
-            secure: true,
-            sameSite: "Strict",
+            secure: false,
+            sameSite: "Lax",
         };
 
         //Sending Cookie Request

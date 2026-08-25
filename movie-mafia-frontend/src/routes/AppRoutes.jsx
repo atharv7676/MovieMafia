@@ -31,7 +31,7 @@ function AppRoutes() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
 
-        <Route path="/movie/:id" element={<MovieDetails />} />
+        <Route path="/movies/:id" element={<MovieDetails />} />
 
         <Route path="/movies" element={<Movie />} />
 

@@ -1,7 +1,10 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { getCurrentUser } from "../services/authService";
-import { login as loginService } from "../services/authService";
-import { register as registerService } from "../services/authService";
+import {
+  getCurrentUser,
+  login as loginService,
+  register as registerService,
+  logout as logoutService,
+} from "../services/authService";
 
 const AuthContext = createContext();
 
@@ -28,9 +31,9 @@ const AuthProvider = ({ children }) => {
     await checkAuth();
   };
 
-  const register = async (credentials)=>{
-    await registerService(credentials)
-  }
+  const register = async (credentials) => {
+    await registerService(credentials);
+  };
 
   const logout = async () => {
     await logoutService();

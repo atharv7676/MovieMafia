@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getMovies } from "../../services/movieService";
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { MovieCard } from "@/components/MovieCard/MovieCard";
 
 function Movie() {
   const [movies, setMovies] = useState([]);
@@ -15,7 +16,7 @@ function Movie() {
 
       try {
         const response = await getMovies(search);
-        setMovies(response);
+        setMovies(response.data);
       } catch (error) {
         console.log(error);
         setMovies([]);
@@ -28,29 +29,23 @@ function Movie() {
   }, [search]);
 
   return (
-    <>
+    <div>
       {loading && <p>Loading...</p>}
 
       {!loading && movies.length === 0 && (
         <p>
-          {search
-            ? `No movies found for "${search}"`
-            : "No Movies Found ...."}
+          {search ? `No movies found for "${search}"` : "No Movies Found ...."}
         </p>
       )}
 
-      {!loading &&
-        movies.map((movie) => (
-          <div key={movie._id}>
-            <Link to={`/movies/${movie._id}`}>
-              <h2>{movie.title}</h2>
-              <h2>{movie.genre}</h2>
-              <h2>{movie.rating}</h2>
-              <h2>{movie.releaseYear}</h2>
-            </Link>
-          </div>
-        ))}
-    </>
+      {!loading && movies.length > 0 && (
+        <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+          {movies.map((movie) => (
+            <MovieCard key={movie._id} movie={movie} />
+          ))}
+        </div>
+      )}
+    </div>
   );
 }
 

@@ -84,7 +84,6 @@ const Hero = () => {
 
   return (
     <section className="w-full px-4 py-6 sm:px-6 lg:px-8">
-
       {/* Main hero section displays selected movie */}
       <div
         className="
@@ -118,7 +117,6 @@ const Hero = () => {
             lg:gap-12
           "
         >
-
           {/* Previous arrow navigates carousel movies backward */}
           <button
             onClick={() => changeMovie(-1)}
@@ -176,7 +174,6 @@ const Hero = () => {
               lg:text-left
             "
           >
-
             {/* Movie title displays selected movie name */}
             <h1
               className="
@@ -321,68 +318,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Additional movies provide quick carousel selection */}
-      <div className="mx-auto mt-8 w-full max-w-6xl">
-        <h2 className="mb-4 text-xl font-bold text-white">
-          More Movies
-        </h2>
-
-        <div
-          className="
-            grid
-            grid-cols-2
-            gap-4
-            sm:grid-cols-3
-            md:grid-cols-4
-            lg:grid-cols-7
-          "
-        >
-          {otherMovies.map((movie) => (
-            <button
-              key={movie._id}
-              onClick={() => {
-                const index = movies.findIndex(
-                  (item) => item._id === movie._id,
-                );
-
-                setCurrentIndex(index);
-                setSelectedMovie(movie);
-              }}
-              className="group text-left"
-            >
-
-              {/* Movie poster provides clickable selection */}
-              <div className="overflow-hidden rounded-xl">
-                <img
-                  src={movie.poster?.url}
-                  alt={movie.title}
-                  className="
-                    aspect-2/3
-                    w-full
-                    object-cover
-                    transition
-                    duration-300
-                    group-hover:scale-105
-                  "
-                />
-              </div>
-
-              {/* Movie name identifies each carousel option */}
-              <p
-                className="
-                  mt-2
-                  truncate
-                  text-sm
-                  font-semibold
-                  text-white
-                "
-              >
-                {movie.title}
-              </p>
-            </button>
-          ))}
-        </div>
-      </div>
+    
     </section>
   );
 };

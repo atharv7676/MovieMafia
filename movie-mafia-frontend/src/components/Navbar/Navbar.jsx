@@ -12,6 +12,9 @@ import {
   Search,
   LoaderCircle,
   Star,
+  Menu,
+  X,
+  MenuIcon,
 } from "lucide-react";
 import movieMafiaLogo from "@/assets/movie-mafia-logo.svg";
 
@@ -23,6 +26,7 @@ function Navbar() {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showResults, setShowResults] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const searchRef = useRef(null);
 
@@ -51,7 +55,7 @@ function Navbar() {
 
         const response = await getMovies(trimmedSearch);
 
-        setResults(response.slice(0, 5));
+        setResults(response.data.slice(0, 5));
         setShowResults(true);
       } catch (error) {
         console.error(error);
@@ -125,7 +129,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="fixed left-1/2 top-4 z-50 h-16 w-[80%] -translate-x-1/2 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-md">
+    <nav className="fixed left-1/2 top-4 z-50 h-16 w-[95%] -translate-x-1/2 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-md md:w-[80%]">
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <NavLink to="/" className="shrink-0">
@@ -133,7 +137,7 @@ function Navbar() {
         </NavLink>
 
         {/* Navigation */}
-        <div className="flex items-center gap-6 font-bold text-white">
+        <div className="hidden items-center gap-6 font-bold text-white lg:flex">
           {navItems.map((item) => {
             const Icon = item.icon;
 
@@ -155,7 +159,10 @@ function Navbar() {
         </div>
 
         {/* Search */}
-        <div ref={searchRef} className="relative">
+        <div
+          ref={searchRef}
+          className="relative min-w-0 flex-1 md:max-w-105 lg:mx-6"
+        >
           <form onSubmit={handleSearch}>
             <Search
               size={18}
@@ -179,7 +186,7 @@ function Navbar() {
                 }
               }}
               placeholder="Search movies..."
-              className="h-10 w-52 rounded-xl border border-white/10 bg-white/5 pl-10 pr-10 text-sm text-white outline-none placeholder:text-white/40 transition-all duration-200 focus:border-white/30 focus:bg-white/10"
+              className="h-11 w-full rounded-xl border border-white/10 bg-white/5 pl-10 pr-10 text-sm text-white outline-none placeholder:text-white/40 transition-all duration-200 focus:border-white/30 focus:bg-white/10"
             />
           </form>
 
@@ -238,11 +245,61 @@ function Navbar() {
         </div>
 
         {/* Logout */}
-        <Button variant="outline" onClick={handleLogout}>
+        <Button
+          variant="outline"
+          onClick={handleLogout}
+          className="hidden lg:flex shrink-0"
+        >
           <LogOutIcon />
           Logout
         </Button>
+
+        {/* Menu Buttons */}
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="lg:hidden text-white shrink-0"
+        >
+          {isMenuOpen ? <X size={24} /> : <MenuIcon size={24} />}
+        </button>
       </div>
+
+      {/* Mobi;e Menu */}
+
+      {isMenuOpen && (
+        <div className="absolute left-0 right-0 top-20 w-full rounded-2xl border border-white/10 bg-black/90 p-4 backdrop-blur-xl lg:hidden">
+          <div className="flex flex-col gap-2">
+            {navItems.map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <NavLink
+                  key={item.path}
+                  to={item.path}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={({ isActive }) =>
+                    `flex items-center gap-3 rounded-xl px-4 py-3 transition-colors ${
+                      isActive
+                        ? "bg-white/10 text-white"
+                        : "text-white/70 hover:bg-white/5 hover:text-white"
+                    }`
+                  }
+                >
+                  <Icon size={20} strokeWidth={1.8} />
+                  <span>{item.label}</span>
+                </NavLink>
+              );
+            })}
+
+            <button
+              onClick={handleLogout}
+              className="mt-2 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-white/70 transition-colors hover:bg-red-300 hover:text-white bg-red-400"
+            >
+              <LogOutIcon size={20} />
+              <span>Logout</span>
+            </button>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
