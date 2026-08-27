@@ -1,27 +1,26 @@
 import User from "../models/userModel.js";
 import Movie from "../models/movieModel.js";
 
-
-export const addToWishList = async(req, res, next) =>{
-    try {
-        const {movieId} = req.params;
+export const addToWishList = async (req, res, next) => {
+  try {
+    const { movieId } = req.params;
 
     const movie = await Movie.findById(movieId);
 
-    if(!movie){
-        return res.status(404).json({
-            message : "Movie not Found ",
-            success : false,
-        })
+    if (!movie) {
+      return res.status(404).json({
+        message: "Movie not Found",
+        success: false,
+      });
     }
 
     const user = req.user;
 
-    if(user.wishList.includes(movieId)){
-        return res.status(409).json({
-            success : false,
-            message : "Movie already exists"
-        })
+    if (user.wishList.includes(movieId)) {
+      return res.status(409).json({
+        success: false,
+        message: "Movie already exists",
+      });
     }
 
     user.wishList.push(movieId);
@@ -29,15 +28,14 @@ export const addToWishList = async(req, res, next) =>{
     await user.save();
 
     return res.status(200).json({
-        success : true,
-        message : "Movie added to wishList Sucessfully",
-        wishList : user.wishList,
-    })
-
-    } catch (error) {
-        next(error)
-    }
-}
+      success: true,
+      message: "Movie added to wishList successfully",
+      wishList: user.wishList,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
 export const removeWishList = async (req, res, next) => {
   try {
@@ -72,18 +70,18 @@ export const removeWishList = async (req, res, next) => {
   }
 };
 
-export const getWishList = async(req, res, next)=>{
-    try {
-        const user = req.user;
+export const getWishList = async (req, res, next) => {
+  try {
+    const user = req.user;
 
-        const populatedUser = await User.findById(user._id).populate("wishList");
+    const populatedUser = await User.findById(user._id).populate("wishList");
 
-        return res.status(200).json({
-            success: true,
-            message: "Wishlist fetched successfully",
-            wishList: populatedUser.wishList,
-        })
-    } catch (error) {
-        next(error)
-    }
-}
+    return res.status(200).json({
+      success: true,
+      message: "Wishlist fetched successfully",
+      wishList: populatedUser.wishList,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
