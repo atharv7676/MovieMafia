@@ -49,7 +49,7 @@ const WishlistProvider = ({ children }) => {
 
   const isInWishlist = (movieId) => {
     return wishlist.some(
-      (movie) => movie._id.toString() === movieId.toString(),
+      (movie) => (movie._id || movie).toString() === movieId.toString(),
     );
   };
 

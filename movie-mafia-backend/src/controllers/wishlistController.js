@@ -27,10 +27,12 @@ export const addToWishList = async (req, res, next) => {
 
     await user.save();
 
+    const populatedUser = await User.findById(user._id).populate("wishList");
+
     return res.status(200).json({
       success: true,
       message: "Movie added to wishList successfully",
-      wishList: user.wishList,
+      wishList: populatedUser.wishList,
     });
   } catch (error) {
     next(error);
@@ -60,10 +62,12 @@ export const removeWishList = async (req, res, next) => {
 
     await user.save();
 
+    const populatedUser = await User.findById(user._id).populate("wishList");
+
     return res.status(200).json({
       success: true,
       message: "Movie removed from wishlist successfully",
-      wishList: user.wishList,
+      wishList: populatedUser.wishList,
     });
   } catch (error) {
     next(error);

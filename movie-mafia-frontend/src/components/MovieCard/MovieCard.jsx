@@ -8,7 +8,19 @@ export function MovieCard({ movie }) {
   const wishlisted = isInWishlist(movie._id);
 
   const handleWishlist = async () => {
-    console.log("WISHLIST BUTTON CLICKED");
+    console.log("1. Wishlist button clicked:", movie._id);
+
+    try {
+      if (wishlisted) {
+        console.log("2. Removing from wishlist...");
+        await removeMovie(movie._id);
+      } else {
+        console.log("2. Adding to wishlist...");
+        await addMovie(movie._id);
+      }
+    } catch (error) {
+      console.error("3. Wishlist action failed:", error);
+    }
   };
 
   return (
