@@ -39,24 +39,24 @@ export const addToWishList = async(req, res, next) =>{
     }
 }
 
-export const removeWishList = async (req, res, next) => {
-  try {
-    const { movieId } = req.params;
+export const removeWishList = 
 
     const user = req.user;
 
-    const movieExistsInWishlist = user.wishlist.some(
+    const movieExistsInWishlist = user.wishList.some(
       (id) => id.toString() === movieId
     );
 
     if (!movieExistsInWishlist) {
-      return res.status(404).json({
+      return res.status(404).json({async (req, res, next) => {
+  try {
+    const { movieId } = req.params;
         success: false,
         message: "Movie not found in wishlist",
       });
     }
 
-    user.wishlist = user.wishlist.filter(
+    user.wishList = user.wishList.filter(
       (id) => id.toString() !== movieId
     );
 
@@ -65,7 +65,7 @@ export const removeWishList = async (req, res, next) => {
     return res.status(200).json({
       success: true,
       message: "Movie removed from wishlist successfully",
-      wishlist: user.wishlist,
+      wishList: user.wishList,
     });
   } catch (error) {
     next(error);
