@@ -32,7 +32,7 @@ const WishlistProvider = ({ children }) => {
   const removeMovie = async (movieId) => {
     const response = await removeFromWishlist(movieId);
 
-    setWishlist(response.wishList);
+    setWishlist(response.wishList || []);
   };
 
   const isInWishlist = (movieId) => {

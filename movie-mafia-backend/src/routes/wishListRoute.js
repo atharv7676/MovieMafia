@@ -1,11 +1,7 @@
 import express from "express";
 import protect from "../middleware/authMiddleware.js";
 
-import {
-    getWishList,
-    removeWishList,
-    addToWishList,
-} from "../controllers/wishListController.js";
+import { getWishList, removeWishList, addToWishList } from "../controllers/wishlistController.js";
 
 const router = express.Router();
 
