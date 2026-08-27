@@ -24,9 +24,21 @@ const WishlistProvider = ({ children }) => {
   }, []);
 
   const addMovie = async (movieId) => {
-    const response = await addToWishList(movieId);
+    console.log("1. addMovie called:", movieId);
 
-    setWishlist(response.wishList);
+    try {
+      console.log("2. calling wishlist API...");
+
+      const response = await addToWishList(movieId);
+
+      console.log("3. wishlist API response:", response);
+
+      setWishlist(response.wishList);
+
+      console.log("4. wishlist state updated");
+    } catch (error) {
+      console.error("5. wishlist API ERROR:", error);
+    }
   };
 
   const removeMovie = async (movieId) => {

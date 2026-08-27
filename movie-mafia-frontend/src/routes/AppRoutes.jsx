@@ -23,6 +23,7 @@ import Profile from "../pages/Profile/Profile";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import AdminMovies from "../pages/AdminMovies/AdminMovies";
 import EditMovies from "../pages/AdminMovies/EditMovies";
+import Wishlist from "@/pages/Wishlist/Wishlist";
 
 function AppRoutes() {
   return (
@@ -38,6 +39,8 @@ function AppRoutes() {
         {/* Logged-in users only */}
         <Route element={<ProtectedRoute />}>
           <Route path="/profile" element={<Profile />} />
+
+          <Route path="/wishlist" element={<Wishlist />} />
         </Route>
       </Route>
 
