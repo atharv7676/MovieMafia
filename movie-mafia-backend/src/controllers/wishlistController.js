@@ -39,7 +39,9 @@ export const addToWishList = async(req, res, next) =>{
     }
 }
 
-export const removeWishList = 
+export const removeWishList = async (req, res, next) => {
+  try {
+    const { movieId } = req.params;
 
     const user = req.user;
 
@@ -48,9 +50,7 @@ export const removeWishList =
     );
 
     if (!movieExistsInWishlist) {
-      return res.status(404).json({async (req, res, next) => {
-  try {
-    const { movieId } = req.params;
+      return res.status(404).json({
         success: false,
         message: "Movie not found in wishlist",
       });
