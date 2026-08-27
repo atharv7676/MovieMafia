@@ -49,6 +49,7 @@ const AuthProvider = ({ children }) => {
     checkAuth,
     login,
     register,
+    logout,
   };
 
   useEffect(() => {

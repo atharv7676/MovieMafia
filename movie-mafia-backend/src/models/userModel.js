@@ -26,8 +26,15 @@ const userSchema = new mongoose.Schema({
 
     subscription: { type: String, enum: ["free", "premium", "pro"], default: "free" },
 
-    refreshToken : {
-        type : String,
+    wishList: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Movie",
+        },
+    ],
+
+    refreshToken: {
+        type: String,
     }
 },
     {
@@ -74,8 +81,8 @@ userSchema.methods.generateAccessToken = function () {
     return jwt.sign(
         {
             _id: this._id,
-            email : this.email,
-            role : this.role
+            email: this.email,
+            role: this.role
         },
         process.env.ACCESS_TOKEN_SECRET,
         {

@@ -9,6 +9,7 @@ import morgan from "morgan";
 import cookieParser from "cookie-parser";
 import limiter from "./middleware/rateLimiter.js";
 import tmdbRouter from "./routes/tmdbRoute.js";
+import wishListRoute from "./routes/wishListRoute.js"
 
 const app = express();
 
@@ -27,6 +28,7 @@ app.use(cookieParser());
 app.use("/movies", movieRouter);
 app.use("/users", userRouter);
 app.use("/tmdb", tmdbRouter);
+app.use("/wishlist", wishListRoute);
 
 app.use(errorHandler)
 export default app;

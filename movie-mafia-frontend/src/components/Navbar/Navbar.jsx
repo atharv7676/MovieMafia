@@ -109,8 +109,8 @@ function Navbar() {
       icon: House,
     },
     {
-      label: "Watch Later",
-      path: "/watch-later",
+      label: "WishList",
+      path: "/wishlist",
       icon: Bookmark,
     },
     {
