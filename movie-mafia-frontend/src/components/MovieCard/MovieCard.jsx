@@ -60,7 +60,7 @@ export function MovieCard({ movie }) {
       <button
         type="button"
         onClick={handleWishlist}
-        className="mt-3 w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm font-medium text-white/80 transition-all duration-200 hover:bg-white/10 hover:text-white"
+        className="mt-3 w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm font-medium text-white/80 transition-all duration-200 hover:bg-white/10 hover:text-white hover:scale-95"
       >
         {wishlisted ? "♥ Remove from Wishlist" : "♡ Add to Wishlist"}
       </button>
