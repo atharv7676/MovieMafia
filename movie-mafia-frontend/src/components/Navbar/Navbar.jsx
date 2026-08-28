@@ -15,6 +15,7 @@ import {
   Menu,
   X,
   MenuIcon,
+  ShieldUser,
 } from "lucide-react";
 import movieMafiaLogo from "@/assets/movie-mafia-logo.svg";
 
@@ -118,6 +119,11 @@ function Navbar() {
       path: "/profile",
       icon: UserRound,
     },
+    {
+      label:"Admin",
+      path:"/admin",
+      icon: ShieldUser,
+    }
   ];
 
   if (isAdmin) {

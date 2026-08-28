@@ -47,7 +47,7 @@ function EditMovies() {
     if (poster) {
       data.append("poster", poster);
     }
-    await updateMovie(id, formData);
+    await updateMovie(id, data);
   };
 
   const handlePosterChange = (e) => {
