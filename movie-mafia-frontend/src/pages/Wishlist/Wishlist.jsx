@@ -1,11 +1,24 @@
 import { useWishlist } from "@/context/WishlistContext";
 import { MovieCard } from "@/components/MovieCard/MovieCard";
 import { Heart } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 
 function Wishlist() {
   const { wishlist } = useWishlist();
   return (
     <div className="min-h-screen  px-4 pb-12 pt-28 sm:px-6 rounded-3xl border border-white/10 bg-black/20 p-6 shadow-2xl backdrop-blur-none">
+
+      <Link
+        className="relative z-20 text-white font-bold mb-2 p-3 m-3 bg-white/7 rounded-2xl flex justify-center items-center gap-3 hover:scale-95 w-45"
+        to="/"
+      >
+        <span>
+          <ArrowLeft size={20} />
+        </span>
+        Back to Home
+      </Link>
+
       <div className="flex justify-center text-center text-3xl font-bold text-white">
         <h1 className="flex items-center gap-2">
           Wishlist

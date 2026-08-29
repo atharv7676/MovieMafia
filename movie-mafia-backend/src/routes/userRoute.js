@@ -10,6 +10,7 @@ import validate from "../middleware/validationMiddleware.js";
 import { registerValidation } from "../validators/userValidator.js";
 import protect from "../middleware/authMiddleware.js";
 import limiter from "../middleware/rateLimiter.js";
+import { getAdminStats } from "../controllers/userController.js";
 
 const router = express.Router()
 
@@ -44,6 +45,10 @@ router.get(
 );
 
 
-router.get("/admin/stats", protect, adminOnly, getAdminStats);
+router.get(
+    "/admin/stats",
+    protect,
+    getAdminStats
+);
 
 export default router;

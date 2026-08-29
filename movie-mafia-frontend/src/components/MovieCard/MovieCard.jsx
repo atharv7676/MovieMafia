@@ -1,31 +1,14 @@
-import { StarIcon } from "lucide-react";
+import { StarIcon, Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useWishlist } from "@/context/WishlistContext";
 
 export function MovieCard({ movie }) {
-  const { addMovie, removeMovie, isInWishlist } = useWishlist();
+  const { isInWishlist } = useWishlist();
 
   const wishlisted = isInWishlist(movie._id);
 
-  const handleWishlist = async () => {
-    console.log("1. Wishlist button clicked:", movie._id);
-
-    try {
-      if (wishlisted) {
-        console.log("2. Removing from wishlist...");
-        await removeMovie(movie._id);
-      } else {
-        console.log("2. Adding to wishlist...");
-        await addMovie(movie._id);
-      }
-    } catch (error) {
-      console.error("3. Wishlist action failed:", error);
-    }
-  };
-
   return (
     <div className="group rounded-2xl p-2 transition-all duration-300 hover:bg-white/5">
-      {/* Movie Card */}
       <Link to={`/movies/${movie._id}`} className="block">
         <div className="relative">
           {/* Poster */}
@@ -43,6 +26,16 @@ export function MovieCard({ movie }) {
             {movie.rating}
           </div>
 
+          {/* Wishlist indicator */}
+          {wishlisted && (
+            <div className="absolute left-3 top-3 rounded-full bg-black/70 p-2 backdrop-blur-sm">
+              <Heart
+                size={20}
+                className="fill-red-500 text-red-500"
+              />
+            </div>
+          )}
+
           {/* Movie information */}
           <div className="mt-3 space-y-1">
             <p className="truncate text-base font-semibold text-white">
@@ -55,15 +48,6 @@ export function MovieCard({ movie }) {
           </div>
         </div>
       </Link>
-
-      {/* Wishlist */}
-      <button
-        type="button"
-        onClick={handleWishlist}
-        className="mt-3 w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm font-medium text-white/80 transition-all duration-200 hover:bg-white/10 hover:text-white hover:scale-95"
-      >
-        {wishlisted ? "♥ Remove from Wishlist" : "♡ Add to Wishlist"}
-      </button>
     </div>
   );
 }

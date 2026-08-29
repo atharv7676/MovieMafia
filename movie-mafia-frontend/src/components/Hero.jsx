@@ -94,8 +94,8 @@ const Hero = () => {
           border border-white/10
           bg-black/40
           shadow-2xl
-          min-h-[620px]
-          sm:min-h-[650px]
+          min-h-155
+          sm:min-h-150
           md:min-h-[600px]
           lg:h-[58vh]
           lg:min-h-[500px]

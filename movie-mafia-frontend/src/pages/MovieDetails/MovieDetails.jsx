@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getMovieById } from "../../services/movieService";
 import { Link } from "react-router-dom";
+import { Heart } from "lucide-react";
+import { useWishlist } from "@/context/WishlistContext";
 
 function MovieDetails() {
   console.log("MOVIE DETAILS MOUNTED");
@@ -9,6 +11,8 @@ function MovieDetails() {
   console.log("MOVIE ID:", id);
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const { isInWishlist, addMovie, removeMovie } = useWishlist();
 
   useEffect(() => {
     const fetchMovie = async () => {
@@ -26,6 +30,14 @@ function MovieDetails() {
     fetchMovie();
   }, [id]);
 
+  const handleWishlist = async () => {
+    if (isInWishlist(movie._id)) {
+      await removeMovie(movie._id);
+    } else {
+      await addMovie(movie._id);
+    }
+  };
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -40,7 +52,7 @@ function MovieDetails() {
         {/* Back button */}
         <Link
           to="/"
-          className="relative z-[100] mb-4 inline-block cursor-pointer rounded-lg bg-red-500 px-4 py-3 text-white"
+          className="relative z-100 mb-4 inline-block cursor-pointer rounded-lg bg-white/5 px-4 py-3 text-white hover:scale-95"
         >
           ← Go Home
         </Link>
@@ -48,13 +60,24 @@ function MovieDetails() {
         {/* Main movie card */}
         <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/3 shadow-2xl backdrop-blur-xl">
           <div className="grid gap-8 p-5 sm:p-8 md:grid-cols-[280px_1fr] lg:gap-12 lg:p-10">
+            <button
+              type="button"
+              onClick={handleWishlist}
+              className="relative z-20 flex w-fit cursor-pointer items-center gap-3 rounded-2xl bg-red-500 p-3 transition-all duration-200 hover:scale-95"
+            >
+              <Heart className={isInWishlist(movie._id) ? "fill-white" : ""} />
+
+              {isInWishlist(movie._id)
+                ? "Remove from Wishlist"
+                : "Add to Wishlist"}
+            </button>
             {/* Poster */}
-            <div className="mx-auto w-full max-w-[280px]">
+            <div className="mx-auto w-full max-w-70">
               <div className="overflow-hidden rounded-2xl shadow-2xl">
                 <img
                   src={movie.poster?.url}
                   alt={movie.title}
-                  className="aspect-[2/3] w-full object-cover"
+                  className="aspect-2/3 w-full object-cover"
                 />
               </div>
             </div>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import {
   Film,
   Plus,
@@ -8,11 +8,41 @@ import {
   ArrowRight,
   ShieldCheck,
 } from "lucide-react";
+import { getAdminStats } from "@/services/adminServices";
+import { useEffect, useState } from "react";
+import { ArrowLeft } from "lucide-react";
 
 function Dashboard() {
+  const [stats, setStats] = useState({
+    totalMovies: 0,
+    totalUsers: 0,
+  });
+
+  useEffect(() => {
+    const fetchStats = async () => {
+      try {
+        const response = await getAdminStats();
+        setStats(response.data);
+      } catch (error) {
+        console.error("Failed to fetch admin stats:", error);
+      }
+    };
+    fetchStats();
+  }, []);
+
   return (
     <div className="min-h-screen px-4 pb-12 pt-28 sm:px-6 lg:px-10">
       {/* Header */}
+      <Link 
+        className="text-white font-bold mb-2 p-3 m-3 bg-white/7 rounded-2xl flex justify-center items-center gap-3 hover:scale-95 w-45"
+        
+        to="/"
+        >
+        <span>
+          <ArrowLeft size={20} />
+        </span>
+        Back to Home
+      </Link>
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 rounded-3xl border border-white/10 bg-black/30 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
@@ -46,19 +76,17 @@ function Dashboard() {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl">
             <Film className="mb-4 text-white/70" size={24} />
             <p className="text-sm text-white/50">Total Movies</p>
-            <h2 className="mt-1 text-3xl font-bold text-white">—</h2>
+            <h2 className="mt-1 text-3xl font-bold text-white">
+              {stats.totalMovies}
+            </h2>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl">
             <Users className="mb-4 text-white/70" size={24} />
             <p className="text-sm text-white/50">Users</p>
-            <h2 className="mt-1 text-3xl font-bold text-white">—</h2>
-          </div>
-
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl">
-            <Heart className="mb-4 text-red-400" size={24} />
-            <p className="text-sm text-white/50">Wishlist Activity</p>
-            <h2 className="mt-1 text-3xl font-bold text-white">—</h2>
+            <h2 className="mt-1 text-3xl font-bold text-white">
+              {stats.totalUsers}
+            </h2>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl">
@@ -72,9 +100,7 @@ function Dashboard() {
 
         {/* Quick Actions */}
         <div className="mt-8">
-          <h2 className="mb-4 text-xl font-bold text-white">
-            Quick Actions
-          </h2>
+          <h2 className="mb-4 text-xl font-bold text-white">Quick Actions</h2>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <Link
