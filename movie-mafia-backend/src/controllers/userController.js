@@ -1,5 +1,6 @@
 import User from "../models/userModel.js";
 import jwt from "jsonwebtoken";
+import Movie from "../models/movieModel.js";
 
 const registerUser = async (req, res, next) => {
     try {
@@ -207,4 +208,42 @@ const getCurrentUser = async (req, res, next) => {
 };
 
 
-export { registerUser, loginUser, logoutUser, refreshAccessToken, getCurrentUser };
+const getAdminStats = async (req, res, next) => {
+  try {
+    const totalMovies = await Movie.countDocuments();
+    const totalUsers = await User.countDocuments();
+    const totalWishlistItems = await User.aggregate([
+      {
+        $project: {
+          wishlistCount: { $size: { $ifNull: ["$wishList", []] } },
+        },
+      },
+      {
+        $group: {
+          _id: null,
+          total: { $sum: "$wishlistCount" },
+        },
+      },
+    ]);
+
+    return res.status(200).json({
+      success: true,
+      data: {
+        totalMovies,
+        totalUsers,
+        totalWishlistItems: totalWishlistItems[0]?.total || 0,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export {
+  registerUser,
+  loginUser,
+  logoutUser,
+  refreshAccessToken,
+  getCurrentUser,
+  getAdminStats,
+};

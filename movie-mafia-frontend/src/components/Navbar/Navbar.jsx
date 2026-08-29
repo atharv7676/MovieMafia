@@ -20,7 +20,7 @@ import {
 import movieMafiaLogo from "@/assets/movie-mafia-logo.svg";
 
 function Navbar() {
-  const { logout, isAdmin } = useAuth();
+  const { logout, user } = useAuth();
   const navigate = useNavigate();
 
   const [search, setSearch] = useState("");
@@ -118,15 +118,10 @@ function Navbar() {
       label: "Profile",
       path: "/profile",
       icon: UserRound,
-    },
-    {
-      label:"Admin",
-      path:"/admin",
-      icon: ShieldUser,
     }
   ];
 
-  if (isAdmin) {
+  if (user?.role === "admin") {
     navItems.push({
       label: "Admin",
       path: "/admin",

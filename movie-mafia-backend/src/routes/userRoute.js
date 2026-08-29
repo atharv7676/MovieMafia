@@ -43,4 +43,7 @@ router.get(
     getCurrentUser
 );
 
+
+router.get("/admin/stats", protect, adminOnly, getAdminStats);
+
 export default router;
