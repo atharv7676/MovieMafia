@@ -107,7 +107,7 @@ movieSchema.virtual("movieAge").get(function () {
 
 });
 
-movieSchema.index({ title: "text" });
+movieSchema.index({ title: "text" }, { language_override: "textLanguageOverride" });
 movieSchema.index({ genre: 1 });
 movieSchema.index({ language: 1 });
 movieSchema.index({ rating: -1 });
