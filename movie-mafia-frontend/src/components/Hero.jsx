@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Spinner } from "@/components/ui/spinner";
+import api from "@/services/api";
 
 const Hero = () => {
   const [movies, setMovies] = useState([]);
@@ -11,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     const getMovies = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/movies");
+        const response = await api.get("/movies")
 
         const movieList = response.data.data;
 
