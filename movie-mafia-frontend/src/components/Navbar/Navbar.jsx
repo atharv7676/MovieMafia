@@ -9,6 +9,7 @@ import {
   UserRound,
   ShieldCheck,
   LogOutIcon,
+  LogInIcon,
   Search,
   LoaderCircle,
   Star,
@@ -245,15 +246,26 @@ function Navbar() {
           )}
         </div>
 
-        {/* Logout */}
-        <Button
-          variant="outline"
-          onClick={handleLogout}
-          className="hidden lg:flex shrink-0"
-        >
-          <LogOutIcon />
-          Logout
-        </Button>
+        {/* Logout / Login */}
+        {user ? (
+          <Button
+            variant="outline"
+            onClick={handleLogout}
+            className="hidden lg:flex shrink-0"
+          >
+            <LogOutIcon />
+            Logout
+          </Button>
+        ) : (
+          <Button
+            variant="outline"
+            onClick={() => navigate("/login")}
+            className="hidden lg:flex shrink-0"
+          >
+            <LogInIcon />
+            Login
+          </Button>
+        )}
 
         {/* Menu Buttons */}
         <button
@@ -291,15 +303,28 @@ function Navbar() {
               );
             })}
 
-            <button
-              onClick={handleLogout}
-              className="mt-2 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-white/70 transition-colors hover:bg-red-300 hover:text-white bg-red-400"
-            >
-              <LogOutIcon size={20} />
-              <span>Logout</span>
-            </button>
+            {user ? (
+              <button
+                onClick={handleLogout}
+                className="mt-2 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-white/70 transition-colors hover:bg-red-300 hover:text-white bg-red-400"
+              >
+                <LogOutIcon size={20} />
+                <span>Logout</span>
+              </button>
+            ) : (
+              <button
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  navigate("/login");
+                }}
+                className="mt-2 flex items-center gap-3 rounded-xl px-4 py-3 text-left text-white/70 transition-colors hover:bg-white/10 hover:text-white bg-white/5"
+              >
+                <LogInIcon size={20} />
+                <span>Login</span>
+              </button>
+            )}
           </div>
-        </div>
+          </div>
       )}
     </nav>
   );

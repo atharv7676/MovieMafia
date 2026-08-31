@@ -3,14 +3,17 @@ import { useParams, Link } from "react-router-dom";
 import { Heart, ArrowLeft, Clock3, CalendarDays, Star } from "lucide-react";
 import { getMovieById } from "../../services/movieService";
 import { useWishlist } from "@/context/WishlistContext";
+import toast from "react-hot-toast";
 
 function MovieDetails() {
   const { id } = useParams();
 
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [wishlistUpdating, setWishlistUpdating] = useState(false);
 
-  const { isInWishlist, addMovie, removeMovie } = useWishlist();
+  const { isInWishlist, addMovie, removeMovie, wishlistLoading } =
+    useWishlist();
 
   useEffect(() => {
     const fetchMovie = async () => {
@@ -28,10 +31,36 @@ function MovieDetails() {
   }, [id]);
 
   const handleWishlist = async () => {
-    if (isInWishlist(movie._id)) {
-      await removeMovie(movie._id);
-    } else {
-      await addMovie(movie._id);
+    
+    if (wishlistUpdating) return;
+
+    setWishlistUpdating(true);
+
+    try {
+      let result;
+
+      if (isInWishlist(movie._id)) {
+        result = await removeMovie(movie._id);
+      } else {
+        result = await addMovie(movie._id);
+      }
+
+      if (result?.requiresLogin) {
+        toast.error("Please login first", {
+          description:
+            "You need to be logged in to add movies to your wishlist.",
+        });
+
+        return;
+      }
+
+      if (!result?.success) {
+        toast.error("Something went wrong", {
+          description: "Please try again.",
+        });
+      }
+    } finally {
+      setWishlistUpdating(false);
     }
   };
 
@@ -56,7 +85,6 @@ function MovieDetails() {
   return (
     <main className="min-h-screen px-4 pb-20 pt-6 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-
         {/* Back */}
         <Link
           to="/"
@@ -67,17 +95,15 @@ function MovieDetails() {
         </Link>
 
         {/* Main */}
-        <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] shadow-2xl backdrop-blur-xl">
-
+        <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/4 shadow-2xl backdrop-blur-xl">
           <div className="grid gap-8 p-5 sm:p-8 md:grid-cols-[260px_1fr] lg:gap-12 lg:p-10">
-
             {/* Poster */}
-            <div className="mx-auto w-full max-w-[260px]">
+            <div className="mx-auto w-full max-w-65">
               <div className="overflow-hidden rounded-2xl shadow-2xl">
                 <img
                   src={movie.poster?.url}
                   alt={movie.title}
-                  className="aspect-[2/3] w-full object-cover"
+                  className="aspect-2/3 w-full object-cover"
                 />
               </div>
 
@@ -85,26 +111,21 @@ function MovieDetails() {
               <button
                 type="button"
                 onClick={handleWishlist}
+                disabled={wishlistLoading}
                 className={`mt-4 flex w-full items-center justify-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold transition ${
                   inWishlist
                     ? "bg-red-500 text-white hover:bg-red-600"
                     : "bg-white/10 text-white hover:bg-white/15"
                 }`}
               >
-                <Heart
-                  size={18}
-                  className={inWishlist ? "fill-white" : ""}
-                />
+                <Heart size={18} className={inWishlist ? "fill-white" : ""} />
 
-                {inWishlist
-                  ? "Remove from Wishlist"
-                  : "Add to Wishlist"}
+                {inWishlist ? "Remove from Wishlist" : "Add to Wishlist"}
               </button>
             </div>
 
             {/* Information */}
             <div className="flex min-w-0 flex-col justify-center">
-
               {/* Title */}
               <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
                 {movie.title}
@@ -112,7 +133,6 @@ function MovieDetails() {
 
               {/* Metadata */}
               <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm text-white/60">
-
                 <span className="flex items-center gap-1.5 text-yellow-400">
                   <Star size={16} className="fill-yellow-400" />
                   {movie.rating?.toFixed(1)}
@@ -128,10 +148,7 @@ function MovieDetails() {
                   {movie.duration} min
                 </span>
 
-                <span>
-                  {movie.language}
-                </span>
-
+                <span>{movie.language}</span>
               </div>
 
               {/* Genres */}
@@ -199,7 +216,6 @@ function MovieDetails() {
                   )}
                 </div>
               </div>
-
             </div>
           </div>
         </div>

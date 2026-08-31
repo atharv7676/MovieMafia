@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function MainLayout() {
   return (
-    <StarsBackground className="min-h-screen">
+    <StarsBackground className="min-h-screen" pointerEvents={false}>
       <Navbar />
 
       <main className="pt-24">

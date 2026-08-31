@@ -1,4 +1,5 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, useEffect, useRef } from "react";
+import { useAuth } from "./AuthContext";
 
 import {
   addToWishList,
@@ -10,41 +11,73 @@ const WishlistContext = createContext();
 
 const WishlistProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([]);
+  const [wishlistLoading, setWishlistLoading] = useState(false);
+  const hasLocalChangeRef = useRef(false);
+  const { isAuthenticated } = useAuth();
+
   useEffect(() => {
+    let ignore = false;
+
     const fetchWishlist = async () => {
       try {
         const response = await getWishList();
-        setWishlist(response.wishList);
+
+        // Don't clobber a change the user already made while this was loading
+        if (!ignore && !hasLocalChangeRef.current) {
+          setWishlist(response.wishList || []);
+        }
       } catch (error) {
         console.error("Failed to fetch wishlist:", error);
       }
     };
 
     fetchWishlist();
+
+    return () => {
+      ignore = true;
+    };
   }, []);
 
   const addMovie = async (movieId) => {
-    console.log("1. addMovie called:", movieId);
+    if (!isAuthenticated) {
+      return { success: false, requiresLogin: true };
+    }
+
+    setWishlistLoading(true);
 
     try {
-      console.log("2. calling wishlist API...");
-
       const response = await addToWishList(movieId);
 
-      console.log("3. wishlist API response:", response);
+      setWishlist(response.wishList || []);
 
-      setWishlist(response.wishList);
-
-      console.log("4. wishlist state updated");
+      return { success: true, requiresLogin: false };
     } catch (error) {
-      console.error("5. wishlist API ERROR:", error);
+      console.error("Failed to add movie to wishlist:", error);
+      return { success: false, requiresLogin: false };
+    } finally {
+      setWishlistLoading(false);
     }
   };
 
   const removeMovie = async (movieId) => {
-    const response = await removeFromWishlist(movieId);
+    if (!isAuthenticated) {
+      return { success: false, requiresLogin: true };
+    }
 
-    setWishlist(response.wishList || []);
+    setWishlistLoading(true);
+
+    try {
+      const response = await removeFromWishlist(movieId);
+
+      setWishlist(response.wishList || []);
+
+      return { success: true, requiresLogin: false };
+    } catch (error) {
+      console.error("Failed to remove movie from wishlist:", error);
+      return { success: false, requiresLogin: false };
+    } finally {
+      setWishlistLoading(false);
+    }
   };
 
   const isInWishlist = (movieId) => {
@@ -55,7 +88,7 @@ const WishlistProvider = ({ children }) => {
 
   return (
     <WishlistContext.Provider
-      value={{ wishlist, addMovie, removeMovie, isInWishlist }}
+      value={{ wishlist, addMovie, removeMovie, isInWishlist, wishlistLoading }}
     >
       {children}
     </WishlistContext.Provider>

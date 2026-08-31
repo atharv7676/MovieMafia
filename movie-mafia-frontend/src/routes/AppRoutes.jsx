@@ -25,6 +25,8 @@ import AdminMovies from "../pages/AdminMovies/AdminMovies";
 import EditMovies from "../pages/AdminMovies/EditMovies";
 import Wishlist from "@/pages/Wishlist/Wishlist";
 
+import NotFound from "../pages/NotFound/NotFound";
+
 function AppRoutes() {
   return (
     <Routes>
@@ -61,6 +63,8 @@ function AppRoutes() {
           <Route path="movies/edit/:id" element={<EditMovies />} />
         </Route>
       </Route>
+
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
