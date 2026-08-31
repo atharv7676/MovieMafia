@@ -75,7 +75,7 @@ const loginUser = async (req, res, next) => {
             sameSite: "none",
         };
 
-        //Sending Cookie Request
+        //Sending Cookie Request (kept as a fallback, harmless if unused)
 
         res.cookie(
             "accessToken",
@@ -88,7 +88,8 @@ const loginUser = async (req, res, next) => {
         // Sucessfully Login 
         return res.status(200).json({
             message: "Login succesfull",
-            accessToken
+            accessToken,
+            refreshToken
         })
 
         logger.info(`User ${user.email} logged in successfully`);
@@ -124,7 +125,9 @@ const logoutUser = async (req, res, next) => {
 
 const refreshAccessToken = async (req, res, next) => {
     try {
-        const refreshToken = req.cookies?.refreshToken;
+        // Accept refresh token from cookie OR from request body (needed for
+        // devices/browsers that block cross-site cookies, e.g. iOS Safari)
+        const refreshToken = req.cookies?.refreshToken || req.body?.refreshToken;
 
         if (!refreshToken) {
             return res.status(401).json({
@@ -186,7 +189,8 @@ const refreshAccessToken = async (req, res, next) => {
         return res.status(200).json({
             message:
                 "Access Token Refreshed",
-            accessToken
+            accessToken,
+            refreshToken: newRefreshToken
         });
     } catch (error) {
         next(error)
