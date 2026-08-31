@@ -97,6 +97,9 @@ const PLATFORM_URLS = {
     Aha: "https://www.aha.video/",
     Lionsgate: "https://www.lionsgateplay.com/",
     "Lionsgate Play": "https://www.lionsgateplay.com/",
+    "Lionsgate Play Apple TV Channel": "https://www.lionsgateplay.com/",
+    "Lionsgate Play Amazon Channel": "https://www.lionsgateplay.com/",
+    "Lionsgate+ Amazon Channels": "https://www.lionsgateplay.com/",
     Hoichoi: "https://www.hoichoi.tv/",
     "Sun NXT": "https://www.sunnxt.com/",
     ManoramaMAX: "https://www.manoramamax.com/",
@@ -175,7 +178,9 @@ async function getCandidateMovies(targetCount, existingTmdbIds) {
 
     const lists = [
         "popular",
-        "top_rated"
+        "top_rated",
+        "now_playing",
+        "upcoming"
     ];
 
     let page = 1;
@@ -213,6 +218,43 @@ async function getCandidateMovies(targetCount, existingTmdbIds) {
         }
 
         page++;
+    }
+
+    // Discover endpoint - sweep by year to find movies outside the standard lists
+    const currentYear = new Date().getFullYear();
+
+    for (let year = currentYear; year >= currentYear - 40; year--) {
+        if (candidates.length >= targetCount * 4) {
+            break;
+        }
+
+        const data = await tmdbGet(
+            `/discover/movie`,
+            {
+                region: "IN",
+                primary_release_year: year,
+                sort_by: "popularity.desc",
+                page: 1
+            }
+        );
+
+        for (const movie of data.results || []) {
+            if (existingTmdbIds.has(movie.id)) {
+                continue;
+            }
+
+            if (!movie.poster_path) {
+                continue;
+            }
+
+            if (!movie.id) {
+                continue;
+            }
+
+            candidates.push(movie);
+        }
+
+        await sleep(120);
     }
 
     const uniqueMovies = [];
