@@ -5,7 +5,7 @@ function AdminLayout() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div className="fixed inset-0 -z-10">
-        <StarsBackground />
+        <StarsBackground pointerEvents={false} />
       </div>
 
       <main className="relative z-10">
