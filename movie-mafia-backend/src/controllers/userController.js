@@ -71,8 +71,8 @@ const loginUser = async (req, res, next) => {
         // securing the cookies 
         const options = {
             httpOnly: true,
-            secure: false,
-            sameSite: "Lax",
+            secure: true,
+            sameSite: "none",
         };
 
         //Sending Cookie Request
@@ -107,7 +107,7 @@ const logoutUser = async (req, res, next) => {
         const options = {
             httpOnly: true,
             secure: true,
-            sameSite: "Strict",
+            sameSite: "none",
         };
 
         res.clearCookie("accessToken", options);
@@ -156,7 +156,7 @@ const refreshAccessToken = async (req, res, next) => {
         const options = {
             httpOnly: true,
             secure: true,
-            sameSite: "Strict",
+            sameSite: "none",
 
         }
         const accessToken = user.generateAccessToken();
