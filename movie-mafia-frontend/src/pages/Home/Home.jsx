@@ -3,6 +3,21 @@ import { getMovies } from "../../services/movieService";
 import Hero from "@/components/Hero";
 import MovieSection from "@/components/MovieSection/MovieSection";
 
+const genres = [
+  "Action",
+  "Adventure",
+  "Animation",
+  "Comedy",
+  "Crime",
+  "Drama",
+  "Fantasy",
+  "Horror",
+  "Mystery",
+  "Romance",
+  "Sci-Fi",
+  "Thriller",
+];
+
 function Home() {
   const [movies, setMovies] = useState([]);
 
@@ -18,12 +33,26 @@ function Home() {
 
     fetchMovies();
   }, []);
+
   return (
     <>
       <Hero />
-      <div className="mx-auto w-full max-w-6xl px-4 pb-10">
-        <MovieSection title="More Movies" movies={movies} />
-      </div>
+
+      <main className="mx-auto w-full max-w-6xl px-4 pb-10">
+        {genres.map((genre) => {
+          const genreMovies = movies.filter((movie) =>
+            movie.genre?.includes(genre)
+          );
+
+          return (
+            <MovieSection
+              key={genre}
+              title={genre}
+              movies={genreMovies}
+            />
+          );
+        })}
+      </main>
     </>
   );
 }

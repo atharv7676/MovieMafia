@@ -64,7 +64,7 @@ const getAllMovies = asyncHandler(async (req, res) => {
         };
     }
     const pageNumber = Number(page) || 1;
-    const limitNumber = Number(limit) || 10;
+    const limitNumber = Number(limit) || 200;
 
     const totalMovies = await Movie.countDocuments(filters);
 
