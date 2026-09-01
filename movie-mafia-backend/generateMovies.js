@@ -222,25 +222,84 @@ async function getCandidateMovies(targetCount, existingTmdbIds) {
 
     // Discover endpoint - sweep by year to find movies outside the standard lists
     const currentYear = new Date().getFullYear();
+    const PAGES_PER_YEAR = 5;
 
     for (let year = currentYear; year >= currentYear - 40; year--) {
         if (candidates.length >= targetCount * 10) {
             break;
         }
 
+        for (let yearPage = 1; yearPage <= PAGES_PER_YEAR; yearPage++) {
+            if (candidates.length >= targetCount * 10) {
+                break;
+            }
+
+            const data = await tmdbGet(
+                `/discover/movie`,
+                {
+                    region: "IN",
+                    primary_release_year: year,
+                    sort_by: "popularity.desc",
+                    "vote_count.gte": 20,
+                    "with_runtime.gte": 45,
+                    page: yearPage
+                }
+            );
+
+            const results = data.results || [];
+
+            if (results.length === 0) {
+                // No more pages available for this year
+                break;
+            }
+
+            for (const movie of results) {
+                if (existingTmdbIds.has(movie.id)) {
+                    continue;
+                }
+
+                if (!movie.poster_path) {
+                    continue;
+                }
+
+                if (!movie.id) {
+                    continue;
+                }
+
+                candidates.push(movie);
+            }
+
+            await sleep(120);
+        }
+    }
+
+    // Additional discover pass sorted by rating instead of popularity,
+    // to surface well-reviewed movies that popularity-based lists miss
+    let ratingPage = 1;
+    const maxRatingPages = 20;
+
+    while (
+        candidates.length < targetCount * 10 &&
+        ratingPage <= maxRatingPages
+    ) {
         const data = await tmdbGet(
             `/discover/movie`,
             {
                 region: "IN",
-                primary_release_year: year,
-                sort_by: "popularity.desc",
-                "vote_count.gte": 20,
+                sort_by: "vote_average.desc",
+                "vote_count.gte": 50,
                 "with_runtime.gte": 45,
-                page: 1
+                page: ratingPage
             }
         );
 
-        for (const movie of data.results || []) {
+        const results = data.results || [];
+
+        if (results.length === 0) {
+            break;
+        }
+
+        for (const movie of results) {
             if (existingTmdbIds.has(movie.id)) {
                 continue;
             }
@@ -256,6 +315,7 @@ async function getCandidateMovies(targetCount, existingTmdbIds) {
             candidates.push(movie);
         }
 
+        ratingPage++;
         await sleep(120);
     }
 
