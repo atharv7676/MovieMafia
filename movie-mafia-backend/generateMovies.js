@@ -20,17 +20,10 @@ const TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 const args = process.argv.slice(2);
 const countArg = args.find((arg) => arg.startsWith("--count="));
-const koreanArg = args.find((arg) => arg.startsWith("--korean="));
 
 const TARGET_COUNT = countArg
     ? parseInt(countArg.split("=")[1], 10)
     : 50;
-
-// Number of Korean movies to prioritize at the top of this batch.
-// Defaults to 0 (skip Korean-specific fetch) if flag not passed.
-const KOREAN_COUNT = koreanArg
-    ? parseInt(koreanArg.split("=")[1], 10)
-    : 0;
 
 const OUTPUT_FILE = "./data/generatedMovies.js";
 
@@ -180,76 +173,8 @@ async function getExistingTmdbIds() {
     );
 }
 
-// Fetches Korean-language candidates across multiple pages until we have
-// enough NEW (not-in-DB) candidates to satisfy koreanCount, or we run out
-// of pages to check.
-async function getKoreanCandidates(koreanCount, existingTmdbIds) {
+async function getCandidateMovies(targetCount, existingTmdbIds) {
     const candidates = [];
-
-    if (koreanCount <= 0) {
-        return candidates;
-    }
-
-    let page = 1;
-    const maxPages = 20;
-
-    while (candidates.length < koreanCount && page <= maxPages) {
-        const data = await tmdbGet("/discover/movie", {
-            with_original_language: "ko",
-            sort_by: "popularity.desc",
-            region: "IN",
-            "vote_count.gte": 20,
-            "with_runtime.gte": 45,
-            page
-        });
-
-        const results = data.results || [];
-
-        if (results.length === 0) {
-            // No more pages available from TMDB
-            break;
-        }
-
-        for (const movie of results) {
-            if (existingTmdbIds.has(movie.id)) {
-                continue;
-            }
-
-            if (!movie.poster_path) {
-                continue;
-            }
-
-            if (!movie.id) {
-                continue;
-            }
-
-            candidates.push(movie);
-
-            if (candidates.length >= koreanCount) {
-                break;
-            }
-        }
-
-        page++;
-        await sleep(120);
-    }
-
-    console.log(
-        `Korean candidates found: ${candidates.length} (requested ${koreanCount})`
-    );
-
-    return candidates;
-}
-
-async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
-    // Korean movies fetched first so they end up prioritized/processed
-    // before other genres, landing at the top of the generated batch.
-    const koreanCandidates = await getKoreanCandidates(
-        koreanCount,
-        existingTmdbIds
-    );
-
-    const candidates = [...koreanCandidates];
 
     const lists = [
         "popular",
@@ -334,8 +259,7 @@ async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
         await sleep(120);
     }
 
-    // Dedupe while preserving order (Korean movies stay first since
-    // they were added to `candidates` before anything else)
+    // Dedupe while preserving order
     const uniqueMovies = [];
     const seen = new Set();
 
@@ -549,7 +473,6 @@ async function buildMovieRecord(movie) {
 
 async function main() {
     console.log(`Target movies: ${TARGET_COUNT}`);
-    console.log(`Korean priority count: ${KOREAN_COUNT}`);
 
     await connectDb();
 
@@ -567,7 +490,6 @@ async function main() {
     try {
         candidates = await getCandidateMovies(
             TARGET_COUNT,
-            KOREAN_COUNT,
             existingTmdbIds
         );
     } catch (error) {
