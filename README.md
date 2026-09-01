@@ -782,7 +782,7 @@ The movie-generation command depends on the scripts configured in the backend `p
 Typical usage:
 
 ```bash
-node generateMovies.js
+node generateMovies.js --count=100
 ```
 
 or the corresponding npm script configured for the project.
