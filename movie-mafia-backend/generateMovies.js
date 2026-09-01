@@ -198,6 +198,8 @@ async function getKoreanCandidates(koreanCount, existingTmdbIds) {
             with_original_language: "ko",
             sort_by: "popularity.desc",
             region: "IN",
+            "vote_count.gte": 20,
+            "with_runtime.gte": 45,
             page
         });
 
@@ -259,7 +261,7 @@ async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
     let page = 1;
 
     while (
-        candidates.length < targetCount * 4 &&
+        candidates.length < targetCount * 10 &&
         page <= 30
     ) {
         for (const list of lists) {
@@ -297,7 +299,7 @@ async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
     const currentYear = new Date().getFullYear();
 
     for (let year = currentYear; year >= currentYear - 40; year--) {
-        if (candidates.length >= targetCount * 4) {
+        if (candidates.length >= targetCount * 10) {
             break;
         }
 
@@ -307,6 +309,8 @@ async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
                 region: "IN",
                 primary_release_year: year,
                 sort_by: "popularity.desc",
+                "vote_count.gte": 20,
+                "with_runtime.gte": 45,
                 page: 1
             }
         );
