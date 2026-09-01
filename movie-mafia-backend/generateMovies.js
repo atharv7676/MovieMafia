@@ -176,6 +176,29 @@ async function getExistingTmdbIds() {
 async function getCandidateMovies(targetCount, existingTmdbIds) {
     const candidates = [];
 
+    // 🇰🇷 Get Korean movies first
+    const koreanMovies = await tmdbGet("/discover/movie", {
+        with_original_language: "ko",
+        sort_by: "popularity.desc",
+        region: "IN",
+        page: 1
+    });
+
+    for (const movie of koreanMovies.results || []) {
+        if (existingTmdbIds.has(movie.id)) {
+            continue;
+        }
+
+        if (!movie.poster_path) {
+            continue;
+        }
+
+        if (!movie.id) {
+            continue;
+        }
+
+        candidates.push(movie);
+    }
     const lists = [
         "popular",
         "top_rated",

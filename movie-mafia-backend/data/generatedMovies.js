@@ -1,42 +1,112 @@
 const movies = [
     {
-        "title": "Monsters vs Aliens",
-        "description": "When Susan Murphy is unwittingly clobbered by a meteor full of outer space gunk on her wedding day, she mysteriously grows to 49-feet-11-inches. The military jumps into action and captures Susan, secreting her away to a covert government compound. She is renamed Ginormica and placed in confinement w",
-        "releaseYear": 2009,
+        "title": "Daayra",
+        "description": "Raman, who has had a shady record with staged encounters and police brutality, finds himself cornered as Ajooni challenges him on every step.",
+        "releaseYear": 2026,
         "genre": [
-            "Animation",
-            "Family",
+            "Crime",
+            "Drama"
+        ],
+        "duration": 143,
+        "director": "Meghna Gulzar",
+        "rating": 0,
+        "language": "Hindi",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239531/movie-mafia/movies/tmdb-1215889.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1215889"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Kareena Kapoor Khan",
+            "Prithviraj Sukumaran",
+            "Kshitee Jog",
+            "Jitendra Joshi",
+            "Biswapati Sarkar"
+        ],
+        "tmdbId": 1215889
+    },
+    {
+        "title": "Vibe",
+        "description": "Two inseparable friends' ordinary, unassuming lives spiral into an unpredictable, high-energy adventure that pushes their survival instincts and friendship to the limit.",
+        "releaseYear": 2026,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "duration": 135,
+        "director": "Kunal Khemu",
+        "rating": 0,
+        "language": "Hindi",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239543/movie-mafia/movies/tmdb-1654566.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1654566"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Preity Zinta",
+            "Kunal Khemu",
+            "Sparsh Shrivastava",
+            "Vanshika dhir",
+            "Dinesh Lal Yadav Nirahua",
+            "Yashpal Sharma"
+        ],
+        "tmdbId": 1654566
+    },
+    {
+        "title": "Free Guy",
+        "description": "A bank teller discovers he is actually a background player in an open-world video game, and decides to become the hero of his own story. Now, in a world where there are no limits, he is determined to be the guy who saves his world his way before it's too late.",
+        "releaseYear": 2021,
+        "genre": [
+            "Comedy",
             "Adventure",
             "Sci-Fi"
         ],
-        "duration": 94,
-        "director": "Rob Letterman",
-        "rating": 6.3,
+        "duration": 115,
+        "director": "Shawn Levy",
+        "rating": 7.4,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788166746/movie-mafia/movies/tmdb-15512.jpg",
-            "public_id": "movie-mafia/movies/tmdb-15512"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239625/movie-mafia/movies/tmdb-550988.jpg",
+            "public_id": "movie-mafia/movies/tmdb-550988"
         },
         "watchOptions": [
             {
                 "platform": "JioHotstar",
                 "type": "subscription",
                 "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
+            }
+        ],
+        "cast": [
+            "Ryan Reynolds",
+            "Jodie Comer",
+            "Lil Rel Howery",
+            "Joe Keery",
+            "Utkarsh Ambudkar",
+            "Taika Waititi"
+        ],
+        "tmdbId": 550988
+    },
+    {
+        "title": "Challengers",
+        "description": "Tennis player turned coach Tashi has taken her husband, Art, and transformed him into a world-famous Major champion. To jolt him out of his recent losing streak, she signs him up for a \"Challenger\" event — close to the lowest level of pro tournament — where he finds himself standing across the net f",
+        "releaseYear": 2024,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "duration": 132,
+        "director": "Luca Guadagnino",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239633/movie-mafia/movies/tmdb-937287.jpg",
+            "public_id": "movie-mafia/movies/tmdb-937287"
+        },
+        "watchOptions": [
             {
                 "platform": "Apple TV Store",
                 "type": "rent",
                 "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
             },
             {
                 "platform": "Google Play Movies",
@@ -70,198 +140,161 @@ const movies = [
             }
         ],
         "cast": [
-            "Reese Witherspoon",
-            "Seth Rogen",
-            "Hugh Laurie",
-            "Rainn Wilson",
-            "Will Arnett",
-            "Kiefer Sutherland"
+            "Zendaya",
+            "Mike Faist",
+            "Josh O'Connor",
+            "Darnell Appling",
+            "Bryan Doo",
+            "Shane T Harris"
         ],
-        "tmdbId": 15512
+        "tmdbId": 937287
     },
     {
-        "title": "The Proposal",
-        "description": "When she learns she's in danger of losing her visa status and being deported, overbearing book editor Margaret Tate forces her put-upon assistant, Andrew Paxton, to marry her.",
-        "releaseYear": 2009,
+        "title": "Wild Side",
+        "description": "A transgender woman returns — with her two male lovers — to her family home in the countryside to look after her dying mother.",
+        "releaseYear": 2004,
         "genre": [
-            "Comedy",
-            "Romance",
             "Drama"
         ],
-        "duration": 108,
-        "director": "Anne Fletcher",
+        "duration": 93,
+        "director": "Sébastien Lifshitz",
+        "rating": 5.8,
+        "language": "French",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239635/movie-mafia/movies/tmdb-12812.jpg",
+            "public_id": "movie-mafia/movies/tmdb-12812"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Stéphanie Michelini",
+            "Yasmine Belmadi",
+            "Edouard Nikitine",
+            "Josiane Stoléru",
+            "Corentin Carinos",
+            "Perrine Stevenard"
+        ],
+        "tmdbId": 12812
+    },
+    {
+        "title": "John Wick",
+        "description": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+        "releaseYear": 2014,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "duration": 101,
+        "director": "Chad Stahelski",
+        "rating": 7.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239638/movie-mafia/movies/tmdb-245891.jpg",
+            "public_id": "movie-mafia/movies/tmdb-245891"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate Play",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Apple TV Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Keanu Reeves",
+            "Michael Nyqvist",
+            "Alfie Allen",
+            "Willem Dafoe",
+            "Dean Winters",
+            "Adrianne Palicki"
+        ],
+        "tmdbId": 245891
+    },
+    {
+        "title": "Ice Cream Man",
+        "description": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+        "releaseYear": 2026,
+        "genre": [
+            "Horror",
+            "Comedy"
+        ],
+        "duration": 86,
+        "director": "Eli Roth",
+        "rating": 4.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239643/movie-mafia/movies/tmdb-1477712.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1477712"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Ari Millen",
+            "Charlie Zeltzer",
+            "Kole Parks",
+            "Shiloh O’Reilly",
+            "Kiori Mirza Waldman",
+            "Sarah Abbott"
+        ],
+        "tmdbId": 1477712
+    },
+    {
+        "title": "Mean Girls",
+        "description": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+        "releaseYear": 2004,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "duration": 97,
+        "director": "Mark Waters",
         "rating": 7.2,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167112/movie-mafia/movies/tmdb-18240.jpg",
-            "public_id": "movie-mafia/movies/tmdb-18240"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Sandra Bullock",
-            "Ryan Reynolds",
-            "Malin Akerman",
-            "Craig T. Nelson",
-            "Mary Steenburgen",
-            "Betty White"
-        ],
-        "tmdbId": 18240
-    },
-    {
-        "title": "Mission: Impossible III",
-        "description": "Retired from active duty, and training recruits for the Impossible Mission Force, agent Ethan Hunt faces the toughest foe of his career: Owen Davian, an international broker of arms and information, who's as cunning as he is ruthless. Davian emerges to threaten Hunt and all that he holds dear – incl",
-        "releaseYear": 2006,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 126,
-        "director": "J.J. Abrams",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167115/movie-mafia/movies/tmdb-956.jpg",
-            "public_id": "movie-mafia/movies/tmdb-956"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Philip Seymour Hoffman",
-            "Ving Rhames",
-            "Billy Crudup",
-            "Michelle Monaghan",
-            "Jonathan Rhys Meyers"
-        ],
-        "tmdbId": 956
-    },
-    {
-        "title": "Children of Men",
-        "description": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
-        "releaseYear": 2006,
-        "genre": [
-            "Sci-Fi",
-            "Thriller",
-            "Action"
-        ],
-        "duration": 109,
-        "director": "Alfonso Cuarón",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167118/movie-mafia/movies/tmdb-9693.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9693"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Clive Owen",
-            "Clare-Hope Ashitey",
-            "Chiwetel Ejiofor",
-            "Julianne Moore",
-            "Michael Caine",
-            "Pam Ferris"
-        ],
-        "tmdbId": 9693
-    },
-    {
-        "title": "Blood Diamond",
-        "description": "An ex-mercenary turned smuggler. A Mende fisherman. Amid the explosive civil war overtaking 1999 Sierra Leone, these men join for two desperate missions: recovering a rare pink diamond of immense value and rescuing the fisherman's son, conscripted as a child soldier into the brutal rebel forces ripp",
-        "releaseYear": 2006,
-        "genre": [
-            "Drama",
-            "Thriller",
-            "Action"
-        ],
-        "duration": 143,
-        "director": "Edward Zwick",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167121/movie-mafia/movies/tmdb-1372.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1372"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239647/movie-mafia/movies/tmdb-10625.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10625"
         },
         "watchOptions": [
             {
@@ -311,1994 +344,139 @@ const movies = [
             }
         ],
         "cast": [
-            "Leonardo DiCaprio",
-            "Djimon Hounsou",
-            "Jennifer Connelly",
-            "Kagiso Kuypers",
-            "Arnold Vosloo",
-            "Antony Coleman"
+            "Lindsay Lohan",
+            "Rachel McAdams",
+            "Lizzy Caplan",
+            "Lacey Chabert",
+            "Amanda Seyfried",
+            "Daniel Franzese"
         ],
-        "tmdbId": 1372
+        "tmdbId": 10625
     },
     {
-        "title": "Monster House",
-        "description": "Monsters under the bed are scary enough, but what happens when an entire house is out to get you? Three teens aim to find out when they go up against a decrepit neighboring home and unlock its frightening secrets.",
-        "releaseYear": 2006,
+        "title": "Maleficent: Mistress of Evil",
+        "description": "Maleficent and her goddaughter Aurora begin to question the complex family ties that bind them as they are pulled in different directions by impending nuptials, unexpected allies, and dark new forces at play.",
+        "releaseYear": 2019,
         "genre": [
-            "Animation",
-            "Comedy",
             "Family",
             "Fantasy",
-            "Horror"
+            "Adventure"
         ],
-        "duration": 91,
-        "director": "Gil Kenan",
-        "rating": 6.7,
+        "duration": 119,
+        "director": "Joachim Rønning",
+        "rating": 7.3,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167124/movie-mafia/movies/tmdb-9297.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9297"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Mitchel Musso",
-            "Sam Lerner",
-            "Spencer Locke",
-            "Steve Buscemi",
-            "Maggie Gyllenhaal",
-            "Kevin James"
-        ],
-        "tmdbId": 9297
-    },
-    {
-        "title": "Flushed Away",
-        "description": "London high-society mouse, Roddy is flushed down the toilet by Sid, a common sewer rat. Hang on for a madcap adventure deep in the sewer bowels of Ratropolis, where Roddy meets the resourceful Rita, the rodent-hating Toad and his faithful thugs, Spike and Whitey.",
-        "releaseYear": 2006,
-        "genre": [
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Family"
-        ],
-        "duration": 85,
-        "director": "David Bowers",
-        "rating": 6.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167127/movie-mafia/movies/tmdb-11619.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11619"
-        },
-        "watchOptions": [
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Hugh Jackman",
-            "Kate Winslet",
-            "Ian McKellen",
-            "Jean Reno",
-            "Bill Nighy",
-            "Andy Serkis"
-        ],
-        "tmdbId": 11619
-    },
-    {
-        "title": "Night at the Museum",
-        "description": "Chaos reigns at the natural history museum when night watchman Larry Daley accidentally stirs up an ancient curse, awakening Attila the Hun, an army of gladiators, a Tyrannosaurus rex and other exhibits.",
-        "releaseYear": 2006,
-        "genre": [
-            "Fantasy",
-            "Family",
-            "Comedy"
-        ],
-        "duration": 108,
-        "director": "Shawn Levy",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167129/movie-mafia/movies/tmdb-1593.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1593"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239649/movie-mafia/movies/tmdb-420809.jpg",
+            "public_id": "movie-mafia/movies/tmdb-420809"
         },
         "watchOptions": [
             {
                 "platform": "JioHotstar",
                 "type": "subscription",
                 "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Ben Stiller",
-            "Carla Gugino",
-            "Dick Van Dyke",
-            "Mickey Rooney",
-            "Bill Cobbs",
-            "Jake Cherry"
-        ],
-        "tmdbId": 1593
-    },
-    {
-        "title": "Final Destination 3",
-        "description": "High school senior Wendy's premonition of a deadly rollercoaster ride saves her life and a lucky few, but not from death itself — which seeks out those who escaped their fate.",
-        "releaseYear": 2006,
-        "genre": [
-            "Horror",
-            "Mystery"
-        ],
-        "duration": 92,
-        "director": "James Wong",
-        "rating": 6.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167132/movie-mafia/movies/tmdb-9286.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9286"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Mary Elizabeth Winstead",
-            "Ryan Merriman",
-            "Kris Lemche",
-            "Alexz Johnson",
-            "Sam Easton",
-            "Jesse Moss"
-        ],
-        "tmdbId": 9286
-    },
-    {
-        "title": "Mr. & Mrs. Smith",
-        "description": "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other.",
-        "releaseYear": 2005,
-        "genre": [
-            "Action",
-            "Comedy",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 120,
-        "director": "Doug Liman",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167135/movie-mafia/movies/tmdb-787.jpg",
-            "public_id": "movie-mafia/movies/tmdb-787"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
             }
         ],
         "cast": [
             "Angelina Jolie",
-            "Brad Pitt",
-            "Vince Vaughn",
-            "Adam Brody",
-            "Kerry Washington",
-            "Keith David"
+            "Elle Fanning",
+            "Harris Dickinson",
+            "Michelle Pfeiffer",
+            "Sam Riley",
+            "Chiwetel Ejiofor"
         ],
-        "tmdbId": 787
+        "tmdbId": 420809
     },
     {
-        "title": "Constantine",
-        "description": "John Constantine has literally been to Hell and back. When he teams up with a policewoman to solve the mysterious suicide of her twin sister, their investigation takes them through the world of demons and angels that exists beneath the landscape of contemporary Los Angeles.",
-        "releaseYear": 2005,
+        "title": "Nine to Five",
+        "description": "Three female employees of a sexist, egotistical, lying, hypocritical bigot find a way to turn the tables on him.",
+        "releaseYear": 1980,
         "genre": [
-            "Fantasy",
-            "Action",
-            "Horror"
-        ],
-        "duration": 121,
-        "director": "Francis Lawrence",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167138/movie-mafia/movies/tmdb-561.jpg",
-            "public_id": "movie-mafia/movies/tmdb-561"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Keanu Reeves",
-            "Rachel Weisz",
-            "Shia LaBeouf",
-            "Djimon Hounsou",
-            "Max Baker",
-            "Pruitt Taylor Vince"
-        ],
-        "tmdbId": 561
-    },
-    {
-        "title": "King Kong",
-        "description": "In 1933 New York, an overly ambitious movie producer coerces his cast and hired ship crew to travel to mysterious Skull Island, where they encounter Kong, a giant ape who is immediately smitten with the leading lady.",
-        "releaseYear": 2005,
-        "genre": [
-            "Adventure",
-            "Drama",
-            "Action"
-        ],
-        "duration": 188,
-        "director": "Peter Jackson",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167140/movie-mafia/movies/tmdb-254.jpg",
-            "public_id": "movie-mafia/movies/tmdb-254"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Naomi Watts",
-            "Adrien Brody",
-            "Jack Black",
-            "Andy Serkis",
-            "Colin Hanks",
-            "Thomas Kretschmann"
-        ],
-        "tmdbId": 254
-    },
-    {
-        "title": "Fantastic Four",
-        "description": "During a space voyage, four scientists are altered by cosmic rays: Reed Richards gains the ability to stretch his body; Sue Storm can become invisible; Johnny Storm controls fire; and Ben Grimm is turned into a super-strong … thing. Together, these \"Fantastic Four\" must now thwart the evil plans of ",
-        "releaseYear": 2005,
-        "genre": [
-            "Action",
-            "Fantasy",
-            "Sci-Fi"
-        ],
-        "duration": 106,
-        "director": "Tim Story",
-        "rating": 5.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167143/movie-mafia/movies/tmdb-9738.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9738"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Ioan Gruffudd",
-            "Jessica Alba",
-            "Chris Evans",
-            "Michael Chiklis",
-            "Julian McMahon",
-            "Hamish Linklater"
-        ],
-        "tmdbId": 9738
-    },
-    {
-        "title": "War of the Worlds",
-        "description": "Ray Ferrier is a divorced dockworker and less-than-perfect father. Soon after his ex-wife and her new husband drop off his teenage son and young daughter for a rare weekend visit, a strange and powerful lightning storm touches down.",
-        "releaseYear": 2005,
-        "genre": [
-            "Adventure",
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "duration": 117,
-        "director": "Steven Spielberg",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167146/movie-mafia/movies/tmdb-74.jpg",
-            "public_id": "movie-mafia/movies/tmdb-74"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Dakota Fanning",
-            "Miranda Otto",
-            "Justin Chatwin",
-            "Tim Robbins",
-            "Rick Gonzalez"
-        ],
-        "tmdbId": 74
-    },
-    {
-        "title": "Brokeback Mountain",
-        "description": "In 1960s Wyoming, two men develop a strong emotional and sexual relationship that endures as a lifelong connection complicating their lives as they get married and start families of their own.",
-        "releaseYear": 2005,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 134,
-        "director": "Ang Lee",
-        "rating": 7.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167149/movie-mafia/movies/tmdb-142.jpg",
-            "public_id": "movie-mafia/movies/tmdb-142"
-        },
-        "watchOptions": [
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Heath Ledger",
-            "Jake Gyllenhaal",
-            "Michelle Williams",
-            "Anne Hathaway",
-            "Randy Quaid",
-            "Linda Cardellini"
-        ],
-        "tmdbId": 142
-    },
-    {
-        "title": "Star Wars: Episode III - Revenge of the Sith",
-        "description": "When the sinister Sith unveil a thousand-year-old plot to rule the galaxy, the Republic crumbles and from its ashes rises the evil Galactic Empire. Jedi hero Anakin Skywalker must choose a side.",
-        "releaseYear": 2005,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Sci-Fi"
-        ],
-        "duration": 140,
-        "director": "George Lucas",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167152/movie-mafia/movies/tmdb-1895.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1895"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Hayden Christensen",
-            "Ewan McGregor",
-            "Natalie Portman",
-            "Ian McDiarmid",
-            "Samuel L. Jackson",
-            "Jimmy Smits"
-        ],
-        "tmdbId": 1895
-    },
-    {
-        "title": "The 40 Year-Old Virgin",
-        "description": "Andy Stitzer has a pleasant life with a nice apartment and a job stamping invoices at an electronics store. But at age 40, there's one thing Andy hasn't done, and it's really bothering his sex-obsessed male co-workers: Andy is still a virgin. Determined to help Andy get laid, the guys make it their ",
-        "releaseYear": 2005,
-        "genre": [
-            "Comedy",
-            "Romance"
-        ],
-        "duration": 116,
-        "director": "Judd Apatow",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167155/movie-mafia/movies/tmdb-6957.jpg",
-            "public_id": "movie-mafia/movies/tmdb-6957"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Steve Carell",
-            "Catherine Keener",
-            "Paul Rudd",
-            "Romany Malco",
-            "Seth Rogen",
-            "Elizabeth Banks"
-        ],
-        "tmdbId": 6957
-    },
-    {
-        "title": "Robots",
-        "description": "Rodney Copperbottom is a young robot inventor who dreams of making the world a better place, until the evil Ratchet takes over Bigweld Industries. Now, Rodney's dreams – and those of his friends – are in danger of becoming obsolete.",
-        "releaseYear": 2005,
-        "genre": [
-            "Animation",
-            "Comedy",
-            "Family",
-            "Sci-Fi"
-        ],
-        "duration": 90,
-        "director": "Chris Wedge",
-        "rating": 6.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167158/movie-mafia/movies/tmdb-9928.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9928"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Ewan McGregor",
-            "Halle Berry",
-            "Greg Kinnear",
-            "Mel Brooks",
-            "Drew Carey",
-            "Amanda Bynes"
-        ],
-        "tmdbId": 9928
-    },
-    {
-        "title": "The Descent",
-        "description": "After a personal tragedy, Sarah joins her friends on a caving expedition in the Appalachian Mountains. But when a rockfall traps them deep underground, their adventure turns into a nightmare. As they search for a way out, the group discovers they are not alone—lurking in the darkness are savage, cav",
-        "releaseYear": 2005,
-        "genre": [
-            "Adventure",
-            "Horror"
-        ],
-        "duration": 100,
-        "director": "Neil Marshall",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167161/movie-mafia/movies/tmdb-9392.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9392"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Shauna Macdonald",
-            "Natalie Mendoza",
-            "Alex Reid",
-            "Saskia Mulder",
-            "MyAnna Buring",
-            "Nora-Jane Noone"
-        ],
-        "tmdbId": 9392
-    },
-    {
-        "title": "xXx: State of the Union",
-        "description": "Darius Stone's criminal record and extreme sports obsession make him the perfect candidate to be the newest XXX agent. He must save the U.S. government from a deadly conspiracy led by five-star general and Secretary of Defense George Deckert.",
-        "releaseYear": 2005,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Crime",
-            "Thriller"
-        ],
-        "duration": 101,
-        "director": "Lee Tamahori",
-        "rating": 5.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167163/movie-mafia/movies/tmdb-11679.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11679"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Ice Cube",
-            "Samuel L. Jackson",
-            "Willem Dafoe",
-            "Scott Speedman",
-            "Peter Strauss",
-            "Xzibit"
-        ],
-        "tmdbId": 11679
-    },
-    {
-        "title": "The Butterfly Effect",
-        "description": "A young man struggles to access sublimated childhood memories. He finds a technique that allows him to travel back into the past, to occupy his childhood body and change history. However, he soon finds that every change he makes has unexpected consequences.",
-        "releaseYear": 2004,
-        "genre": [
-            "Sci-Fi",
-            "Thriller"
-        ],
-        "duration": 113,
-        "director": "Eric Bress",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167242/movie-mafia/movies/tmdb-1954.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1954"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Ashton Kutcher",
-            "Amy Smart",
-            "Melora Walters",
-            "Elden Henson",
-            "William Lee Scott",
-            "Eric Stoltz"
-        ],
-        "tmdbId": 1954
-    },
-    {
-        "title": "The Punisher",
-        "description": "When undercover FBI agent Frank Castle's wife and son are slaughtered, he becomes 'the Punisher' -- a ruthless vigilante willing to go to any length to avenge his family.",
-        "releaseYear": 2004,
-        "genre": [
-            "Action",
-            "Crime",
-            "Drama"
-        ],
-        "duration": 124,
-        "director": "Jonathan Hensleigh",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167245/movie-mafia/movies/tmdb-7220.jpg",
-            "public_id": "movie-mafia/movies/tmdb-7220"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Thomas Jane",
-            "John Travolta",
-            "Will Patton",
-            "Roy Scheider",
-            "Laura Harring",
-            "Ben Foster"
-        ],
-        "tmdbId": 7220
-    },
-    {
-        "title": "The Girl Next Door",
-        "description": "Exceptionally ambitious high schooler Matthew has aspirations for a career in politics when he falls in love with his gorgeous 19-year-old neighbor, Danielle. But Matthew's bright future is jeopardized when he finds Danielle was once a porn star. As Danielle's past catches up with her, Matthew's lov",
-        "releaseYear": 2004,
-        "genre": [
-            "Comedy",
-            "Romance"
+            "Comedy"
         ],
         "duration": 110,
-        "director": "Luke Greenfield",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167248/movie-mafia/movies/tmdb-10591.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10591"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Emile Hirsch",
-            "Elisha Cuthbert",
-            "Timothy Olyphant",
-            "Christopher Rodriguez Marquette",
-            "Paul Dano",
-            "James Remar"
-        ],
-        "tmdbId": 10591
-    },
-    {
-        "title": "Man on Fire",
-        "description": "Jaded ex-CIA operative John Creasy reluctantly accepts a job as the bodyguard for a 10-year-old girl in Mexico City. They clash at first, but eventually bond, and when she's kidnapped he's consumed by fury and will stop at nothing to save her life.",
-        "releaseYear": 2004,
-        "genre": [
-            "Action",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 146,
-        "director": "Tony Scott",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167251/movie-mafia/movies/tmdb-9509.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9509"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Denzel Washington",
-            "Dakota Fanning",
-            "Christopher Walken",
-            "Radha Mitchell",
-            "Marc Anthony",
-            "Giancarlo Giannini"
-        ],
-        "tmdbId": 9509
-    },
-    {
-        "title": "The Bourne Supremacy",
-        "description": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced",
-        "releaseYear": 2004,
-        "genre": [
-            "Action",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 108,
-        "director": "Paul Greengrass",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167253/movie-mafia/movies/tmdb-2502.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2502"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Matt Damon",
-            "Franka Potente",
-            "Brian Cox",
-            "Julia Stiles",
-            "Karl Urban",
-            "Gabriel Mann"
-        ],
-        "tmdbId": 2502
-    },
-    {
-        "title": "How to Lose a Guy in 10 Days",
-        "description": "It's the battle of wills, as Andie needs to prove she can dump a guy in 10 days, whereas Ben needs to prove he can win a girl in 10 days. Now, the clock is ticking—and the wildly entertaining comedy smash is off and running in this irresistible tale of sex, lies and outrageous romantic fireworks!",
-        "releaseYear": 2003,
-        "genre": [
-            "Comedy",
-            "Romance"
-        ],
-        "duration": 116,
-        "director": "Donald Petrie",
+        "director": "Colin Higgins",
         "rating": 6.9,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167256/movie-mafia/movies/tmdb-9919.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9919"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Kate Hudson",
-            "Matthew McConaughey",
-            "Adam Goldberg",
-            "Bebe Neuwirth",
-            "Michael Michele",
-            "Shalom Harlow"
-        ],
-        "tmdbId": 9919
-    },
-    {
-        "title": "The Matrix Reloaded",
-        "description": "The Resistance builds in numbers as humans are freed from the Matrix and brought to the city of Zion. Neo discovers his superpowers, including the ability to see the code inside the Matrix. With machine sentinels digging to Zion in 72 hours, Neo, Morpheus and Trinity must find the Keymaker to ultima",
-        "releaseYear": 2003,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "duration": 138,
-        "director": "Lana Wachowski",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167259/movie-mafia/movies/tmdb-604.jpg",
-            "public_id": "movie-mafia/movies/tmdb-604"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Keanu Reeves",
-            "Laurence Fishburne",
-            "Carrie-Anne Moss",
-            "Hugo Weaving",
-            "Jada Pinkett Smith",
-            "Gloria Foster"
-        ],
-        "tmdbId": 604
-    },
-    {
-        "title": "The Dreamers",
-        "description": "When Isabelle and Theo invite Matthew to stay with them, what begins as a casual friendship ripens into a sensual voyage of discovery and desire in which nothing is off limits and everything is possible.",
-        "releaseYear": 2003,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 115,
-        "director": "Bernardo Bertolucci",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167262/movie-mafia/movies/tmdb-1278.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1278"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239653/movie-mafia/movies/tmdb-19494.jpg",
+            "public_id": "movie-mafia/movies/tmdb-19494"
         },
         "watchOptions": [],
         "cast": [
-            "Michael Pitt",
-            "Eva Green",
-            "Louis Garrel",
-            "Anna Chancellor",
-            "Robin Renucci",
-            "Jean-Pierre Kalfon"
+            "Jane Fonda",
+            "Lily Tomlin",
+            "Dolly Parton",
+            "Dabney Coleman",
+            "Sterling Hayden",
+            "Elizabeth Wilson"
         ],
-        "tmdbId": 1278
+        "tmdbId": 19494
     },
     {
-        "title": "The Last Samurai",
-        "description": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to bec",
-        "releaseYear": 2003,
-        "genre": [
-            "Drama",
-            "Action",
-            "War"
-        ],
-        "duration": 154,
-        "director": "Edward Zwick",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167265/movie-mafia/movies/tmdb-616.jpg",
-            "public_id": "movie-mafia/movies/tmdb-616"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Ken Watanabe",
-            "Timothy Spall",
-            "Tony Goldwyn",
-            "Hiroyuki Sanada",
-            "Koyuki"
-        ],
-        "tmdbId": 616
-    },
-    {
-        "title": "Hulk",
-        "description": "Bruce Banner, a genetics researcher with a tragic past, suffers massive radiation exposure in his laboratory that causes him to transform into a raging green monster when he gets angry.",
-        "releaseYear": 2003,
-        "genre": [
-            "Sci-Fi",
-            "Adventure",
-            "Action",
-            "Drama"
-        ],
-        "duration": 138,
-        "director": "Ang Lee",
-        "rating": 5.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167268/movie-mafia/movies/tmdb-1927.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1927"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Eric Bana",
-            "Jennifer Connelly",
-            "Sam Elliott",
-            "Josh Lucas",
-            "Nick Nolte",
-            "Paul Kersey"
-        ],
-        "tmdbId": 1927
-    },
-    {
-        "title": "Bruce Almighty",
-        "description": "Bruce Nolan toils as a \"human interest\" television reporter in Buffalo, NY, but despite his high ratings and the love of his beautiful girlfriend, Bruce remains unfulfilled. At the end of the worst day in his life, he angrily ridicules God — and the Almighty responds, endowing Bruce with all of His ",
-        "releaseYear": 2003,
-        "genre": [
-            "Fantasy",
-            "Comedy"
-        ],
-        "duration": 101,
-        "director": "Tom Shadyac",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167271/movie-mafia/movies/tmdb-310.jpg",
-            "public_id": "movie-mafia/movies/tmdb-310"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Jim Carrey",
-            "Morgan Freeman",
-            "Jennifer Aniston",
-            "Philip Baker Hall",
-            "Catherine Bell",
-            "Lisa Ann Walter"
-        ],
-        "tmdbId": 310
-    },
-    {
-        "title": "The Matrix Revolutions",
-        "description": "The human city of Zion defends itself against the massive invasion of the machines as Neo fights to end the war at another front while also opposing the rogue Agent Smith.",
-        "releaseYear": 2003,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "duration": 129,
-        "director": "Lilly Wachowski",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167274/movie-mafia/movies/tmdb-605.jpg",
-            "public_id": "movie-mafia/movies/tmdb-605"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Keanu Reeves",
-            "Laurence Fishburne",
-            "Carrie-Anne Moss",
-            "Hugo Weaving",
-            "Jada Pinkett Smith",
-            "Mary Alice"
-        ],
-        "tmdbId": 605
-    },
-    {
-        "title": "Wicked Minds",
-        "description": "Holden returns home from college and is surprised to find his overpowering competitive father married to a much younger woman Lana. Holden quickly falls for the beauty and charisma of his step mother. A passionate affair begins between son and stepmother.",
-        "releaseYear": 2003,
-        "genre": [
-            "Mystery",
-            "Drama",
-            "Romance",
-            "Thriller",
-            "TV Movie"
-        ],
-        "duration": 93,
-        "director": "Jason Hreno",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167277/movie-mafia/movies/tmdb-153104.jpg",
-            "public_id": "movie-mafia/movies/tmdb-153104"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Angie Everhart",
-            "Andrew W. Walker",
-            "Winston Rekert",
-            "Amy Sloan",
-            "Frank Schorpion",
-            "Ellen David"
-        ],
-        "tmdbId": 153104
-    },
-    {
-        "title": "Identity",
-        "description": "Complete strangers stranded at a remote desert motel during a raging storm soon find themselves the target of a deranged murderer. As their numbers thin out, the travelers begin to turn on each other, as each tries to figure out who the killer is.",
-        "releaseYear": 2003,
-        "genre": [
-            "Mystery",
-            "Thriller"
-        ],
-        "duration": 90,
-        "director": "James Mangold",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167279/movie-mafia/movies/tmdb-2832.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2832"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "John Cusack",
-            "Ray Liotta",
-            "Amanda Peet",
-            "John Hawkes",
-            "Alfred Molina",
-            "Clea DuVall"
-        ],
-        "tmdbId": 2832
-    },
-    {
-        "title": "Lost in Translation",
-        "description": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America.",
-        "releaseYear": 2003,
-        "genre": [
-            "Drama",
-            "Comedy",
-            "Romance"
-        ],
-        "duration": 102,
-        "director": "Sofia Coppola",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167282/movie-mafia/movies/tmdb-153.jpg",
-            "public_id": "movie-mafia/movies/tmdb-153"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Bill Murray",
-            "Scarlett Johansson",
-            "Giovanni Ribisi",
-            "Anna Faris",
-            "Akiko Takeshita",
-            "Kazuyoshi Minamimagoe"
-        ],
-        "tmdbId": 153
-    },
-    {
-        "title": "Scary Movie 3",
-        "description": "News anchorwoman Cindy Campbell has to investigate mysterious crop circles and killing video tapes, and help the President stop an alien invasion in the process.",
-        "releaseYear": 2003,
-        "genre": [
-            "Comedy"
-        ],
-        "duration": 84,
-        "director": "David Zucker",
-        "rating": 6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167285/movie-mafia/movies/tmdb-4256.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4256"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Anna Faris",
-            "Regina Hall",
-            "Simon Rex",
-            "Anthony Anderson",
-            "Charlie Sheen",
-            "Leslie Nielsen"
-        ],
-        "tmdbId": 4256
-    },
-    {
-        "title": "Radio",
-        "description": "In the racially divided town of Anderson, South Carolina in 1976, football coach Harold Jones spots a mentally disabled African-American young man nicknamed Radio near his practice field and is inspired to befriend him. Soon, Radio is Jones' loyal assistant, and he becomes a student at T.L. Hanna Hi",
-        "releaseYear": 2003,
+        "title": "The Passion of the Christ",
+        "description": "A graphic portrayal of the last twelve hours of Jesus of Nazareth's life.",
+        "releaseYear": 2004,
         "genre": [
             "Drama"
         ],
-        "duration": 109,
-        "director": "Michael Tollin",
-        "rating": 7.3,
+        "duration": 127,
+        "director": "Mel Gibson",
+        "rating": 7.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167289/movie-mafia/movies/tmdb-13920.jpg",
-            "public_id": "movie-mafia/movies/tmdb-13920"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239655/movie-mafia/movies/tmdb-615.jpg",
+            "public_id": "movie-mafia/movies/tmdb-615"
         },
         "watchOptions": [
             {
-                "platform": "Netflix",
+                "platform": "Lionsgate+ Amazon Channels",
                 "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Cuba Gooding Jr.",
-            "Ed Harris",
-            "Alfre Woodard",
-            "S. Epatha Merkerson",
-            "Debra Winger",
-            "Chris Mulkey"
-        ],
-        "tmdbId": 13920
-    },
-    {
-        "title": "Brother Bear",
-        "description": "When an impulsive boy named Kenai is magically transformed into a bear, he must literally walk in another's footsteps until he learns some valuable life lessons. His courageous and often zany journey introduces him to a forest full of wildlife, including the lovable bear cub Koda, hilarious moose Ru",
-        "releaseYear": 2003,
-        "genre": [
-            "Adventure",
-            "Animation",
-            "Family"
-        ],
-        "duration": 85,
-        "director": "Aaron Blaise",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167292/movie-mafia/movies/tmdb-10009.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10009"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Joaquin Phoenix",
-            "Jeremy Suarez",
-            "Jason Raize",
-            "Rick Moranis",
-            "Dave Thomas",
-            "D. B. Sweeney"
-        ],
-        "tmdbId": 10009
-    },
-    {
-        "title": "Mystic River",
-        "description": "The lives of three men who were childhood friends are shattered when one of them suffers a family tragedy.",
-        "releaseYear": 2003,
-        "genre": [
-            "Thriller",
-            "Drama",
-            "Mystery",
-            "Crime"
-        ],
-        "duration": 138,
-        "director": "Clint Eastwood",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167297/movie-mafia/movies/tmdb-322.jpg",
-            "public_id": "movie-mafia/movies/tmdb-322"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Sean Penn",
-            "Tim Robbins",
-            "Kevin Bacon",
-            "Laurence Fishburne",
-            "Marcia Gay Harden",
-            "Laura Linney"
-        ],
-        "tmdbId": 322
-    },
-    {
-        "title": "Irreversible",
-        "description": "A woman’s lover and her ex-boyfriend take justice into their own hands after she becomes the victim of a rapist. Because some acts can’t be undone. Because man is an animal. Because the desire for vengeance is a natural impulse. Because most crimes remain unpunished.",
-        "releaseYear": 2002,
-        "genre": [
-            "Drama",
-            "Thriller",
-            "Crime"
-        ],
-        "duration": 97,
-        "director": "Gaspar Noé",
-        "rating": 7.2,
-        "language": "French",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167300/movie-mafia/movies/tmdb-979.jpg",
-            "public_id": "movie-mafia/movies/tmdb-979"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Monica Bellucci",
-            "Vincent Cassel",
-            "Albert Dupontel",
-            "Jo Prestia",
-            "Philippe Nahon",
-            "Stéphane Drouot"
-        ],
-        "tmdbId": 979
-    },
-    {
-        "title": "xXx",
-        "description": "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Y",
-        "releaseYear": 2002,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Thriller",
-            "Crime",
-            "Drama"
-        ],
-        "duration": 124,
-        "director": "Rob Cohen",
-        "rating": 6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167303/movie-mafia/movies/tmdb-7451.jpg",
-            "public_id": "movie-mafia/movies/tmdb-7451"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Vin Diesel",
-            "Asia Argento",
-            "Marton Csokas",
-            "Samuel L. Jackson",
-            "Michael Roof",
-            "Richy Müller"
-        ],
-        "tmdbId": 7451
-    },
-    {
-        "title": "Lilo & Stitch",
-        "description": "As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he becomes the mischievous adopted alien \"puppy\" of an independent little girl named Lilo and learns about loyalty, friendship, and ʻohana, the Hawaiian tradition of family.",
-        "releaseYear": 2002,
-        "genre": [
-            "Animation",
-            "Family",
-            "Comedy",
-            "Sci-Fi"
-        ],
-        "duration": 85,
-        "director": "Chris Sanders",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167306/movie-mafia/movies/tmdb-11544.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11544"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Daveigh Chase",
-            "Chris Sanders",
-            "Tia Carrere",
-            "David Ogden Stiers",
-            "Kevin McDonald",
-            "Ving Rhames"
-        ],
-        "tmdbId": 11544
-    },
-    {
-        "title": "The Hot Chick",
-        "description": "Not only is Jessica Spencer the most popular girl in school -- she is also the meanest. But things change for the attractive teen when a freak accident involving a cursed pair of earrings and a chance encounter at a gas station causes her to switch bodies with Clive, a sleazy crook. Jessica, in the ",
-        "releaseYear": 2002,
-        "genre": [
-            "Comedy",
-            "Fantasy"
-        ],
-        "duration": 104,
-        "director": "Tom Brady",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167309/movie-mafia/movies/tmdb-11852.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11852"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Rob Schneider",
-            "Anna Faris",
-            "Matthew Lawrence",
-            "Eric Christian Olsen",
-            "Robert Davi",
-            "Melora Hardin"
-        ],
-        "tmdbId": 11852
-    },
-    {
-        "title": "Treasure Planet",
-        "description": "When space galleon cabin boy Jim Hawkins discovers a map to an intergalactic \"loot of a thousand worlds,\" a cyborg cook named John Silver teaches him to battle supernovas and space storms on their journey to find treasure.",
-        "releaseYear": 2002,
-        "genre": [
-            "Sci-Fi",
-            "Adventure",
-            "Animation",
-            "Family",
-            "Fantasy"
-        ],
-        "duration": 96,
-        "director": "Ron Clements",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167312/movie-mafia/movies/tmdb-9016.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9016"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Joseph Gordon-Levitt",
-            "Brian Murray",
-            "Emma Thompson",
-            "David Hyde Pierce",
-            "Martin Short",
-            "Dane A. Davis"
-        ],
-        "tmdbId": 9016
-    },
-    {
-        "title": "The Count of Monte Cristo",
-        "description": "Young sailor Edmond Dantès is wrongfully imprisoned, escapes, finds treasure, and reinvents himself as the wealthy Count of Monte Cristo to exact revenge on those who betrayed him.",
-        "releaseYear": 2002,
-        "genre": [
-            "Adventure",
-            "Drama",
-            "History",
-            "Action"
-        ],
-        "duration": 131,
-        "director": "Kevin Reynolds",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167315/movie-mafia/movies/tmdb-11362.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11362"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
+                "url": "https://www.lionsgateplay.com/"
             }
         ],
         "cast": [
             "Jim Caviezel",
-            "Guy Pearce",
-            "Richard Harris",
-            "James Frain",
-            "Dagmara Dominczyk",
-            "Michael Wincott"
+            "Maia Morgenstern",
+            "Christo Jivkov",
+            "Francesco De Vito",
+            "Monica Bellucci",
+            "Mattia Sbragia"
         ],
-        "tmdbId": 11362
+        "tmdbId": 615
     },
     {
-        "title": "The Transporter",
-        "description": "Former Special Forces officer Frank Martin will deliver anything to anyone for the right price, and his no-questions-asked policy puts him in high demand. But when he realizes his latest cargo is alive, it sets in motion a dangerous chain of events. The bound and gagged Lai is being smuggled to Fran",
-        "releaseYear": 2002,
+        "title": "The Flash",
+        "description": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for ",
+        "releaseYear": 2023,
         "genre": [
             "Action",
-            "Crime",
-            "Thriller"
+            "Sci-Fi",
+            "Adventure"
         ],
-        "duration": 92,
-        "director": "Corey Yuen",
-        "rating": 6.7,
+        "duration": 144,
+        "director": "Andy Muschietti",
+        "rating": 6.6,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167317/movie-mafia/movies/tmdb-4108.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4108"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239658/movie-mafia/movies/tmdb-298618.jpg",
+            "public_id": "movie-mafia/movies/tmdb-298618"
         },
         "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "JioHotstar",
                 "type": "subscription",
                 "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
             },
             {
                 "platform": "Google Play Movies",
@@ -2309,6 +487,11 @@ const movies = [
                 "platform": "YouTube",
                 "type": "rent",
                 "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
             },
             {
                 "platform": "Google Play Movies",
@@ -2322,41 +505,57 @@ const movies = [
             }
         ],
         "cast": [
-            "Jason Statham",
-            "Shu Qi",
-            "François Berléand",
-            "Matt Schulze",
-            "Ric Young",
-            "Doug Rand"
+            "Ezra Miller",
+            "Sasha Calle",
+            "Michael Keaton",
+            "Michael Shannon",
+            "Ron Livingston",
+            "Maribel Verdú"
         ],
-        "tmdbId": 4108
+        "tmdbId": 298618
     },
     {
-        "title": "The Ring",
-        "description": "Journalist Rachel Keller investigates a strange videotape that may be behind the untimely deaths of four teenagers. There is an urban legend about this tape: the viewer will die seven days after watching it. Rachel tracks down the video... and watches it. Now she has just seven days to unravel the m",
-        "releaseYear": 2002,
+        "title": "Wonder Woman",
+        "description": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
+        "releaseYear": 2017,
         "genre": [
-            "Horror",
-            "Mystery"
+            "Action",
+            "Adventure",
+            "Fantasy"
         ],
-        "duration": 115,
-        "director": "Gore Verbinski",
-        "rating": 6.7,
+        "duration": 141,
+        "director": "Patty Jenkins",
+        "rating": 7.2,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167320/movie-mafia/movies/tmdb-565.jpg",
-            "public_id": "movie-mafia/movies/tmdb-565"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239661/movie-mafia/movies/tmdb-297762.jpg",
+            "public_id": "movie-mafia/movies/tmdb-297762"
         },
         "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "JioHotstar",
                 "type": "subscription",
                 "url": "https://www.jiohotstar.com/"
             },
             {
-                "platform": "Zee5",
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
                 "type": "rent",
-                "url": "https://www.zee5.com/"
+                "url": "https://tv.apple.com/in/"
             },
             {
                 "platform": "Google Play Movies",
@@ -2374,6 +573,11 @@ const movies = [
                 "url": "https://www.primevideo.com/"
             },
             {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
                 "platform": "Google Play Movies",
                 "type": "buy",
                 "url": "https://play.google.com/store/movies"
@@ -2385,37 +589,348 @@ const movies = [
             }
         ],
         "cast": [
-            "Naomi Watts",
-            "Martin Henderson",
-            "David Dorfman",
-            "Brian Cox",
-            "Jane Alexander",
-            "Lindsay Frost"
+            "Gal Gadot",
+            "Chris Pine",
+            "Connie Nielsen",
+            "Robin Wright",
+            "Danny Huston",
+            "David Thewlis"
         ],
-        "tmdbId": 565
+        "tmdbId": 297762
     },
     {
-        "title": "Men in Black II",
-        "description": "Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIB's untarnished mission statement – protecting Earth from the scum of the universe. It's been four years since the alien-seeking agents averted an inter",
-        "releaseYear": 2002,
+        "title": "My Best Friend, His Girlfriend and Me",
+        "description": "Olli and Matze are best friends living, working and planning to travel the world together — until Matze's romance with Rebecca turns it all upside down.",
+        "releaseYear": 2026,
         "genre": [
-            "Action",
-            "Comedy",
-            "Sci-Fi"
+            "Comedy"
         ],
-        "duration": 88,
-        "director": "Barry Sonnenfeld",
-        "rating": 6.4,
-        "language": "English",
+        "duration": 98,
+        "director": "Marco Petry",
+        "rating": 6.1,
+        "language": "German",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167323/movie-mafia/movies/tmdb-608.jpg",
-            "public_id": "movie-mafia/movies/tmdb-608"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239666/movie-mafia/movies/tmdb-1589248.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1589248"
         },
         "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            }
+        ],
+        "cast": [
+            "Kostja Ullmann",
+            "Janina Uhse",
+            "David Kross",
+            "Ferdinand Hofer",
+            "Clara Immel",
+            "Mira Huber"
+        ],
+        "tmdbId": 1589248
+    },
+    {
+        "title": "John Wick: Chapter 3 - Parabellum",
+        "description": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his ev",
+        "releaseYear": 2019,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "duration": 131,
+        "director": "Chad Stahelski",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239668/movie-mafia/movies/tmdb-458156.jpg",
+            "public_id": "movie-mafia/movies/tmdb-458156"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate Play",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Apple TV Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Keanu Reeves",
+            "Halle Berry",
+            "Ian McShane",
+            "Laurence Fishburne",
+            "Mark Dacascos",
+            "Asia Kate Dillon"
+        ],
+        "tmdbId": 458156
+    },
+    {
+        "title": "Turning Red",
+        "description": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda.",
+        "releaseYear": 2022,
+        "genre": [
+            "Animation",
+            "Family",
+            "Comedy",
+            "Fantasy"
+        ],
+        "duration": 100,
+        "director": "Domee Shi",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239672/movie-mafia/movies/tmdb-508947.jpg",
+            "public_id": "movie-mafia/movies/tmdb-508947"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Rosalie Chiang",
+            "Sandra Oh",
+            "Ava Morse",
+            "Hyein Park",
+            "Maitreyi Ramakrishnan",
+            "Orion Lee"
+        ],
+        "tmdbId": 508947
+    },
+    {
+        "title": "The Marvels",
+        "description": "When her duties send her to an anomalous wormhole linked to a Kree revolutionary, Carol's powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol's estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up an",
+        "releaseYear": 2023,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Action"
+        ],
+        "duration": 105,
+        "director": "Nia DaCosta",
+        "rating": 5.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239675/movie-mafia/movies/tmdb-609681.jpg",
+            "public_id": "movie-mafia/movies/tmdb-609681"
+        },
+        "watchOptions": [
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Brie Larson",
+            "Teyonah Parris",
+            "Iman Vellani",
+            "Samuel L. Jackson",
+            "Zawe Ashton",
+            "Gary Lewis"
+        ],
+        "tmdbId": 609681
+    },
+    {
+        "title": "JUJUTSU KAISEN: Execution",
+        "description": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his cl",
+        "releaseYear": 2025,
+        "genre": [
+            "Animation",
+            "Action",
+            "Fantasy"
+        ],
+        "duration": 88,
+        "director": "Shota Goshozono",
+        "rating": 6.1,
+        "language": "Japanese",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239678/movie-mafia/movies/tmdb-1539104.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1539104"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Junya Enoki",
+            "Megumi Ogata",
+            "Koji Yusa",
+            "Daisuke Namikawa",
+            "Yuma Uchida",
+            "Asami Seto"
+        ],
+        "tmdbId": 1539104
+    },
+    {
+        "title": "Alien: Covenant",
+        "description": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world.",
+        "releaseYear": 2017,
+        "genre": [
+            "Horror",
+            "Sci-Fi"
+        ],
+        "duration": 122,
+        "director": "Ridley Scott",
+        "rating": 6.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239680/movie-mafia/movies/tmdb-126889.jpg",
+            "public_id": "movie-mafia/movies/tmdb-126889"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Michael Fassbender",
+            "Katherine Waterston",
+            "Billy Crudup",
+            "Danny McBride",
+            "Demián Bichir",
+            "Carmen Ejogo"
+        ],
+        "tmdbId": 126889
+    },
+    {
+        "title": "Uncharted",
+        "description": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+        "releaseYear": 2022,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Mystery"
+        ],
+        "duration": 116,
+        "director": "Ruben Fleischer",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239689/movie-mafia/movies/tmdb-335787.jpg",
+            "public_id": "movie-mafia/movies/tmdb-335787"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
             {
                 "platform": "Amazon Prime Video",
                 "type": "subscription",
                 "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Sony Liv",
+                "type": "subscription",
+                "url": "https://www.sonyliv.com/"
             },
             {
                 "platform": "Sony Pictures Amazon Channel",
@@ -2469,32 +984,172 @@ const movies = [
             }
         ],
         "cast": [
-            "Tommy Lee Jones",
-            "Will Smith",
-            "Rip Torn",
-            "Lara Flynn Boyle",
-            "Johnny Knoxville",
-            "Rosario Dawson"
+            "Tom Holland",
+            "Mark Wahlberg",
+            "Sophia Ali",
+            "Tati Gabrielle",
+            "Antonio Banderas",
+            "Steven Waddington"
         ],
-        "tmdbId": 608
+        "tmdbId": 335787
     },
     {
-        "title": "Blade II",
-        "description": "Blade forms an uneasy alliance with the vampire council in order to combat the Reapers, who are feeding on vampires.",
-        "releaseYear": 2002,
+        "title": "The Menu",
+        "description": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+        "releaseYear": 2022,
         "genre": [
-            "Fantasy",
-            "Horror",
-            "Action",
-            "Thriller"
+            "Comedy",
+            "Horror"
         ],
-        "duration": 117,
-        "director": "Guillermo del Toro",
-        "rating": 6.6,
+        "duration": 107,
+        "director": "Mark Mylod",
+        "rating": 7.2,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167326/movie-mafia/movies/tmdb-36586.jpg",
-            "public_id": "movie-mafia/movies/tmdb-36586"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239698/movie-mafia/movies/tmdb-593643.jpg",
+            "public_id": "movie-mafia/movies/tmdb-593643"
+        },
+        "watchOptions": [
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Anya Taylor-Joy",
+            "Ralph Fiennes",
+            "Nicholas Hoult",
+            "Janet McTeer",
+            "Paul Adelstein",
+            "Rob Yang"
+        ],
+        "tmdbId": 593643
+    },
+    {
+        "title": "Grand Jete",
+        "description": "Dance teacher and mother Nadja left her son Mario with her own mother when he was little. Now she has reappeared on his doorstep, seeking a closeness that knows fewer and fewer boundaries. An uncompromising film about family relationships.",
+        "releaseYear": 2022,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 105,
+        "director": "Isabelle Stever",
+        "rating": 4.9,
+        "language": "German",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239700/movie-mafia/movies/tmdb-928358.jpg",
+            "public_id": "movie-mafia/movies/tmdb-928358"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Sarah Grether",
+            "Emil von Schönfels",
+            "Susanne Bredehöft",
+            "Stefan Rudolf",
+            "Ellen Müller",
+            "Maya Kornev"
+        ],
+        "tmdbId": 928358
+    },
+    {
+        "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+        "description": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+        "releaseYear": 2020,
+        "genre": [
+            "Action",
+            "Crime"
+        ],
+        "duration": 109,
+        "director": "Cathy Yan",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239704/movie-mafia/movies/tmdb-495764.jpg",
+            "public_id": "movie-mafia/movies/tmdb-495764"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Margot Robbie",
+            "Rosie Perez",
+            "Mary Elizabeth Winstead",
+            "Jurnee Smollett-Bell",
+            "Ewan McGregor",
+            "Ella Jay Basco"
+        ],
+        "tmdbId": 495764
+    },
+    {
+        "title": "The New Mutants",
+        "description": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+        "releaseYear": 2020,
+        "genre": [
+            "Sci-Fi",
+            "Horror"
+        ],
+        "duration": 94,
+        "director": "Josh Boone",
+        "rating": 6.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239706/movie-mafia/movies/tmdb-340102.jpg",
+            "public_id": "movie-mafia/movies/tmdb-340102"
         },
         "watchOptions": [
             {
@@ -2524,37 +1179,188 @@ const movies = [
             }
         ],
         "cast": [
-            "Wesley Snipes",
-            "Kris Kristofferson",
-            "Ron Perlman",
-            "Leonor Varela",
-            "Norman Reedus",
-            "Thomas Kretschmann"
+            "Blu Hunt",
+            "Charlie Heaton",
+            "Maisie Williams",
+            "Henrique Zaga",
+            "Anya Taylor-Joy",
+            "Alice Braga"
         ],
-        "tmdbId": 36586
+        "tmdbId": 340102
     },
     {
-        "title": "A.I. Artificial Intelligence",
-        "description": "David, a robotic boy—the first of his kind programmed to love—is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
-        "releaseYear": 2001,
+        "title": "Dreamchild",
+        "description": "François and Noémie run a sawmill in the mountains not far from the Swiss border. François has taken over his family's business, making him the fourth generation. He dreams of having a child. After years of failed fertility assistance, they give up on having a baby of their own and turn to adoption.",
+        "releaseYear": 2020,
         "genre": [
             "Drama",
-            "Sci-Fi",
-            "Adventure"
+            "Romance"
         ],
-        "duration": 146,
-        "director": "Steven Spielberg",
+        "duration": 107,
+        "director": "Raphaël Jacoulot",
+        "rating": 5.6,
+        "language": "French",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239708/movie-mafia/movies/tmdb-741110.jpg",
+            "public_id": "movie-mafia/movies/tmdb-741110"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Jalil Lespert",
+            "Louise Bourgoin",
+            "Mélanie Doutey",
+            "Jean-Marie Winling",
+            "Nathan Willcocks",
+            "Rio Vega"
+        ],
+        "tmdbId": 741110
+    },
+    {
+        "title": "Enola Holmes",
+        "description": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+        "releaseYear": 2020,
+        "genre": [
+            "Adventure",
+            "Mystery",
+            "Crime"
+        ],
+        "duration": 124,
+        "director": "Harry Bradbeer",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239711/movie-mafia/movies/tmdb-497582.jpg",
+            "public_id": "movie-mafia/movies/tmdb-497582"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            }
+        ],
+        "cast": [
+            "Millie Bobby Brown",
+            "Henry Cavill",
+            "Sam Claflin",
+            "Helena Bonham Carter",
+            "Louis Partridge",
+            "Adeel Akhtar"
+        ],
+        "tmdbId": 497582
+    },
+    {
+        "title": "Pokémon Detective Pikachu",
+        "description": "In a world where people collect pocket-size monsters (Pokémon) to do battle, a boy comes across an intelligent monster who seeks to be a detective.",
+        "releaseYear": 2019,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "duration": 105,
+        "director": "Rob Letterman",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239713/movie-mafia/movies/tmdb-447404.jpg",
+            "public_id": "movie-mafia/movies/tmdb-447404"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Ryan Reynolds",
+            "Justice Smith",
+            "Kathryn Newton",
+            "Bill Nighy",
+            "Ken Watanabe",
+            "Chris Geere"
+        ],
+        "tmdbId": 447404
+    },
+    {
+        "title": "Maze Runner: The Death Cure",
+        "description": "Thomas leads his group of escaped Gladers on their final and most dangerous mission yet. To save their friends, they must break into the legendary Last City, a WCKD-controlled labyrinth that may turn out to be the deadliest maze of all. Anyone who makes it out alive will get answers to the questions",
+        "releaseYear": 2018,
+        "genre": [
+            "Sci-Fi",
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "duration": 143,
+        "director": "Wes Ball",
         "rating": 7.1,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167329/movie-mafia/movies/tmdb-644.jpg",
-            "public_id": "movie-mafia/movies/tmdb-644"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239716/movie-mafia/movies/tmdb-336843.jpg",
+            "public_id": "movie-mafia/movies/tmdb-336843"
         },
         "watchOptions": [
             {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
             },
             {
                 "platform": "Google Play Movies",
@@ -2565,16 +1371,6 @@ const movies = [
                 "platform": "YouTube",
                 "type": "rent",
                 "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
             },
             {
                 "platform": "Google Play Movies",
@@ -2588,35 +1384,128 @@ const movies = [
             }
         ],
         "cast": [
-            "Haley Joel Osment",
-            "Jude Law",
-            "Frances O'Connor",
-            "Sam Robards",
-            "Jake Thomas",
-            "William Hurt"
+            "Dylan O'Brien",
+            "Kaya Scodelario",
+            "Thomas Brodie-Sangster",
+            "Ki Hong Lee",
+            "Dexter Darden",
+            "Rosa Salazar"
         ],
-        "tmdbId": 644
+        "tmdbId": 336843
     },
     {
-        "title": "Scary Movie 2",
-        "description": "A group of students visit a mansion called \"Hell House,\" and murderous high jinks ensue.",
-        "releaseYear": 2001,
+        "title": "Solo: A Star Wars Story",
+        "description": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+        "releaseYear": 2018,
         "genre": [
-            "Comedy"
+            "Sci-Fi",
+            "Adventure",
+            "Action"
         ],
-        "duration": 82,
-        "director": "Keenen Ivory Wayans",
-        "rating": 5.8,
+        "duration": 135,
+        "director": "Ron Howard",
+        "rating": 6.6,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167333/movie-mafia/movies/tmdb-4248.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4248"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239718/movie-mafia/movies/tmdb-348350.jpg",
+            "public_id": "movie-mafia/movies/tmdb-348350"
         },
         "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Alden Ehrenreich",
+            "Joonas Suotamo",
+            "Woody Harrelson",
+            "Emilia Clarke",
+            "Donald Glover",
+            "Thandiwe Newton"
+        ],
+        "tmdbId": 348350
+    },
+    {
+        "title": "Kung Fu Panda 3",
+        "description": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back.",
+        "releaseYear": 2016,
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Family"
+        ],
+        "duration": 95,
+        "director": "Jennifer Yuh Nelson",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239721/movie-mafia/movies/tmdb-140300.jpg",
+            "public_id": "movie-mafia/movies/tmdb-140300"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "Apple TV Store",
                 "type": "rent",
                 "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
             },
             {
                 "platform": "Amazon Video",
@@ -2627,39 +1516,108 @@ const movies = [
                 "platform": "Apple TV Store",
                 "type": "buy",
                 "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
             }
         ],
         "cast": [
-            "Anna Faris",
-            "Regina Hall",
-            "Marlon Wayans",
-            "Shawn Wayans",
-            "Christopher Masterson",
-            "Kathleen Robertson"
+            "Jack Black",
+            "Bryan Cranston",
+            "Dustin Hoffman",
+            "Angelina Jolie",
+            "J.K. Simmons",
+            "Jackie Chan"
         ],
-        "tmdbId": 4248
+        "tmdbId": 140300
     },
     {
-        "title": "Shaolin Soccer",
-        "description": "A young Shaolin follower reunites with his discouraged brothers to form a soccer team using their martial art skills to their advantage.",
-        "releaseYear": 2001,
+        "title": "Oblivion",
+        "description": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stran",
+        "releaseYear": 2013,
         "genre": [
             "Action",
-            "Comedy"
+            "Sci-Fi",
+            "Adventure",
+            "Mystery"
         ],
-        "duration": 113,
-        "director": "Stephen Chow",
-        "rating": 7.2,
-        "language": "cn",
+        "duration": 124,
+        "director": "Joseph Kosinski",
+        "rating": 6.7,
+        "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167335/movie-mafia/movies/tmdb-11770.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11770"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239723/movie-mafia/movies/tmdb-75612.jpg",
+            "public_id": "movie-mafia/movies/tmdb-75612"
         },
         "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Tom Cruise",
+            "Morgan Freeman",
+            "Olga Kurylenko",
+            "Andrea Riseborough",
+            "Nikolaj Coster-Waldau",
+            "Melissa Leo"
+        ],
+        "tmdbId": 75612
+    },
+    {
+        "title": "Evil Dead",
+        "description": "Mia, a drug addict, is determined to kick the habit. To that end, she asks her brother, David, his girlfriend, Natalie and their friends Olivia and Eric to accompany her to their family's remote forest cabin to help her through withdrawal. Eric finds a mysterious Book of the Dead at the cabin and re",
+        "releaseYear": 2013,
+        "genre": [
+            "Horror"
+        ],
+        "duration": 91,
+        "director": "Fede Álvarez",
+        "rating": 6.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239726/movie-mafia/movies/tmdb-109428.jpg",
+            "public_id": "movie-mafia/movies/tmdb-109428"
+        },
+        "watchOptions": [
+            {
+                "platform": "Sony Liv",
+                "type": "subscription",
+                "url": "https://www.sonyliv.com/"
+            },
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "Apple TV Store",
                 "type": "rent",
                 "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
             },
             {
                 "platform": "Amazon Video",
@@ -2673,31 +1631,531 @@ const movies = [
             }
         ],
         "cast": [
-            "Stephen Chow",
-            "Richard Ng Man-Tat",
-            "Zhao Wei",
-            "Patrick Tse Yin",
-            "Karen Mok Man-Wai",
-            "Wong Yat-Fei"
+            "Jane Levy",
+            "Shiloh Fernandez",
+            "Lou Taylor Pucci",
+            "Jessica Lucas",
+            "Elizabeth Blackmore",
+            "Phoenix Connolly"
         ],
-        "tmdbId": 11770
+        "tmdbId": 109428
     },
     {
-        "title": "The Mummy Returns",
-        "description": "Rick and Evelyn O’Connell, along with their 8-year-old son Alex, discover the key to the legendary Scorpion King’s might: the fabled Bracelet of Anubis. Unfortunately, a newly resurrected Imhotep has designs on the bracelet as well, and isn’t above kidnapping its new bearer, Alex, to gain control of",
-        "releaseYear": 2001,
+        "title": "Grown Ups 2",
+        "description": "Lenny has relocated his family back to the small town where he and his friends grew up. This time around, the grown ups are the ones learning lessons from their kids on a day notoriously full of surprises—the last day of school.",
+        "releaseYear": 2013,
+        "genre": [
+            "Comedy"
+        ],
+        "duration": 101,
+        "director": "Dennis Dugan",
+        "rating": 6.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239728/movie-mafia/movies/tmdb-109418.jpg",
+            "public_id": "movie-mafia/movies/tmdb-109418"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Adam Sandler",
+            "Kevin James",
+            "Chris Rock",
+            "David Spade",
+            "Salma Hayek Pinault",
+            "Maya Rudolph"
+        ],
+        "tmdbId": 109418
+    },
+    {
+        "title": "Life of Pi",
+        "description": "The story of an Indian boy named Pi, a zookeeper's son who finds himself in the company of a hyena, zebra, orangutan, and a Bengal tiger after a shipwreck sets them adrift in the Pacific Ocean.",
+        "releaseYear": 2012,
+        "genre": [
+            "Adventure",
+            "Drama"
+        ],
+        "duration": 127,
+        "director": "Ang Lee",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239730/movie-mafia/movies/tmdb-87827.jpg",
+            "public_id": "movie-mafia/movies/tmdb-87827"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Suraj Sharma",
+            "Irrfan Khan",
+            "Ayush Tandon",
+            "Gautam Belur",
+            "Adil Hussain",
+            "Tabu"
+        ],
+        "tmdbId": 87827
+    },
+    {
+        "title": "The Lucky One",
+        "description": "A Marine travels to Louisiana after serving three tours in Iraq and searches for the unknown woman he believes was his good luck charm during the war.",
+        "releaseYear": 2012,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "duration": 101,
+        "director": "Scott Hicks",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239733/movie-mafia/movies/tmdb-77877.jpg",
+            "public_id": "movie-mafia/movies/tmdb-77877"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Zac Efron",
+            "Taylor Schilling",
+            "Blythe Danner",
+            "Jay R. Ferguson",
+            "Riley Thomas Stewart",
+            "Joe Chrest"
+        ],
+        "tmdbId": 77877
+    },
+    {
+        "title": "Rango",
+        "description": "When Rango, a lost family pet, accidentally winds up in the gritty, gun-slinging Western town of Dirt, the theater-loving lizard suddenly finds himself the newly appointed sheriff. Welcomed as the last hope the town has been waiting for, Rango is forced to play his new role to the hilt and uncover t",
+        "releaseYear": 2011,
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Family",
+            "Western",
+            "Adventure"
+        ],
+        "duration": 107,
+        "director": "Gore Verbinski",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239735/movie-mafia/movies/tmdb-44896.jpg",
+            "public_id": "movie-mafia/movies/tmdb-44896"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Johnny Depp",
+            "Isla Fisher",
+            "Ned Beatty",
+            "Bill Nighy",
+            "Abigail Breslin",
+            "Alfred Molina"
+        ],
+        "tmdbId": 44896
+    },
+    {
+        "title": "Mission: Impossible - Ghost Protocol",
+        "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF ",
+        "releaseYear": 2011,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Adventure"
+        ],
+        "duration": 133,
+        "director": "Brad Bird",
+        "rating": 7.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239737/movie-mafia/movies/tmdb-56292.jpg",
+            "public_id": "movie-mafia/movies/tmdb-56292"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Tom Cruise",
+            "Paula Patton",
+            "Simon Pegg",
+            "Jeremy Renner",
+            "Michael Nyqvist",
+            "Vladimir Mashkov"
+        ],
+        "tmdbId": 56292
+    },
+    {
+        "title": "The Karate Kid",
+        "description": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the clas",
+        "releaseYear": 2010,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Family"
+        ],
+        "duration": 140,
+        "director": "Harald Zwart",
+        "rating": 6.6,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239740/movie-mafia/movies/tmdb-38575.jpg",
+            "public_id": "movie-mafia/movies/tmdb-38575"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Sony Liv",
+                "type": "subscription",
+                "url": "https://www.sonyliv.com/"
+            },
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Jaden Smith",
+            "Jackie Chan",
+            "Taraji P. Henson",
+            "Wenwen Han",
+            "Zac Wang",
+            "Yu Rongguang"
+        ],
+        "tmdbId": 38575
+    },
+    {
+        "title": "I Spit on Your Grave",
+        "description": "A beautiful woman from the city, Jennifer Hills, rents an isolated cabin in the country to write her latest novel. Soon, a group of local lowlifes subject her to a nightmare of degradation, rape, and violence.",
+        "releaseYear": 2010,
+        "genre": [
+            "Thriller",
+            "Crime",
+            "Horror"
+        ],
+        "duration": 108,
+        "director": "Steven R. Monroe",
+        "rating": 6.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239742/movie-mafia/movies/tmdb-43947.jpg",
+            "public_id": "movie-mafia/movies/tmdb-43947"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Sarah Butler",
+            "Jeff Branson",
+            "Tracey Walter",
+            "Andrew Howard",
+            "Chad Lindberg",
+            "Rodney Eastman"
+        ],
+        "tmdbId": 43947
+    },
+    {
+        "title": "Eagle Eye",
+        "description": "Jerry Shaw and Rachel Holloman are two strangers whose lives are suddenly thrown into turmoil by a mysterious woman they have never met. Threatening their lives and family, the unseen caller uses everyday technology to control their actions and push them into increasing danger. As events escalate, J",
+        "releaseYear": 2008,
+        "genre": [
+            "Mystery",
+            "Thriller",
+            "Action"
+        ],
+        "duration": 118,
+        "director": "D.J. Caruso",
+        "rating": 6.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239745/movie-mafia/movies/tmdb-13027.jpg",
+            "public_id": "movie-mafia/movies/tmdb-13027"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Shia LaBeouf",
+            "Michelle Monaghan",
+            "Rosario Dawson",
+            "Michael Chiklis",
+            "Anthony Mackie",
+            "Ethan Embry"
+        ],
+        "tmdbId": 13027
+    },
+    {
+        "title": "The Mummy: Tomb of the Dragon Emperor",
+        "description": "Archaeologist Rick O'Connell travels to China, pitting him against an emperor from the 2,000-year-old Han dynasty who's returned from the dead to pursue a quest for world domination. This time, O'Connell enlists the help of his wife and son to quash the so-called 'Dragon Emperor' and his abuse of su",
+        "releaseYear": 2008,
         "genre": [
             "Adventure",
             "Action",
             "Fantasy"
         ],
-        "duration": 130,
-        "director": "Stephen Sommers",
-        "rating": 6.4,
+        "duration": 112,
+        "director": "Rob Cohen",
+        "rating": 5.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167339/movie-mafia/movies/tmdb-1734.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1734"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239747/movie-mafia/movies/tmdb-1735.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1735"
         },
         "watchOptions": [
             {
@@ -2738,1772 +2196,32 @@ const movies = [
         ],
         "cast": [
             "Brendan Fraser",
-            "Rachel Weisz",
-            "John Hannah",
-            "Oded Fehr",
-            "Arnold Vosloo",
-            "Patricia Velásquez"
-        ],
-        "tmdbId": 1734
-    },
-    {
-        "title": "Donnie Darko",
-        "description": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
-        "releaseYear": 2001,
-        "genre": [
-            "Fantasy",
-            "Drama",
-            "Mystery"
-        ],
-        "duration": 114,
-        "director": "Richard Kelly",
-        "rating": 7.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167342/movie-mafia/movies/tmdb-141.jpg",
-            "public_id": "movie-mafia/movies/tmdb-141"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Jake Gyllenhaal",
-            "Jena Malone",
-            "James Duval",
-            "Drew Barrymore",
-            "Beth Grant",
-            "Maggie Gyllenhaal"
-        ],
-        "tmdbId": 141
-    },
-    {
-        "title": "The Princess Diaries",
-        "description": "A socially awkward but very bright 15-year-old girl being raised by a single mom discovers that she is the princess of a small European country because of the recent death of her long-absent father, who, unknown to her, was the crown prince of Genovia. She must make a choice between continuing the l",
-        "releaseYear": 2001,
-        "genre": [
-            "Comedy",
-            "Family",
-            "Romance"
-        ],
-        "duration": 115,
-        "director": "Garry Marshall",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167346/movie-mafia/movies/tmdb-9880.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9880"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Anne Hathaway",
-            "Julie Andrews",
-            "Heather Matarazzo",
-            "Caroline Goodall",
-            "Héctor Elizondo",
-            "Robert Schwartzman"
-        ],
-        "tmdbId": 9880
-    },
-    {
-        "title": "Legally Blonde",
-        "description": "Fashionable sorority queen Elle Woods has it all, but, she wants nothing more than to be Mrs. Warner Huntington III. But he dumps her before heading to Harvard Law School. Elle rallies all of her resources and gets into Harvard, determined to win him back. While there, she figures out that there is ",
-        "releaseYear": 2001,
-        "genre": [
-            "Comedy"
-        ],
-        "duration": 96,
-        "director": "Robert Luketic",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167349/movie-mafia/movies/tmdb-8835.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8835"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Reese Witherspoon",
-            "Luke Wilson",
-            "Selma Blair",
-            "Matthew Davis",
-            "Victor Garber",
-            "Jennifer Coolidge"
-        ],
-        "tmdbId": 8835
-    },
-    {
-        "title": "The Others",
-        "description": "Grace is a woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
-        "releaseYear": 2001,
-        "genre": [
-            "Horror",
-            "Mystery",
-            "Thriller"
-        ],
-        "duration": 101,
-        "director": "Alejandro Amenábar",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167351/movie-mafia/movies/tmdb-1933.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1933"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Nicole Kidman",
-            "Alakina Mann",
-            "James Bentley",
-            "Fionnula Flanagan",
-            "Christopher Eccleston",
-            "Eric Sykes"
-        ],
-        "tmdbId": 1933
-    },
-    {
-        "title": "Mulholland Drive",
-        "description": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman's identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
-        "releaseYear": 2001,
-        "genre": [
-            "Thriller",
-            "Drama",
-            "Mystery"
-        ],
-        "duration": 147,
-        "director": "David Lynch",
-        "rating": 7.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167354/movie-mafia/movies/tmdb-1018.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1018"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Naomi Watts",
-            "Laura Harring",
-            "Justin Theroux",
-            "Ann Miller",
-            "Mark Pellegrino",
-            "Robert Forster"
-        ],
-        "tmdbId": 1018
-    },
-    {
-        "title": "Enemy at the Gates",
-        "description": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad in WWII.",
-        "releaseYear": 2001,
-        "genre": [
-            "War",
-            "History"
-        ],
-        "duration": 131,
-        "director": "Jean-Jacques Annaud",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167357/movie-mafia/movies/tmdb-853.jpg",
-            "public_id": "movie-mafia/movies/tmdb-853"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Jude Law",
-            "Joseph Fiennes",
-            "Rachel Weisz",
-            "Ed Harris",
-            "Bob Hoskins",
-            "Ron Perlman"
-        ],
-        "tmdbId": 853
-    },
-    {
-        "title": "Cast Away",
-        "description": "Chuck Noland, a top international manager for FedEx, and Kelly, a Ph.D. student, are in love and heading towards marriage. Then Chuck's plane to Malaysia crashes at sea during a terrible storm. He's the only survivor, and finds himself marooned on a desolate island. With no way to escape, Chuck must",
-        "releaseYear": 2000,
-        "genre": [
-            "Adventure",
-            "Drama"
-        ],
-        "duration": 143,
-        "director": "Robert Zemeckis",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167360/movie-mafia/movies/tmdb-8358.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8358"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Hanks",
-            "Helen Hunt",
-            "Nick Searcy",
-            "Jenifer Lewis",
-            "Geoffrey Blake",
-            "Peter Von Berg"
-        ],
-        "tmdbId": 8358
-    },
-    {
-        "title": "Charlie's Angels",
-        "description": "The captivating crime-fighting trio who are masters of disguise, espionage and martial arts are back! When a devious mastermind embroils them in a plot to destroy individual privacy, the Angels, aided by their loyal sidekick Bosley, set out to bring down the bad guys. But when a terrible secret is r",
-        "releaseYear": 2000,
-        "genre": [
-            "Action",
-            "Comedy",
-            "Adventure"
-        ],
-        "duration": 98,
-        "director": "McG",
-        "rating": 5.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167363/movie-mafia/movies/tmdb-4327.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4327"
-        },
-        "watchOptions": [
-            {
-                "platform": "Sony Liv",
-                "type": "subscription",
-                "url": "https://www.sonyliv.com/"
-            },
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Cameron Diaz",
-            "Drew Barrymore",
-            "Lucy Liu",
-            "Bill Murray",
-            "Sam Rockwell",
-            "Tim Curry"
-        ],
-        "tmdbId": 4327
-    },
-    {
-        "title": "Coyote Ugly",
-        "description": "Graced with a velvet voice, 21-year-old Violet Sanford heads to New York to pursue her dream of becoming a songwriter only to find her aspirations sidelined by the accolades and notoriety she receives at her \"day\" job as a barmaid at Coyote Ugly. The \"Coyotes\" as they are affectionately called tanta",
-        "releaseYear": 2000,
-        "genre": [
-            "Comedy",
-            "Drama",
-            "Music",
-            "Romance"
-        ],
-        "duration": 100,
-        "director": "David McNally",
-        "rating": 6.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178220/movie-mafia/movies/tmdb-6282.jpg",
-            "public_id": "movie-mafia/movies/tmdb-6282"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Piper Perabo",
             "Maria Bello",
-            "Bridget Moynahan",
-            "Tyra Banks",
-            "Izabella Miko",
-            "John Goodman"
+            "John Hannah",
+            "Luke Ford",
+            "Isabella Leong Lok-Sze",
+            "Jet Li"
         ],
-        "tmdbId": 6282
+        "tmdbId": 1735
     },
     {
-        "title": "Final Destination",
-        "description": "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
-        "releaseYear": 2000,
+        "title": "Rambo",
+        "description": "In Thailand, ex-Green Beret John James Rambo joins a group of mercenaries to venture into war-torn neighboring Myanmar to rescue a group of Christian aid workers who have been kidnapped by a ruthless local infantry unit.",
+        "releaseYear": 2008,
         "genre": [
-            "Horror"
-        ],
-        "duration": 98,
-        "director": "James Wong",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178231/movie-mafia/movies/tmdb-9532.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9532"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Devon Sawa",
-            "Ali Larter",
-            "Kerr Smith",
-            "Kristen Cloke",
-            "Daniel Roebuck",
-            "Roger Guenveur Smith"
-        ],
-        "tmdbId": 9532
-    },
-    {
-        "title": "The Road to El Dorado",
-        "description": "Stowing away after a failed con, a pair of swindlers end up on El Dorado, the fabled \"city of gold\", where they quickly get in over their heads when they are mistaken as gods by the inhabitants.",
-        "releaseYear": 2000,
-        "genre": [
-            "Family",
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Fantasy"
-        ],
-        "duration": 90,
-        "director": "Bibo Bergeron",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178234/movie-mafia/movies/tmdb-10501.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10501"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Kenneth Branagh",
-            "Kevin Kline",
-            "Rosie Perez",
-            "Armand Assante",
-            "Edward James Olmos",
-            "Jim Cummings"
-        ],
-        "tmdbId": 10501
-    },
-    {
-        "title": "Remember the Titans",
-        "description": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into champions.",
-        "releaseYear": 2000,
-        "genre": [
-            "Drama"
-        ],
-        "duration": 113,
-        "director": "Boaz Yakin",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178237/movie-mafia/movies/tmdb-10637.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10637"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Denzel Washington",
-            "Will Patton",
-            "Wood Harris",
-            "Ryan Hurst",
-            "Donald Faison",
-            "Craig Kirkwood"
-        ],
-        "tmdbId": 10637
-    },
-    {
-        "title": "Eyes Wide Shut",
-        "description": "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
-        "releaseYear": 1999,
-        "genre": [
-            "Drama",
+            "Action",
             "Thriller",
-            "Mystery"
+            "War"
         ],
-        "duration": 159,
-        "director": "Stanley Kubrick",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178240/movie-mafia/movies/tmdb-345.jpg",
-            "public_id": "movie-mafia/movies/tmdb-345"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Nicole Kidman",
-            "Sydney Pollack",
-            "Marie Richardson",
-            "Rade Šerbedžija",
-            "Todd Field"
-        ],
-        "tmdbId": 345
-    },
-    {
-        "title": "Tarzan",
-        "description": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
-        "releaseYear": 1999,
-        "genre": [
-            "Animation",
-            "Family",
-            "Adventure"
-        ],
-        "duration": 88,
-        "director": "Chris Buck",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178243/movie-mafia/movies/tmdb-37135.jpg",
-            "public_id": "movie-mafia/movies/tmdb-37135"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Tony Goldwyn",
-            "Minnie Driver",
-            "Glenn Close",
-            "Alex D. Linz",
-            "Rosie O'Donnell",
-            "Brian Blessed"
-        ],
-        "tmdbId": 37135
-    },
-    {
-        "title": "Star Wars: Episode I - The Phantom Menace",
-        "description": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
-        "releaseYear": 1999,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Sci-Fi"
-        ],
-        "duration": 136,
-        "director": "George Lucas",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178246/movie-mafia/movies/tmdb-1893.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1893"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Liam Neeson",
-            "Ewan McGregor",
-            "Natalie Portman",
-            "Jake Lloyd",
-            "Ian McDiarmid",
-            "Pernilla August"
-        ],
-        "tmdbId": 1893
-    },
-    {
-        "title": "The Talented Mr. Ripley",
-        "description": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his ",
-        "releaseYear": 1999,
-        "genre": [
-            "Thriller",
-            "Crime",
-            "Drama"
-        ],
-        "duration": 140,
-        "director": "Anthony Minghella",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178249/movie-mafia/movies/tmdb-1213.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1213"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Matt Damon",
-            "Gwyneth Paltrow",
-            "Jude Law",
-            "Cate Blanchett",
-            "Philip Seymour Hoffman",
-            "Jack Davenport"
-        ],
-        "tmdbId": 1213
-    },
-    {
-        "title": "Sleepy Hollow",
-        "description": "Skeptical young detective Ichabod Crane gets transferred to the hamlet of Sleepy Hollow, New York, where he is tasked with investigating the decapitations of three people – murders the townsfolk attribute to a legendary specter, The Headless Horseman.",
-        "releaseYear": 1999,
-        "genre": [
-            "Fantasy",
-            "Thriller",
-            "Mystery",
-            "Horror"
-        ],
-        "duration": 105,
-        "director": "Tim Burton",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178252/movie-mafia/movies/tmdb-2668.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2668"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Johnny Depp",
-            "Christina Ricci",
-            "Miranda Richardson",
-            "Michael Gambon",
-            "Casper Van Dien",
-            "Jeffrey Jones"
-        ],
-        "tmdbId": 2668
-    },
-    {
-        "title": "Notting Hill",
-        "description": "London bookstore owner William Thacker's quiet life turns upside down when a chance encounter with famous actress Anna Scott sparks an unlikely romance challenged by their vastly different worlds.",
-        "releaseYear": 1999,
-        "genre": [
-            "Romance",
-            "Comedy"
-        ],
-        "duration": 124,
-        "director": "Roger Michell",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178255/movie-mafia/movies/tmdb-509.jpg",
-            "public_id": "movie-mafia/movies/tmdb-509"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Julia Roberts",
-            "Hugh Grant",
-            "Gina McKee",
-            "Tim McInnerny",
-            "Rhys Ifans",
-            "Emma Chambers"
-        ],
-        "tmdbId": 509
-    },
-    {
-        "title": "The Blair Witch Project",
-        "description": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
-        "releaseYear": 1999,
-        "genre": [
-            "Horror",
-            "Mystery"
-        ],
-        "duration": 81,
-        "director": "Daniel Myrick",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178258/movie-mafia/movies/tmdb-2667.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2667"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Lionsgate+ Amazon Channels",
-                "type": "subscription",
-                "url": "https://www.lionsgateplay.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Rei Hance",
-            "Joshua Leonard",
-            "Michael C. Williams",
-            "Bob Griffin",
-            "Jim King",
-            "Sandra Sánchez"
-        ],
-        "tmdbId": 2667
-    },
-    {
-        "title": "The World Is Not Enough",
-        "description": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to protect a beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggl",
-        "releaseYear": 1999,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 128,
-        "director": "Michael Apted",
-        "rating": 6.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178261/movie-mafia/movies/tmdb-36643.jpg",
-            "public_id": "movie-mafia/movies/tmdb-36643"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Pierce Brosnan",
-            "Sophie Marceau",
-            "Robert Carlyle",
-            "Denise Richards",
-            "Robbie Coltrane",
-            "Judi Dench"
-        ],
-        "tmdbId": 36643
-    },
-    {
-        "title": "Cruel Intentions",
-        "description": "Slaking a thirst for dangerous games, Kathryn challenges her stepbrother, Sebastian, to deflower their headmaster's daughter before the summer ends. If he succeeds, the prize is the chance to bed Kathryn. But if he loses, Kathryn will claim his most prized possession.",
-        "releaseYear": 1999,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 97,
-        "director": "Roger Kumble",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178264/movie-mafia/movies/tmdb-796.jpg",
-            "public_id": "movie-mafia/movies/tmdb-796"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Sarah Michelle Gellar",
-            "Ryan Phillippe",
-            "Reese Witherspoon",
-            "Selma Blair",
-            "Louise Fletcher",
-            "Joshua Jackson"
-        ],
-        "tmdbId": 796
-    },
-    {
-        "title": "Magnolia",
-        "description": "On one random day in the San Fernando Valley, a dying father, a young wife, a male caretaker, a famous lost son, a police officer in love, a boy genius, an ex-boy genius, a game show host and an estranged daughter will each become part of a dazzling multiplicity of plots, but one story.",
-        "releaseYear": 1999,
-        "genre": [
-            "Drama"
-        ],
-        "duration": 189,
-        "director": "Paul Thomas Anderson",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178268/movie-mafia/movies/tmdb-334.jpg",
-            "public_id": "movie-mafia/movies/tmdb-334"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Philip Baker Hall",
-            "Philip Seymour Hoffman",
-            "Julianne Moore",
-            "William H. Macy",
-            "John C. Reilly"
-        ],
-        "tmdbId": 334
-    },
-    {
-        "title": "A Bug's Life",
-        "description": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
-        "releaseYear": 1998,
-        "genre": [
-            "Adventure",
-            "Animation",
-            "Comedy",
-            "Family"
-        ],
-        "duration": 95,
-        "director": "John Lasseter",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178271/movie-mafia/movies/tmdb-9487.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9487"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Dave Foley",
-            "Kevin Spacey",
-            "Julia Louis-Dreyfus",
-            "Hayden Panettiere",
-            "Phyllis Diller",
-            "Richard Kind"
-        ],
-        "tmdbId": 9487
-    },
-    {
-        "title": "Rush Hour",
-        "description": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and ",
-        "releaseYear": 1998,
-        "genre": [
-            "Action",
-            "Comedy",
-            "Crime"
-        ],
-        "duration": 97,
-        "director": "Brett Ratner",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178274/movie-mafia/movies/tmdb-2109.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2109"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Jackie Chan",
-            "Chris Tucker",
-            "Tom Wilkinson",
-            "Philip Baker Hall",
-            "Elizabeth Peña",
-            "Chris Penn"
-        ],
-        "tmdbId": 2109
-    },
-    {
-        "title": "The Parent Trap",
-        "description": "Hallie Parker and Annie James are identical twins who were separated at a young age due to their parents' divorce. Unbeknownst to their parents, the girls are sent to the same summer camp, where they meet, discover the truth about their relationship, and come up with a plan to switch places in an ef",
-        "releaseYear": 1998,
-        "genre": [
-            "Comedy",
-            "Family",
-            "Romance"
-        ],
-        "duration": 128,
-        "director": "Nancy Meyers",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178277/movie-mafia/movies/tmdb-9820.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9820"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Lindsay Lohan",
-            "Dennis Quaid",
-            "Natasha Richardson",
-            "Elaine Hendrix",
-            "Lisa Ann Walter",
-            "Simon Kunz"
-        ],
-        "tmdbId": 9820
-    },
-    {
-        "title": "Blade",
-        "description": "The Daywalker known as \"Blade\" - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires.",
-        "releaseYear": 1998,
-        "genre": [
-            "Horror",
-            "Action"
-        ],
-        "duration": 121,
-        "director": "Stephen Norrington",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178279/movie-mafia/movies/tmdb-36647.jpg",
-            "public_id": "movie-mafia/movies/tmdb-36647"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Wesley Snipes",
-            "Stephen Dorff",
-            "Kris Kristofferson",
-            "N'Bushe Wright",
-            "Donal Logue",
-            "Udo Kier"
-        ],
-        "tmdbId": 36647
-    },
-    {
-        "title": "The Prince of Egypt",
-        "description": "The strong bond between two Royal Egyptian brothers is challenged when their chosen responsibilities set them at odds, with extraordinary consequences.",
-        "releaseYear": 1998,
-        "genre": [
-            "Adventure",
-            "Animation",
-            "Drama",
-            "Family"
-        ],
-        "duration": 99,
-        "director": "Steve Hickner",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178282/movie-mafia/movies/tmdb-9837.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9837"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Val Kilmer",
-            "Ralph Fiennes",
-            "Michelle Pfeiffer",
-            "Sandra Bullock",
-            "Jeff Goldblum",
-            "Danny Glover"
-        ],
-        "tmdbId": 9837
-    },
-    {
-        "title": "Armageddon",
-        "description": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own h",
-        "releaseYear": 1998,
-        "genre": [
-            "Action",
-            "Sci-Fi",
-            "Adventure"
-        ],
-        "duration": 151,
-        "director": "Michael Bay",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178285/movie-mafia/movies/tmdb-95.jpg",
-            "public_id": "movie-mafia/movies/tmdb-95"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Bruce Willis",
-            "Billy Bob Thornton",
-            "Ben Affleck",
-            "Liv Tyler",
-            "Will Patton",
-            "Steve Buscemi"
-        ],
-        "tmdbId": 95
-    },
-    {
-        "title": "Meet Joe Black",
-        "description": "Bill Parrish has it all - success, wealth and power. Days before his 65th birthday, he receives a visit from a mysterious stranger, Joe Black, who soon reveals himself as Death. In exchange for extra time, Bill agrees to serve as Joe's earthly guide. But will he regret his choice when Joe unexpected",
-        "releaseYear": 1998,
-        "genre": [
-            "Fantasy",
-            "Drama",
-            "Romance"
-        ],
-        "duration": 178,
-        "director": "Martin Brest",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178288/movie-mafia/movies/tmdb-297.jpg",
-            "public_id": "movie-mafia/movies/tmdb-297"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Brad Pitt",
-            "Anthony Hopkins",
-            "Claire Forlani",
-            "Jake Weber",
-            "Marcia Gay Harden",
-            "Jeffrey Tambor"
-        ],
-        "tmdbId": 297
-    },
-    {
-        "title": "The Lion King II: Simba's Pride",
-        "description": "The circle of life continues for Simba, now fully grown and in his rightful place as the king of Pride Rock. Simba and Nala have given birth to a daughter, Kiara who's as rebellious as her father was. But Kiara drives her parents to distraction when she catches the eye of Kovu, the son of the evil l",
-        "releaseYear": 1998,
-        "genre": [
-            "Adventure",
-            "Animation",
-            "Drama",
-            "Family",
-            "Romance"
-        ],
-        "duration": 81,
-        "director": "Darrell Rooney",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178291/movie-mafia/movies/tmdb-9732.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9732"
-        },
-        "watchOptions": [
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Matthew Broderick",
-            "Neve Campbell",
-            "Jason Marsden",
-            "Nathan Lane",
-            "Ernie Sabella",
-            "Andy Dick"
-        ],
-        "tmdbId": 9732
-    },
-    {
-        "title": "Deep Impact",
-        "description": "A seven-mile-wide space rock is hurtling toward Earth, threatening to obliterate the planet. Now, it's up to the president of the United States to save the world. He appoints a tough-as-nails veteran astronaut to lead a joint American-Russian crew into space to destroy the comet before impact. Meanw",
-        "releaseYear": 1998,
-        "genre": [
-            "Action",
-            "Drama",
-            "Sci-Fi"
-        ],
-        "duration": 122,
-        "director": "Mimi Leder",
-        "rating": 6.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178294/movie-mafia/movies/tmdb-8656.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8656"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Robert Duvall",
-            "Téa Leoni",
-            "Elijah Wood",
-            "Vanessa Redgrave",
-            "Morgan Freeman",
-            "Maximilian Schell"
-        ],
-        "tmdbId": 8656
-    },
-    {
-        "title": "You've Got Mail",
-        "description": "Book superstore magnate Joe Fox and independent book shop owner Kathleen Kelly fall in love in the anonymity of the Internet—both blissfully unaware that he's trying to put her out of business.",
-        "releaseYear": 1998,
-        "genre": [
-            "Comedy",
-            "Romance"
-        ],
-        "duration": 119,
-        "director": "Nora Ephron",
+        "duration": 92,
+        "director": "Sylvester Stallone",
         "rating": 6.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178297/movie-mafia/movies/tmdb-9489.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9489"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239750/movie-mafia/movies/tmdb-7555.jpg",
+            "public_id": "movie-mafia/movies/tmdb-7555"
         },
         "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Meg Ryan",
-            "Tom Hanks",
-            "Greg Kinnear",
-            "Parker Posey",
-            "Heather Burns",
-            "Dave Chappelle"
-        ],
-        "tmdbId": 9489
-    },
-    {
-        "title": "The Mask of Zorro",
-        "description": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed hi",
-        "releaseYear": 1998,
-        "genre": [
-            "Action",
-            "Adventure"
-        ],
-        "duration": 138,
-        "director": "Martin Campbell",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178299/movie-mafia/movies/tmdb-9342.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9342"
-        },
-        "watchOptions": [
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Antonio Banderas",
-            "Anthony Hopkins",
-            "Catherine Zeta-Jones",
-            "Stuart Wilson",
-            "Matt Letscher",
-            "L.Q. Jones"
-        ],
-        "tmdbId": 9342
-    },
-    {
-        "title": "In All Innocence",
-        "description": "High-profile lawyer Michel takes on the defence of a young and pretty small-time thief, Cécile, after the botched hold-up of a jewellery shop. As predicted by his elegant art-dealer and sculptress wife Viviane, Michel goes well beyond his brief, jeopardising his career and ruining his marriage of 18",
-        "releaseYear": 1998,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 98,
-        "director": "Pierre Jolivet",
-        "rating": 5.9,
-        "language": "French",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178302/movie-mafia/movies/tmdb-52683.jpg",
-            "public_id": "movie-mafia/movies/tmdb-52683"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Gérard Lanvin",
-            "Carole Bouquet",
-            "Virginie Ledoyen",
-            "Guillaume Canet",
-            "Aurélie Vérillon",
-            "Jean-Pierre Lorit"
-        ],
-        "tmdbId": 52683
-    },
-    {
-        "title": "There's Something About Mary",
-        "description": "For Ted, prom night went about as bad as it’s possible for any night to go. Thirteen years later, he finally gets another chance with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
-        "releaseYear": 1998,
-        "genre": [
-            "Romance",
-            "Comedy"
-        ],
-        "duration": 120,
-        "director": "Bobby Farrelly",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178305/movie-mafia/movies/tmdb-544.jpg",
-            "public_id": "movie-mafia/movies/tmdb-544"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Cameron Diaz",
-            "Matt Dillon",
-            "Ben Stiller",
-            "Lee Evans",
-            "Chris Elliott",
-            "Lin Shaye"
-        ],
-        "tmdbId": 544
-    },
-    {
-        "title": "Hercules",
-        "description": "Bestowed with superhuman strength, a young mortal named Hercules sets out to prove himself a hero in the eyes of his father, the great god Zeus. Along with his friends Pegasus, a flying horse, and Phil, a personal trainer, Hercules is tricked by the hilarious, hotheaded villain Hades, who's plotting",
-        "releaseYear": 1997,
-        "genre": [
-            "Animation",
-            "Family",
-            "Fantasy",
-            "Adventure",
-            "Comedy",
-            "Romance"
-        ],
-        "duration": 93,
-        "director": "John Musker",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178308/movie-mafia/movies/tmdb-11970.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11970"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Tate Donovan",
-            "Josh Keaton",
-            "Roger Bart",
-            "Danny DeVito",
-            "James Woods",
-            "Susan Egan"
-        ],
-        "tmdbId": 11970
-    },
-    {
-        "title": "Men in Black",
-        "description": "After a police chase with an otherworldly being, a New York City cop is recruited as an agent in a top-secret organization established to monitor and police alien activity on Earth: the Men in Black. Agent K and new recruit Agent J find themselves in the middle of a deadly plot by an intergalactic t",
-        "releaseYear": 1997,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Comedy",
-            "Sci-Fi"
-        ],
-        "duration": 98,
-        "director": "Barry Sonnenfeld",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178311/movie-mafia/movies/tmdb-607.jpg",
-            "public_id": "movie-mafia/movies/tmdb-607"
-        },
-        "watchOptions": [
-            {
-                "platform": "Sony Liv",
-                "type": "subscription",
-                "url": "https://www.sonyliv.com/"
-            },
             {
                 "platform": "Lionsgate Play",
                 "type": "subscription",
@@ -4525,11 +2243,6 @@ const movies = [
                 "url": "https://tv.apple.com/in/"
             },
             {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
                 "platform": "Google Play Movies",
                 "type": "rent",
                 "url": "https://play.google.com/store/movies"
@@ -4538,2819 +2251,6 @@ const movies = [
                 "platform": "YouTube",
                 "type": "rent",
                 "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tommy Lee Jones",
-            "Will Smith",
-            "Linda Fiorentino",
-            "Vincent D'Onofrio",
-            "Rip Torn",
-            "Tony Shalhoub"
-        ],
-        "tmdbId": 607
-    },
-    {
-        "title": "Con Air",
-        "description": "Newly-paroled former US Army ranger Cameron Poe is headed back to his wife, but must fly home aboard a prison transport flight dubbed \"Jailbird\" taking the “worst of the worst” prisoners, a group described as “pure predators”, to a new super-prison. Poe faces impossible odds when the transport plane",
-        "releaseYear": 1997,
-        "genre": [
-            "Action",
-            "Thriller",
-            "Crime"
-        ],
-        "duration": 116,
-        "director": "Simon West",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178314/movie-mafia/movies/tmdb-1701.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1701"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Nicolas Cage",
-            "John Cusack",
-            "John Malkovich",
-            "Ving Rhames",
-            "Mykelti Williamson",
-            "Dave Chappelle"
-        ],
-        "tmdbId": 1701
-    },
-    {
-        "title": "The Game",
-        "description": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a cold-hearted loner, receives an unusual present from his younger brother, Conrad: a gift certificate to play a unique kind of game. In nary a nanosecond, Nicholas finds himself consumed by a dangerous set of ",
-        "releaseYear": 1997,
-        "genre": [
-            "Drama",
-            "Thriller",
-            "Mystery"
-        ],
-        "duration": 129,
-        "director": "David Fincher",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178317/movie-mafia/movies/tmdb-2649.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2649"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Michael Douglas",
-            "Sean Penn",
-            "Deborah Kara Unger",
-            "James Rebhorn",
-            "Peter Donat",
-            "Carroll Baker"
-        ],
-        "tmdbId": 2649
-    },
-    {
-        "title": "Contact",
-        "description": "A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth. As the world powers scramble to decipher the message and decide upon a course of action, she must make some difficult decisions between her beliefs, the truth, and reality.",
-        "releaseYear": 1997,
-        "genre": [
-            "Drama",
-            "Sci-Fi",
-            "Mystery"
-        ],
-        "duration": 150,
-        "director": "Robert Zemeckis",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178320/movie-mafia/movies/tmdb-686.jpg",
-            "public_id": "movie-mafia/movies/tmdb-686"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Jodie Foster",
-            "Matthew McConaughey",
-            "James Woods",
-            "John Hurt",
-            "Tom Skerritt",
-            "William Fichtner"
-        ],
-        "tmdbId": 686
-    },
-    {
-        "title": "Starship Troopers",
-        "description": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known",
-        "releaseYear": 1997,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "duration": 129,
-        "director": "Paul Verhoeven",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178323/movie-mafia/movies/tmdb-563.jpg",
-            "public_id": "movie-mafia/movies/tmdb-563"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Casper Van Dien",
-            "Dina Meyer",
-            "Denise Richards",
-            "Jake Busey",
-            "Neil Patrick Harris",
-            "Clancy Brown"
-        ],
-        "tmdbId": 563
-    },
-    {
-        "title": "Gattaca",
-        "description": "Vincent is an all-too-human man who dares to defy a system obsessed with genetic perfection. He is an \"In-Valid\" who assumes the identity of a member of the genetic elite to pursue his goal of traveling into space with the Gattaca Aerospace Corporation.",
-        "releaseYear": 1997,
-        "genre": [
-            "Sci-Fi",
-            "Drama"
-        ],
-        "duration": 107,
-        "director": "Andrew Niccol",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178326/movie-mafia/movies/tmdb-782.jpg",
-            "public_id": "movie-mafia/movies/tmdb-782"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Ethan Hawke",
-            "Uma Thurman",
-            "Jude Law",
-            "Alan Arkin",
-            "Loren Dean",
-            "Gore Vidal"
-        ],
-        "tmdbId": 782
-    },
-    {
-        "title": "Batman & Robin",
-        "description": "Batman and his sidekick Robin attempt to the foil the sinister schemes of a deranged set of new villains, most notably the melancholy Mr. Freeze, who wants to make Gotham City into an arctic region, and the sultry Poison Ivy, a botanical femme fatale. As the Dynamic Duo contend with these bad guys, ",
-        "releaseYear": 1997,
-        "genre": [
-            "Action",
-            "Sci-Fi",
-            "Adventure"
-        ],
-        "duration": 125,
-        "director": "Joel Schumacher",
-        "rating": 4.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178329/movie-mafia/movies/tmdb-415.jpg",
-            "public_id": "movie-mafia/movies/tmdb-415"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "George Clooney",
-            "Chris O'Donnell",
-            "Arnold Schwarzenegger",
-            "Uma Thurman",
-            "Alicia Silverstone",
-            "Michael Gough"
-        ],
-        "tmdbId": 415
-    },
-    {
-        "title": "Face/Off",
-        "description": "In order to foil a terrorist plot, an FBI agent undergoes facial transplant surgery and assumes the identity of a criminal mastermind. The plan turns sour when the criminal wakes up prematurely and seeks revenge.",
-        "releaseYear": 1997,
-        "genre": [
-            "Action",
-            "Crime",
-            "Sci-Fi"
-        ],
-        "duration": 139,
-        "director": "John Woo",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178332/movie-mafia/movies/tmdb-754.jpg",
-            "public_id": "movie-mafia/movies/tmdb-754"
-        },
-        "watchOptions": [],
-        "cast": [
-            "John Travolta",
-            "Nicolas Cage",
-            "Joan Allen",
-            "Alessandro Nivola",
-            "Gina Gershon",
-            "Dominique Swain"
-        ],
-        "tmdbId": 754
-    },
-    {
-        "title": "Event Horizon",
-        "description": "In 2047, a group of astronauts are sent to investigate and salvage the starship Event Horizon which disappeared mysteriously seven years before on its maiden voyage. However, it soon becomes evident that something sinister resides in its corridors.",
-        "releaseYear": 1997,
-        "genre": [
-            "Horror",
-            "Sci-Fi",
-            "Mystery"
-        ],
-        "duration": 96,
-        "director": "Paul W. S. Anderson",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178335/movie-mafia/movies/tmdb-8413.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8413"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Laurence Fishburne",
-            "Sam Neill",
-            "Kathleen Quinlan",
-            "Joely Richardson",
-            "Richard T. Jones",
-            "Jack Noseworthy"
-        ],
-        "tmdbId": 8413
-    },
-    {
-        "title": "Scream 2",
-        "description": "Two years after the Woodsboro murders, Sidney Prescott acclimates to college life while someone donning the Ghostface costume begins a new string of killings.",
-        "releaseYear": 1997,
-        "genre": [
-            "Horror",
-            "Mystery"
-        ],
-        "duration": 120,
-        "director": "Wes Craven",
-        "rating": 6.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178338/movie-mafia/movies/tmdb-4233.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4233"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Neve Campbell",
-            "Courteney Cox",
-            "David Arquette",
-            "Jerry O'Connell",
-            "Elise Neal",
-            "Timothy Olyphant"
-        ],
-        "tmdbId": 4233
-    },
-    {
-        "title": "Alien Resurrection",
-        "description": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
-        "releaseYear": 1997,
-        "genre": [
-            "Sci-Fi",
-            "Horror",
-            "Action"
-        ],
-        "duration": 109,
-        "director": "Jean-Pierre Jeunet",
-        "rating": 6.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178342/movie-mafia/movies/tmdb-8078.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8078"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Sigourney Weaver",
-            "Winona Ryder",
-            "Dominique Pinon",
-            "Ron Perlman",
-            "Gary Dourdan",
-            "Michael Wincott"
-        ],
-        "tmdbId": 8078
-    },
-    {
-        "title": "Scream",
-        "description": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
-        "releaseYear": 1996,
-        "genre": [
-            "Crime",
-            "Horror",
-            "Mystery"
-        ],
-        "duration": 112,
-        "director": "Wes Craven",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178345/movie-mafia/movies/tmdb-4232.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4232"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Neve Campbell",
-            "Skeet Ulrich",
-            "Rose McGowan",
-            "Matthew Lillard",
-            "David Arquette",
-            "Courteney Cox"
-        ],
-        "tmdbId": 4232
-    },
-    {
-        "title": "Mission: Impossible",
-        "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the prime suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, ",
-        "releaseYear": 1996,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 111,
-        "director": "Brian De Palma",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178348/movie-mafia/movies/tmdb-954.jpg",
-            "public_id": "movie-mafia/movies/tmdb-954"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Amazon Prime Video",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Amazon Prime Video with Ads",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Jon Voight",
-            "Emmanuelle Béart",
-            "Henry Czerny",
-            "Jean Reno",
-            "Ving Rhames"
-        ],
-        "tmdbId": 954
-    },
-    {
-        "title": "The Rock",
-        "description": "When vengeful General Francis X. Hummel seizes control of Alcatraz Island and threatens to launch missiles loaded with deadly chemical weapons into San Francisco, only a young FBI chemical weapons expert and notorious Federal prisoner have the skills to penetrate the impregnable island fortress and ",
-        "releaseYear": 1996,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Thriller"
-        ],
-        "duration": 137,
-        "director": "Michael Bay",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178351/movie-mafia/movies/tmdb-9802.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9802"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Sean Connery",
-            "Nicolas Cage",
-            "Ed Harris",
-            "John Spencer",
-            "David Morse",
-            "William Forsythe"
-        ],
-        "tmdbId": 9802
-    },
-    {
-        "title": "Independence Day",
-        "description": "Strange phenomena surface around the globe. The skies ignite. Terror races through the world's major cities. As these extraordinary events unfold, it becomes increasingly clear that a force of incredible magnitude has arrived. Its mission: total annihilation over the Fourth of July weekend. The last",
-        "releaseYear": 1996,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Sci-Fi"
-        ],
-        "duration": 145,
-        "director": "Roland Emmerich",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178354/movie-mafia/movies/tmdb-602.jpg",
-            "public_id": "movie-mafia/movies/tmdb-602"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Will Smith",
-            "Bill Pullman",
-            "Jeff Goldblum",
-            "Mary McDonnell",
-            "Judd Hirsch",
-            "Robert Loggia"
-        ],
-        "tmdbId": 602
-    },
-    {
-        "title": "Matilda",
-        "description": "Matilda Wormwood is an brilliant and intelligent little girl. Unfortunately, her parents, Harry and Zinnia, fail to see that fact. As time passes, she finally starts school and has a kind teacher, loyal friends, and a terrifying, sadistic headmistress. As she becomes fed up with the constant cruelty",
-        "releaseYear": 1996,
-        "genre": [
-            "Comedy",
-            "Family",
-            "Fantasy"
-        ],
-        "duration": 98,
-        "director": "Danny DeVito",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178357/movie-mafia/movies/tmdb-10830.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10830"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Mara Wilson",
-            "Danny DeVito",
-            "Rhea Perlman",
-            "Embeth Davidtz",
-            "Pam Ferris",
-            "Paul Reubens"
-        ],
-        "tmdbId": 10830
-    },
-    {
-        "title": "Raven",
-        "description": "Martin Grant has been hiding for years to escape his past as a ruthless mercenary in the elite force Raven Team. He's recently been engaged and are trying to forget the nightmares of murder and betrayal. Martin was convinced, that he could escape... But no one escapes from the Raven Teams ruthless l",
-        "releaseYear": 1996,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 93,
-        "director": "Russell Solberg",
-        "rating": 4.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178361/movie-mafia/movies/tmdb-36876.jpg",
-            "public_id": "movie-mafia/movies/tmdb-36876"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Burt Reynolds",
-            "Matt Battaglia",
-            "Krista Allen",
-            "Richard Gant",
-            "David Ackroyd",
-            "Angela Harry"
-        ],
-        "tmdbId": 36876
-    },
-    {
-        "title": "Primal Fear",
-        "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Chu",
-        "releaseYear": 1996,
-        "genre": [
-            "Crime",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 130,
-        "director": "Gregory Hoblit",
-        "rating": 7.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178364/movie-mafia/movies/tmdb-1592.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1592"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Richard Gere",
-            "Laura Linney",
-            "Edward Norton",
-            "John Mahoney",
-            "Alfre Woodard",
-            "Frances McDormand"
-        ],
-        "tmdbId": 1592
-    },
-    {
-        "title": "The Hunchback of Notre Dame",
-        "description": "Isolated in the bell tower of Notre Dame, Quasimodo longs to experience the world beyond the cathedral walls, despite the wishes of his stern guardian, the Judge of Paris Claude Frollo. His first venture into the city leads him to Esmeralda, a fearless Romani woman whose defiance of Frollo's tyranny",
-        "releaseYear": 1996,
-        "genre": [
-            "Drama",
-            "Animation",
-            "Family"
-        ],
-        "duration": 91,
-        "director": "Gary Trousdale",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178368/movie-mafia/movies/tmdb-10545.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10545"
-        },
-        "watchOptions": [
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Tom Hulce",
-            "Demi Moore",
-            "Kevin Kline",
-            "Tony Jay",
-            "Charles Kimbrough",
-            "Mary Wickes"
-        ],
-        "tmdbId": 10545
-    },
-    {
-        "title": "From Dusk Till Dawn",
-        "description": "After kidnapping a father and his two kids, the Gecko brothers head south to a seedy Mexican bar to hide out in safety, unaware of its notorious clientele.",
-        "releaseYear": 1996,
-        "genre": [
-            "Horror",
-            "Action",
-            "Crime"
-        ],
-        "duration": 108,
-        "director": "Robert Rodriguez",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178370/movie-mafia/movies/tmdb-755.jpg",
-            "public_id": "movie-mafia/movies/tmdb-755"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "George Clooney",
-            "Quentin Tarantino",
-            "Harvey Keitel",
-            "Juliette Lewis",
-            "Ernest Liu",
-            "Salma Hayek Pinault"
-        ],
-        "tmdbId": 755
-    },
-    {
-        "title": "101 Dalmatians",
-        "description": "An evil, high-fashion designer plots to steal Dalmatian puppies in order to make an extravagant fur coat, but instead creates an extravagant mess.",
-        "releaseYear": 1996,
-        "genre": [
-            "Family",
-            "Comedy"
-        ],
-        "duration": 103,
-        "director": "Stephen Herek",
-        "rating": 5.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178373/movie-mafia/movies/tmdb-11674.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11674"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Glenn Close",
-            "Jeff Daniels",
-            "Joely Richardson",
-            "Joan Plowright",
-            "Hugh Laurie",
-            "Mark Williams"
-        ],
-        "tmdbId": 11674
-    },
-    {
-        "title": "Twister",
-        "description": "An unprecedented series of violent tornadoes is sweeping across Oklahoma. Tornado chasers, headed by Dr. Jo Harding, attempt to release a groundbreaking device that will allow them to track them and create a more advanced warning system. They are joined by Jo's soon to be ex-husband Bill, a former t",
-        "releaseYear": 1996,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Drama"
-        ],
-        "duration": 113,
-        "director": "Jan de Bont",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178376/movie-mafia/movies/tmdb-664.jpg",
-            "public_id": "movie-mafia/movies/tmdb-664"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Helen Hunt",
-            "Bill Paxton",
-            "Jami Gertz",
-            "Cary Elwes",
-            "Lois Smith",
-            "Philip Seymour Hoffman"
-        ],
-        "tmdbId": 664
-    },
-    {
-        "title": "Space Jam",
-        "description": "With their freedom on the line, the Looney Tunes seek the help of NBA superstar Michael Jordan to win a basketball game against a team of moronic aliens.",
-        "releaseYear": 1996,
-        "genre": [
-            "Family",
-            "Animation",
-            "Sci-Fi",
-            "Fantasy",
-            "Comedy"
-        ],
-        "duration": 87,
-        "director": "Joe Pytka",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178379/movie-mafia/movies/tmdb-2300.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2300"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Michael Jordan",
-            "Wayne Knight",
-            "Theresa Randle",
-            "Manner Washington",
-            "Eric Gordon",
-            "Penny Bae Bridges"
-        ],
-        "tmdbId": 2300
-    },
-    {
-        "title": "Sleepers",
-        "description": "Two gangsters seek revenge on the state jail worker who during their stay at a youth prison sexually abused them. A sensational court hearing takes place to charge him for the crimes.",
-        "releaseYear": 1996,
-        "genre": [
-            "Crime",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 147,
-        "director": "Barry Levinson",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178382/movie-mafia/movies/tmdb-819.jpg",
-            "public_id": "movie-mafia/movies/tmdb-819"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Kevin Bacon",
-            "Robert De Niro",
-            "Dustin Hoffman",
-            "Bruno Kirby",
-            "Jason Patric",
-            "Brad Pitt"
-        ],
-        "tmdbId": 819
-    },
-    {
-        "title": "The Craft",
-        "description": "A Catholic school newcomer falls in with a clique of teen witches who wield their powers against all who dare to cross them -- be they teachers, rivals or meddlesome parents.",
-        "releaseYear": 1996,
-        "genre": [
-            "Horror",
-            "Drama",
-            "Fantasy"
-        ],
-        "duration": 101,
-        "director": "Andrew Fleming",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178385/movie-mafia/movies/tmdb-9100.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9100"
-        },
-        "watchOptions": [
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Robin Tunney",
-            "Fairuza Balk",
-            "Neve Campbell",
-            "Rachel True",
-            "Skeet Ulrich",
-            "Christine Taylor"
-        ],
-        "tmdbId": 9100
-    },
-    {
-        "title": "Fear",
-        "description": "Nicole Walker always dreamed of being swept away by someone special — someone strong, sexy and sensitive who would care for her more than anything else in the world. David is all that and more: a modern-day knight who charms and seduces her, body and soul. But her perfect boyfriend is not all he see",
-        "releaseYear": 1996,
-        "genre": [
-            "Thriller",
-            "Horror"
-        ],
-        "duration": 97,
-        "director": "James Foley",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178388/movie-mafia/movies/tmdb-10543.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10543"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Mark Wahlberg",
-            "Reese Witherspoon",
-            "William L. Petersen",
-            "Alyssa Milano",
-            "Amy Brenneman",
-            "Tracy Fraim"
-        ],
-        "tmdbId": 10543
-    },
-    {
-        "title": "Crash",
-        "description": "A car crash victim inexplicably finds himself aroused by car accidents and becomes involved with an underground subculture of like-minded souls.",
-        "releaseYear": 1996,
-        "genre": [
-            "Thriller",
-            "Drama"
-        ],
-        "duration": 100,
-        "director": "David Cronenberg",
-        "rating": 6.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178390/movie-mafia/movies/tmdb-884.jpg",
-            "public_id": "movie-mafia/movies/tmdb-884"
-        },
-        "watchOptions": [],
-        "cast": [
-            "James Spader",
-            "Holly Hunter",
-            "Elias Koteas",
-            "Deborah Kara Unger",
-            "Rosanna Arquette",
-            "Peter MacNeill"
-        ],
-        "tmdbId": 884
-    },
-    {
-        "title": "A Time to Kill",
-        "description": "A young lawyer defends a black man accused of murdering two white men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
-        "releaseYear": 1996,
-        "genre": [
-            "Crime",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 149,
-        "director": "Joel Schumacher",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178393/movie-mafia/movies/tmdb-1645.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1645"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            }
-        ],
-        "cast": [
-            "Matthew McConaughey",
-            "Sandra Bullock",
-            "Samuel L. Jackson",
-            "Kevin Spacey",
-            "Ashley Judd",
-            "Donald Sutherland"
-        ],
-        "tmdbId": 1645
-    },
-    {
-        "title": "Romeo + Juliet",
-        "description": "In this contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains.",
-        "releaseYear": 1996,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 120,
-        "director": "Baz Luhrmann",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178396/movie-mafia/movies/tmdb-454.jpg",
-            "public_id": "movie-mafia/movies/tmdb-454"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Leonardo DiCaprio",
-            "Claire Danes",
-            "Jesse Bradford",
-            "Vondie Curtis-Hall",
-            "Brian Dennehy",
-            "John Leguizamo"
-        ],
-        "tmdbId": 454
-    },
-    {
-        "title": "Provocation",
-        "description": "Passions run wildly amok at Carlo's country inn as his wife, Amelia, fantasizes about an affair with a guest, while his grandson Gianni spies on him to learn the secrets of love. And when Carlo's sexy cousin Marilinda comes to stay, everybody sits up and takes notice.",
-        "releaseYear": 1995,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 87,
-        "director": "Joe D'Amato",
-        "rating": 5.4,
-        "language": "Italian",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178401/movie-mafia/movies/tmdb-228794.jpg",
-            "public_id": "movie-mafia/movies/tmdb-228794"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Fabrizia Flanders",
-            "Erika Savastani",
-            "Gianni Demartiis",
-            "Lindo Damiani",
-            "Antonio Ascani"
-        ],
-        "tmdbId": 228794
-    },
-    {
-        "title": "Die Hard: With a Vengeance",
-        "description": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"part",
-        "releaseYear": 1995,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 128,
-        "director": "John McTiernan",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178404/movie-mafia/movies/tmdb-1572.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1572"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Bruce Willis",
-            "Jeremy Irons",
-            "Samuel L. Jackson",
-            "Larry Bryggman",
-            "Graham Greene",
-            "Anthony Peck"
-        ],
-        "tmdbId": 1572
-    },
-    {
-        "title": "Bad Boys",
-        "description": "Marcus Burnett is a henpecked family man. Mike Lowrey is a footloose and fancy free ladies' man. Both Miami policemen, they have 72 hours to reclaim a consignment of drugs stolen from under their station's nose. To complicate matters, in order to get the assistance of the sole witness to a murder, t",
-        "releaseYear": 1995,
-        "genre": [
-            "Action",
-            "Comedy",
-            "Crime",
-            "Thriller"
-        ],
-        "duration": 119,
-        "director": "Michael Bay",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178407/movie-mafia/movies/tmdb-9737.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9737"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Will Smith",
-            "Martin Lawrence",
-            "Téa Leoni",
-            "Tchéky Karyo",
-            "Joe Pantoliano",
-            "Theresa Randle"
-        ],
-        "tmdbId": 9737
-    },
-    {
-        "title": "Twelve Monkeys",
-        "description": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arres",
-        "releaseYear": 1995,
-        "genre": [
-            "Sci-Fi",
-            "Thriller",
-            "Mystery"
-        ],
-        "duration": 129,
-        "director": "Terry Gilliam",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178410/movie-mafia/movies/tmdb-63.jpg",
-            "public_id": "movie-mafia/movies/tmdb-63"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Bruce Willis",
-            "Madeleine Stowe",
-            "Brad Pitt",
-            "Christopher Plummer",
-            "David Morse",
-            "Jon Seda"
-        ],
-        "tmdbId": 63
-    },
-    {
-        "title": "A Great Love",
-        "description": "Two couples meet at a spa when they realize their respective suites share a bathroom.",
-        "releaseYear": 1995,
-        "genre": [
-            "Drama",
-            "Comedy"
-        ],
-        "duration": 82,
-        "director": "Ninì Grassia",
-        "rating": 5,
-        "language": "Italian",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178413/movie-mafia/movies/tmdb-448772.jpg",
-            "public_id": "movie-mafia/movies/tmdb-448772"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Malù",
-            "Alex Damiani",
-            "Antonio Zequila",
-            "Cristina Bersacchi",
-            "Carlo Macaro",
-            "Valeria Favaro"
-        ],
-        "tmdbId": 448772
-    },
-    {
-        "title": "Batman Forever",
-        "description": "Batman faces off against two foes: the schizophrenic, horribly scarred former District Attorney Harvey Dent, aka Two-Face, and the Riddler, a disgruntled ex-Wayne Enterprises inventor seeking revenge against his former employer by unleashing his brain-sucking weapon on Gotham City's residents. As th",
-        "releaseYear": 1995,
-        "genre": [
-            "Action",
-            "Crime",
-            "Fantasy"
-        ],
-        "duration": 121,
-        "director": "Joel Schumacher",
-        "rating": 5.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178416/movie-mafia/movies/tmdb-414.jpg",
-            "public_id": "movie-mafia/movies/tmdb-414"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Val Kilmer",
-            "Tommy Lee Jones",
-            "Jim Carrey",
-            "Nicole Kidman",
-            "Chris O'Donnell",
-            "Michael Gough"
-        ],
-        "tmdbId": 414
-    },
-    {
-        "title": "Waterworld",
-        "description": "In a futuristic world where the polar ice caps have melted and made Earth a liquid planet, a beautiful barmaid rescues a mutant seafarer from a floating island prison. They escape, along with her young charge, Enola, and sail off aboard his ship. But the trio soon becomes the target of a menacing pi",
-        "releaseYear": 1995,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Sci-Fi"
-        ],
-        "duration": 135,
-        "director": "Kevin Reynolds",
-        "rating": 6.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178418/movie-mafia/movies/tmdb-9804.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9804"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Kevin Costner",
-            "Dennis Hopper",
-            "Jeanne Tripplehorn",
-            "Tina Majorino",
-            "R. D. Call",
-            "Gerard Murphy"
-        ],
-        "tmdbId": 9804
-    },
-    {
-        "title": "Apollo 13",
-        "description": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1970, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground ",
-        "releaseYear": 1995,
-        "genre": [
-            "Drama",
-            "History"
-        ],
-        "duration": 140,
-        "director": "Ron Howard",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178422/movie-mafia/movies/tmdb-568.jpg",
-            "public_id": "movie-mafia/movies/tmdb-568"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Hanks",
-            "Bill Paxton",
-            "Kevin Bacon",
-            "Gary Sinise",
-            "Ed Harris",
-            "Kathleen Quinlan"
-        ],
-        "tmdbId": 568
-    },
-    {
-        "title": "GoldenEye",
-        "description": "When a powerful secret defense system is stolen, James Bond is assigned to stop a Russian crime syndicate from using it.",
-        "releaseYear": 1995,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 130,
-        "director": "Martin Campbell",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178425/movie-mafia/movies/tmdb-710.jpg",
-            "public_id": "movie-mafia/movies/tmdb-710"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Pierce Brosnan",
-            "Sean Bean",
-            "Izabella Scorupco",
-            "Famke Janssen",
-            "Joe Don Baker",
-            "Judi Dench"
-        ],
-        "tmdbId": 710
-    },
-    {
-        "title": "All Things Fair",
-        "description": "In 1943 Malmö, 15-year-old Stig is attracted to his teacher Viola, 22 years his senior, who, drawn to his youth and innocence, believes the lad is a God-sent relief from her miserable marriage to a drunken, unfaithful lout.",
-        "releaseYear": 1995,
-        "genre": [
-            "Drama",
-            "Romance",
-            "History"
-        ],
-        "duration": 125,
-        "director": "Bo Widerberg",
-        "rating": 6.5,
-        "language": "sv",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178427/movie-mafia/movies/tmdb-27098.jpg",
-            "public_id": "movie-mafia/movies/tmdb-27098"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Johan Widerberg",
-            "Marika Lagercrantz",
-            "Tomas von Brömssen",
-            "Karin Huldt",
-            "Nina Gunke",
-            "Kenneth Milldoff"
-        ],
-        "tmdbId": 27098
-    },
-    {
-        "title": "The Mask",
-        "description": "Timid bank clerk Stanley Ipkiss discovers a magical mask infused with the spirit of the Norse god Loki. Donning it transforms him into an unrestrained, green-faced, cartoon-like wild man. While the mask grants him the confidence to woo a local singer, it also makes him the target of a ruthless mobst",
-        "releaseYear": 1994,
-        "genre": [
-            "Comedy",
-            "Fantasy",
-            "Crime",
-            "Romance"
-        ],
-        "duration": 101,
-        "director": "Chuck Russell",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178430/movie-mafia/movies/tmdb-854.jpg",
-            "public_id": "movie-mafia/movies/tmdb-854"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Jim Carrey",
-            "Peter Riegert",
-            "Peter Greene",
-            "Amy Yasbeck",
-            "Richard Jeni",
-            "Orestes Matacena"
-        ],
-        "tmdbId": 854
-    },
-    {
-        "title": "Interview with the Vampire",
-        "description": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
-        "releaseYear": 1994,
-        "genre": [
-            "Horror",
-            "Drama",
-            "Fantasy"
-        ],
-        "duration": 123,
-        "director": "Neil Jordan",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178433/movie-mafia/movies/tmdb-628.jpg",
-            "public_id": "movie-mafia/movies/tmdb-628"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Brad Pitt",
-            "Antonio Banderas",
-            "Christian Slater",
-            "Stephen Rea",
-            "Kirsten Dunst"
-        ],
-        "tmdbId": 628
-    },
-    {
-        "title": "Dumb and Dumber",
-        "description": "Lloyd and Harry are two men whose stupidity is really indescribable. When Mary, a beautiful woman, loses an important suitcase with money before she leaves for Aspen, the two friends (who have found the suitcase) decide to return it to her. After some \"adventures\" they finally get to Aspen where, us",
-        "releaseYear": 1994,
-        "genre": [
-            "Comedy"
-        ],
-        "duration": 107,
-        "director": "Peter Farrelly",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178438/movie-mafia/movies/tmdb-8467.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8467"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Jim Carrey",
-            "Jeff Daniels",
-            "Lauren Holly",
-            "Teri Garr",
-            "Charles Rocket",
-            "Karen Duffy"
-        ],
-        "tmdbId": 8467
-    },
-    {
-        "title": "Ace Ventura: Pet Detective",
-        "description": "He's Ace Ventura: Pet Detective. The Ace is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always ",
-        "releaseYear": 1994,
-        "genre": [
-            "Comedy",
-            "Crime",
-            "Mystery"
-        ],
-        "duration": 86,
-        "director": "Tom Shadyac",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178441/movie-mafia/movies/tmdb-3049.jpg",
-            "public_id": "movie-mafia/movies/tmdb-3049"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Jim Carrey",
-            "Courteney Cox",
-            "Sean Young",
-            "Tone Loc",
-            "Dan Marino",
-            "Noble Willingham"
-        ],
-        "tmdbId": 3049
-    },
-    {
-        "title": "Speed",
-        "description": "Tensions run high when a crazed bomber rigs a Los Angeles bus with a device that will kill everyone on board if the vehicle's speed dips below fifty miles per hour.",
-        "releaseYear": 1994,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 116,
-        "director": "Jan de Bont",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178444/movie-mafia/movies/tmdb-1637.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1637"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Keanu Reeves",
-            "Dennis Hopper",
-            "Sandra Bullock",
-            "Joe Morton",
-            "Jeff Daniels",
-            "Alan Ruck"
-        ],
-        "tmdbId": 1637
-    },
-    {
-        "title": "True Lies",
-        "description": "A fearless, globe-trotting, terrorist-battling secret agent has his life turned upside down when he discovers his wife might be having an affair with a used car salesman while terrorists smuggle nuclear war heads into the United States.",
-        "releaseYear": 1994,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 141,
-        "director": "James Cameron",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178447/movie-mafia/movies/tmdb-36955.jpg",
-            "public_id": "movie-mafia/movies/tmdb-36955"
-        },
-        "watchOptions": [
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Arnold Schwarzenegger",
-            "Jamie Lee Curtis",
-            "Tom Arnold",
-            "Bill Paxton",
-            "Tia Carrere",
-            "Art Malik"
-        ],
-        "tmdbId": 36955
-    },
-    {
-        "title": "Mainland Prostitute",
-        "description": "A story about a rural family in China. The husband stays at home and farms the land, while the wife goes into town to be a prostitute to earn more money.",
-        "releaseYear": 1994,
-        "genre": [
-            "Drama"
-        ],
-        "duration": 88,
-        "director": "Huang Shuqin",
-        "rating": 7.2,
-        "language": "Chinese",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178451/movie-mafia/movies/tmdb-569672.jpg",
-            "public_id": "movie-mafia/movies/tmdb-569672"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Isabelle Chow Wang",
-            "Zhao Jun"
-        ],
-        "tmdbId": 569672
-    },
-    {
-        "title": "Clear and Present Danger",
-        "description": "Agent Jack Ryan becomes acting Deputy Director of Intelligence for the CIA when Admiral Greer is diagnosed with cancer. When an American businessman, and friend of the president, is murdered on his yacht, Ryan starts discovering links between the man and drug dealers. As former CIA agent John Clark ",
-        "releaseYear": 1994,
-        "genre": [
-            "Action",
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 141,
-        "director": "Phillip Noyce",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178454/movie-mafia/movies/tmdb-9331.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9331"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Harrison Ford",
-            "Willem Dafoe",
-            "Joaquim de Almeida",
-            "Henry Czerny",
-            "Harris Yulin",
-            "Donald Moffat"
-        ],
-        "tmdbId": 9331
-    },
-    {
-        "title": "The Crow",
-        "description": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven, watched over by a hypnotic crow, returns from the grave to exact revenge.",
-        "releaseYear": 1994,
-        "genre": [
-            "Fantasy",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 102,
-        "director": "Alex Proyas",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178457/movie-mafia/movies/tmdb-9495.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9495"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Brandon Lee",
-            "Rochelle Davis",
-            "Ernie Hudson",
-            "Michael Wincott",
-            "Bai Ling",
-            "Sofia Shinas"
-        ],
-        "tmdbId": 9495
-    },
-    {
-        "title": "Legends of the Fall",
-        "description": "In early 20th-century Montana, Col. William Ludlow lives on a ranch in the wilderness with his sons, Alfred, Tristan, and Samuel. Eventually, the unconventional but close-knit family are bound by loyalty, tested by war, and torn apart by love, as told over the course of several decades in this epic ",
-        "releaseYear": 1994,
-        "genre": [
-            "Drama",
-            "Western",
-            "Romance",
-            "War"
-        ],
-        "duration": 133,
-        "director": "Edward Zwick",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178460/movie-mafia/movies/tmdb-4476.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4476"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Brad Pitt",
-            "Anthony Hopkins",
-            "Aidan Quinn",
-            "Julia Ormond",
-            "Henry Thomas",
-            "Karina Lombard"
-        ],
-        "tmdbId": 4476
-    },
-    {
-        "title": "Natural Born Killers",
-        "description": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
-        "releaseYear": 1994,
-        "genre": [
-            "Crime",
-            "Thriller",
-            "Drama"
-        ],
-        "duration": 119,
-        "director": "Oliver Stone",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178463/movie-mafia/movies/tmdb-241.jpg",
-            "public_id": "movie-mafia/movies/tmdb-241"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Woody Harrelson",
-            "Juliette Lewis",
-            "Robert Downey Jr.",
-            "Tommy Lee Jones",
-            "Tom Sizemore",
-            "Rodney Dangerfield"
-        ],
-        "tmdbId": 241
-    },
-    {
-        "title": "Stargate",
-        "description": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
-        "releaseYear": 1994,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Sci-Fi"
-        ],
-        "duration": 121,
-        "director": "Roland Emmerich",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178466/movie-mafia/movies/tmdb-2164.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2164"
-        },
-        "watchOptions": [
-            {
-                "platform": "MGM Plus Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "James Spader",
-            "Kurt Russell",
-            "Jaye Davidson",
-            "Viveca Lindfors",
-            "Alexis Cruz",
-            "Mili Avital"
-        ],
-        "tmdbId": 2164
-    },
-    {
-        "title": "Groundhog Day",
-        "description": "A cynical TV weatherman, along with his idealistic producer and his sardonic cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
-        "releaseYear": 1993,
-        "genre": [
-            "Romance",
-            "Fantasy",
-            "Comedy"
-        ],
-        "duration": 101,
-        "director": "Harold Ramis",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178470/movie-mafia/movies/tmdb-137.jpg",
-            "public_id": "movie-mafia/movies/tmdb-137"
-        },
-        "watchOptions": [
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Bill Murray",
-            "Andie MacDowell",
-            "Chris Elliott",
-            "Stephen Tobolowsky",
-            "Brian Doyle-Murray",
-            "Marita Geraghty"
-        ],
-        "tmdbId": 137
-    },
-    {
-        "title": "Confinement Escape: Beautiful Prey",
-        "description": "Ryoko, a cosmetics saleswoman, accidentally runs over a man, who turns out to be a serial rapist who escaped from a prison transport vehicle. Held captive inside her car by the bloodied man, she seizes an opportunity to escape. Wandering through the forest, she arrives at a mountain cabin where she ",
-        "releaseYear": 1993,
-        "genre": [
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 65,
-        "director": "Shinsuke Inoue",
-        "rating": 7,
-        "language": "Japanese",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178473/movie-mafia/movies/tmdb-1050390.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1050390"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Reiko Hayama",
-            "Koji Mizukami",
-            "Mari Mizuki",
-            "Junko Takazawa",
-            "Fuyukaze Matsumura"
-        ],
-        "tmdbId": 1050390
-    },
-    {
-        "title": "True Romance",
-        "description": "Clarence marries hooker Alabama, steals cocaine from her pimp, and tries to sell it in Hollywood, while the owners of the coke try to reclaim it.",
-        "releaseYear": 1993,
-        "genre": [
-            "Action",
-            "Crime",
-            "Romance"
-        ],
-        "duration": 121,
-        "director": "Tony Scott",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178476/movie-mafia/movies/tmdb-319.jpg",
-            "public_id": "movie-mafia/movies/tmdb-319"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Christian Slater",
-            "Patricia Arquette",
-            "Dennis Hopper",
-            "Val Kilmer",
-            "Gary Oldman",
-            "Brad Pitt"
-        ],
-        "tmdbId": 319
-    },
-    {
-        "title": "Mrs. Doubtfire",
-        "description": "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids. When Daniel learns his ex needs a housekeeper, he gets the job -- disguised as a British nanny. Soon he becomes not only his children's best pal ",
-        "releaseYear": 1993,
-        "genre": [
-            "Comedy",
-            "Drama",
-            "Family"
-        ],
-        "duration": 125,
-        "director": "Chris Columbus",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178479/movie-mafia/movies/tmdb-788.jpg",
-            "public_id": "movie-mafia/movies/tmdb-788"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "VI movies and tv",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Robin Williams",
-            "Sally Field",
-            "Lisa Jakub",
-            "Matthew Lawrence",
-            "Mara Wilson",
-            "Pierce Brosnan"
-        ],
-        "tmdbId": 788
-    },
-    {
-        "title": "Indecent Proposal",
-        "description": "John Gage offers a down-on-his-luck yuppie husband $1 million for the opportunity to spend the night with the man's wife.",
-        "releaseYear": 1993,
-        "genre": [
-            "Romance",
-            "Drama"
-        ],
-        "duration": 117,
-        "director": "Adrian Lyne",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178482/movie-mafia/movies/tmdb-4478.jpg",
-            "public_id": "movie-mafia/movies/tmdb-4478"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Robert Redford",
-            "Demi Moore",
-            "Woody Harrelson",
-            "Seymour Cassel",
-            "Oliver Platt",
-            "Billy Bob Thornton"
-        ],
-        "tmdbId": 4478
-    },
-    {
-        "title": "The Fugitive",
-        "description": "Wrongfully convicted of murdering his wife and sentenced to death, Richard Kimble escapes from the law in an attempt to find the real killer and clear his name.",
-        "releaseYear": 1993,
-        "genre": [
-            "Action",
-            "Thriller",
-            "Drama"
-        ],
-        "duration": 131,
-        "director": "Andrew Davis",
-        "rating": 7.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178485/movie-mafia/movies/tmdb-5503.jpg",
-            "public_id": "movie-mafia/movies/tmdb-5503"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Harrison Ford",
-            "Tommy Lee Jones",
-            "Joe Pantoliano",
-            "Jeroen Krabbé",
-            "Daniel Roebuck",
-            "L. Scott Caldwell"
-        ],
-        "tmdbId": 5503
-    },
-    {
-        "title": "Addams Family Values",
-        "description": "Siblings Wednesday and Pugsley Addams will stop at nothing to get rid of Pubert, the new baby boy adored by parents Gomez and Morticia. Things go from bad to worse when the new \"black widow\" nanny, Debbie Jellinsky, launches her plan to add Fester to her collection of dead husbands.",
-        "releaseYear": 1993,
-        "genre": [
-            "Comedy",
-            "Family",
-            "Fantasy"
-        ],
-        "duration": 94,
-        "director": "Barry Sonnenfeld",
-        "rating": 7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178488/movie-mafia/movies/tmdb-2758.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2758"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Anjelica Huston",
-            "Raúl Juliá",
-            "Christopher Lloyd",
-            "Joan Cusack",
-            "Christina Ricci",
-            "Carol Kane"
-        ],
-        "tmdbId": 2758
-    },
-    {
-        "title": "Crime Story",
-        "description": "A special agent is assigned to protect a wealthy business magnate. However, when the businessman is kidnapped in a daring ambush, he teams up with a seasoned detective to crack the case. But soon he discovers the case isn't that simple.",
-        "releaseYear": 1993,
-        "genre": [
-            "Action",
-            "Crime",
-            "Thriller",
-            "Drama"
-        ],
-        "duration": 107,
-        "director": "Kirk Wong Chi-Keung",
-        "rating": 6.8,
-        "language": "cn",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178491/movie-mafia/movies/tmdb-18857.jpg",
-            "public_id": "movie-mafia/movies/tmdb-18857"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Jackie Chan",
-            "Kent Cheng Jak-Si",
-            "Christine Ng Wing-mei",
-            "Law Kar-Ying",
-            "Susanna Au-Yeung Pui-San",
-            "Ken Lo Wai-Kwong"
-        ],
-        "tmdbId": 18857
-    },
-    {
-        "title": "Tombstone",
-        "description": "Legendary marshal Wyatt Earp, now a weary gunfighter, joins his brothers Morgan and Virgil to pursue their collective fortune in the thriving mining town of Tombstone. But Earp is forced to don a badge again and get help from his notorious pal Doc Holliday when a gang of renegade brigands and rustle",
-        "releaseYear": 1993,
-        "genre": [
-            "Western",
-            "Action"
-        ],
-        "duration": 130,
-        "director": "George P. Cosmatos",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178494/movie-mafia/movies/tmdb-11969.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11969"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Kurt Russell",
-            "Val Kilmer",
-            "Michael Biehn",
-            "Powers Boothe",
-            "Robert John Burke",
-            "Dana Delany"
-        ],
-        "tmdbId": 11969
-    },
-    {
-        "title": "Demolition Man",
-        "description": "In 1996, brash L.A. detective John Spartan and maniac killer Simon Phoenix are both sentenced to decades in a cryogenic prison as punishment for a rescue mission gone wrong. When Phoenix escapes 36 years later to wreak havoc on the future, Spartan is awakened to capture his nemesis the old-fashioned",
-        "releaseYear": 1993,
-        "genre": [
-            "Crime",
-            "Action",
-            "Sci-Fi"
-        ],
-        "duration": 115,
-        "director": "Marco Brambilla",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178497/movie-mafia/movies/tmdb-9739.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9739"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
             },
             {
                 "platform": "Apple TV Store",
@@ -7370,30 +2270,30 @@ const movies = [
         ],
         "cast": [
             "Sylvester Stallone",
-            "Wesley Snipes",
-            "Sandra Bullock",
-            "Nigel Hawthorne",
-            "Benjamin Bratt",
-            "Rob Schneider"
+            "Julie Benz",
+            "Matthew Marsden",
+            "Graham McTavish",
+            "Reynaldo Gallegos",
+            "Tim Kang"
         ],
-        "tmdbId": 9739
+        "tmdbId": 7555
     },
     {
-        "title": "The Three Musketeers",
-        "description": "D'Artagnan travels to Paris hoping to become a musketeer, one of the French king's elite bodyguards, only to discover that the corps has been disbanded by conniving Cardinal Richelieu, who secretly hopes to usurp the throne. Fortunately, Athos, Porthos and Aramis have refused to lay down their weapo",
-        "releaseYear": 1993,
+        "title": "The Day the Earth Stood Still",
+        "description": "A representative of an alien race that went through drastic evolution to survive its own climate change, Klaatu comes to Earth to assess whether humanity can prevent the environmental damage they have inflicted on their own planet. When barred from speaking to the United Nations, he decides humankin",
+        "releaseYear": 2008,
         "genre": [
-            "Action",
-            "Adventure",
-            "Comedy"
+            "Drama",
+            "Sci-Fi",
+            "Thriller"
         ],
-        "duration": 105,
-        "director": "Stephen Herek",
-        "rating": 6.4,
+        "duration": 104,
+        "director": "Scott Derrickson",
+        "rating": 5.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178500/movie-mafia/movies/tmdb-10057.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10057"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239753/movie-mafia/movies/tmdb-10200.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10200"
         },
         "watchOptions": [
             {
@@ -7418,228 +2318,649 @@ const movies = [
             }
         ],
         "cast": [
-            "Chris O'Donnell",
-            "Kiefer Sutherland",
-            "Oliver Platt",
-            "Charlie Sheen",
-            "Tim Curry",
-            "Rebecca De Mornay"
+            "Keanu Reeves",
+            "Jennifer Connelly",
+            "Jaden Smith",
+            "Jon Hamm",
+            "Kathy Bates",
+            "John Cleese"
         ],
-        "tmdbId": 10057
+        "tmdbId": 10200
     },
     {
-        "title": "What's Eating Gilbert Grape",
-        "description": "Gilbert Grape is a small-town young man with a lot of responsibility. Chief among his concerns are his mother, who is so overweight that she can't leave the house, and his mentally impaired younger brother, Arnie, who has a knack for finding trouble. Settled into a job at a grocery store and an ongo",
-        "releaseYear": 1993,
+        "title": "The Spiderwick Chronicles",
+        "description": "Upon moving into the run-down Spiderwick Estate with their mother, twin brothers Jared and Simon Grace, along with their sister Mallory, find themselves pulled into an alternate world full of faeries and other creatures.",
+        "releaseYear": 2008,
         "genre": [
-            "Romance",
+            "Family",
+            "Adventure",
+            "Fantasy",
             "Drama"
         ],
-        "duration": 118,
-        "director": "Lasse Hallström",
-        "rating": 7.7,
+        "duration": 95,
+        "director": "Mark Waters",
+        "rating": 6.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178502/movie-mafia/movies/tmdb-1587.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1587"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239755/movie-mafia/movies/tmdb-8204.jpg",
+            "public_id": "movie-mafia/movies/tmdb-8204"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Freddie Highmore",
+            "Sarah Bolger",
+            "David Strathairn",
+            "Mary-Louise Parker",
+            "Nick Nolte",
+            "Joan Plowright"
+        ],
+        "tmdbId": 8204
+    },
+    {
+        "title": "Lust, Caution",
+        "description": "During World War II, a secret agent must seduce, then assassinate an official  who works for the Japanese puppet government in Shanghai. Her mission becomes clouded when she finds herself falling in love with the man she is assigned to kill.",
+        "releaseYear": 2007,
+        "genre": [
+            "Action",
+            "Drama",
+            "Romance",
+            "Thriller"
+        ],
+        "duration": 158,
+        "director": "Ang Lee",
+        "rating": 7.3,
+        "language": "Chinese",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239757/movie-mafia/movies/tmdb-4588.jpg",
+            "public_id": "movie-mafia/movies/tmdb-4588"
         },
         "watchOptions": [],
         "cast": [
-            "Johnny Depp",
-            "Leonardo DiCaprio",
-            "Juliette Lewis",
-            "Mary Steenburgen",
-            "Darlene Cates",
-            "Laura Harrington"
+            "Tang Wei",
+            "Tony Leung Chiu-wai",
+            "Leehom Wang",
+            "Joan Chen",
+            "Tou Tsung-hua",
+            "Jacqueline Zhu"
         ],
-        "tmdbId": 1587
+        "tmdbId": 4588
     },
     {
-        "title": "Hocus Pocus",
-        "description": "After 300 years of slumber, three sister witches are accidentally resurrected in Salem on Halloween night, and it is up to three kids and their newfound feline friend to put an end to the witches' reign of terror once and for all.",
-        "releaseYear": 1993,
+        "title": "Crank",
+        "description": "Chev Chelios, a hit man wanting to go straight, lets his latest target slip away. Then he awakes the next morning to a phone call that informs him he has been poisoned and has only an hour to live unless he keeps adrenaline coursing through his body while he searches for an antidote.",
+        "releaseYear": 2006,
         "genre": [
-            "Fantasy",
-            "Comedy",
-            "Family"
+            "Action",
+            "Thriller",
+            "Crime"
         ],
-        "duration": 96,
-        "director": "Kenny Ortega",
+        "duration": 88,
+        "director": "Brian Taylor",
+        "rating": 6.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239760/movie-mafia/movies/tmdb-1948.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1948"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate Play",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Jason Statham",
+            "Amy Smart",
+            "Jose Pablo Cantillo",
+            "Efren Ramirez",
+            "Dwight Yoakam",
+            "Carlos Sanz"
+        ],
+        "tmdbId": 1948
+    },
+    {
+        "title": "The Island",
+        "description": "In 2019, Lincoln Six-Echo is a resident of a seemingly \"Utopian\" but contained facility. Like all of the inhabitants of this carefully-controlled environment, Lincoln hopes to be chosen to go to The Island — reportedly the last uncontaminated location on the planet. But Lincoln soon discovers that e",
+        "releaseYear": 2005,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "duration": 136,
+        "director": "Michael Bay",
+        "rating": 6.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239762/movie-mafia/movies/tmdb-1635.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1635"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Ewan McGregor",
+            "Scarlett Johansson",
+            "Djimon Hounsou",
+            "Sean Bean",
+            "Steve Buscemi",
+            "Michael Clarke Duncan"
+        ],
+        "tmdbId": 1635
+    },
+    {
+        "title": "The SpongeBob SquarePants Movie",
+        "description": "There's trouble brewing in Bikini Bottom. Someone has stolen King Neptune's crown, and it looks like Mr. Krab, SpongeBob's boss, is the culprit. Though he's just been passed over for the promotion of his dreams, SpongeBob stands by his boss, and along with his best pal Patrick, sets out on a treache",
+        "releaseYear": 2004,
+        "genre": [
+            "Adventure",
+            "Animation",
+            "Comedy",
+            "Family",
+            "Fantasy"
+        ],
+        "duration": 87,
+        "director": "Stephen Hillenburg",
+        "rating": 7.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788167166/movie-mafia/movies/tmdb-11836.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11836"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Tom Kenny",
+            "Clancy Brown",
+            "Rodger Bumpass",
+            "Bill Fagerbakke",
+            "Mr. Lawrence",
+            "Jill Talley"
+        ],
+        "tmdbId": 11836
+    },
+    {
+        "title": "Kung Fu Hustle",
+        "description": "It's the 1940s, and the notorious Axe Gang terrorizes Shanghai. Small-time criminals Sing and Bone hope to join, but they only manage to make lots of very dangerous enemies. Fortunately for them, kung fu masters and hidden strength can be found in unlikely places. Now they just have to take on the e",
+        "releaseYear": 2004,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime",
+            "Fantasy"
+        ],
+        "duration": 99,
+        "director": "Stephen Chow",
+        "rating": 7.5,
+        "language": "cn",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239768/movie-mafia/movies/tmdb-9470.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9470"
+        },
+        "watchOptions": [
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Stephen Chow",
+            "Yuen Qiu",
+            "Yuen Wah",
+            "Lam Tze-Chung",
+            "Bruce Leung Siu-Lung",
+            "Huang Shengyi"
+        ],
+        "tmdbId": 9470
+    },
+    {
+        "title": "I, Robot",
+        "description": "In 2035, where robots are commonplace and abide by the three laws of robotics, a technophobic cop investigates an apparent suicide. Suspecting that a robot may be responsible for the death, his investigation leads him to believe that humanity may be in danger.",
+        "releaseYear": 2004,
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "duration": 115,
+        "director": "Alex Proyas",
         "rating": 7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178506/movie-mafia/movies/tmdb-10439.jpg",
-            "public_id": "movie-mafia/movies/tmdb-10439"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239770/movie-mafia/movies/tmdb-2048.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2048"
         },
-        "watchOptions": [],
-        "cast": [
-            "Omri Katz",
-            "Thora Birch",
-            "Vinessa Shaw",
-            "Bette Midler",
-            "Sarah Jessica Parker",
-            "Kathy Najimy"
+        "watchOptions": [
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
         ],
-        "tmdbId": 10439
+        "cast": [
+            "Will Smith",
+            "Bridget Moynahan",
+            "Alan Tudyk",
+            "James Cromwell",
+            "Bruce Greenwood",
+            "Adrian Ricard"
+        ],
+        "tmdbId": 2048
     },
     {
-        "title": "Erotic Ghost Story III",
-        "description": "A wanderer meets a monk with magical powers and becomes entranced by a mural of exquisite dancing women. He enters the painting, unaware of the conspiracy behind it, and must rescue the women who are trapped within.",
-        "releaseYear": 1992,
+        "title": "National Treasure",
+        "description": "Modern treasure hunters, led by archaeologist Ben Gates, search for a chest of riches rumored to have been stashed away by George Washington, Thomas Jefferson and Benjamin Franklin during the Revolutionary War. The chest's whereabouts may lie in secret clues embedded in the Constitution and the Decl",
+        "releaseYear": 2004,
         "genre": [
-            "Fantasy",
-            "Horror"
-        ],
-        "duration": 94,
-        "director": "Ivan Lai Kai-Ming",
-        "rating": 5.6,
-        "language": "cn",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178508/movie-mafia/movies/tmdb-105825.jpg",
-            "public_id": "movie-mafia/movies/tmdb-105825"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Pauline Chan Bo-Lin",
-            "Shing Fui-On",
-            "Kenny Wong Tak-Ban",
-            "Chik King-Man",
-            "张京花",
-            "William Ho"
-        ],
-        "tmdbId": 105825
-    },
-    {
-        "title": "Midori",
-        "description": "After losing her parents, young flower selling Midori is put up by a fairground group. She is abused and forced to slavery, until the arrival of an enigmatic magician of short stature, who gives her hope for a better future.",
-        "releaseYear": 1992,
-        "genre": [
-            "Animation",
-            "Drama",
-            "Horror"
-        ],
-        "duration": 55,
-        "director": "Hiroshi Harada",
-        "rating": 6,
-        "language": "Japanese",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178511/movie-mafia/movies/tmdb-53064.jpg",
-            "public_id": "movie-mafia/movies/tmdb-53064"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Minako Naka",
-            "Norihiko Morishita",
-            "Keinosuke Okamoto",
-            "Kazuyoshi Hayashi",
-            "Yoshihiko Matsui",
-            "Yoshifumi Nomura"
-        ],
-        "tmdbId": 53064
-    },
-    {
-        "title": "Basic Instinct",
-        "description": "Catherine, a novelist with an insatiable sexual appetite, becomes a prime suspect when her boyfriend is brutally murdered -- a crime she had described in her latest story.",
-        "releaseYear": 1992,
-        "genre": [
-            "Thriller",
+            "Adventure",
+            "Action",
             "Mystery"
         ],
-        "duration": 128,
-        "director": "Paul Verhoeven",
-        "rating": 6.9,
+        "duration": 131,
+        "director": "Jon Turteltaub",
+        "rating": 6.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178514/movie-mafia/movies/tmdb-402.jpg",
-            "public_id": "movie-mafia/movies/tmdb-402"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239773/movie-mafia/movies/tmdb-2059.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2059"
         },
-        "watchOptions": [],
-        "cast": [
-            "Michael Douglas",
-            "Sharon Stone",
-            "George Dzundza",
-            "Jeanne Tripplehorn",
-            "Denis Arndt",
-            "Leilani Sarelle"
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
         ],
-        "tmdbId": 402
+        "cast": [
+            "Nicolas Cage",
+            "Diane Kruger",
+            "Justin Bartha",
+            "Sean Bean",
+            "Jon Voight",
+            "Harvey Keitel"
+        ],
+        "tmdbId": 2059
     },
     {
-        "title": "China Dolls",
-        "description": "Tong catches Chiu attempting to rape his wife May (Amy Yip). They scuffle and Tong shoots Chiu dead with Chiu's gun. They flee but Tong is killed in a shootout with police. May begs an officer to take her child, since if he is repatriated he'll have a horrible life. So, the infant son ends up in Hon",
-        "releaseYear": 1992,
+        "title": "Terminator 3: Rise of the Machines",
+        "description": "It's been 10 years since John Connor saved Earth from Judgment Day, and he's now living under the radar, steering clear of using anything Skynet can trace. That is, until he encounters T-X, a robotic assassin ordered to finish what T-1000 started. Good thing Connor's former nemesis, the Terminator, ",
+        "releaseYear": 2003,
         "genre": [
-            "Comedy",
+            "Action",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "duration": 109,
+        "director": "Jonathan Mostow",
+        "rating": 6.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239775/movie-mafia/movies/tmdb-296.jpg",
+            "public_id": "movie-mafia/movies/tmdb-296"
+        },
+        "watchOptions": [
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            }
+        ],
+        "cast": [
+            "Arnold Schwarzenegger",
+            "Nick Stahl",
+            "Claire Danes",
+            "Kristanna Loken",
+            "Earl Boen",
+            "David Andrews"
+        ],
+        "tmdbId": 296
+    },
+    {
+        "title": "Wrong Turn",
+        "description": "Chris crashes into a carload of other young people, and the group of stranded motorists is soon lost in the woods of West Virginia, where they're hunted by three cannibalistic mountain men who are grossly disfigured by generations of inbreeding.",
+        "releaseYear": 2003,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "duration": 84,
+        "director": "Rob Schmidt",
+        "rating": 6.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239777/movie-mafia/movies/tmdb-9902.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9902"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate+ Amazon Channels",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Eliza Dushku",
+            "Desmond Harrington",
+            "Emmanuelle Chriqui",
+            "Jeremy Sisto",
+            "Kevin Zegers",
+            "Lindy Booth"
+        ],
+        "tmdbId": 9902
+    },
+    {
+        "title": "Spirit: Stallion of the Cimarron",
+        "description": "A captured mustang remains determined to return to his herd no matter what.",
+        "releaseYear": 2002,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family",
+            "Drama",
+            "Western"
+        ],
+        "duration": 83,
+        "director": "Kelly Asbury",
+        "rating": 7.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239779/movie-mafia/movies/tmdb-9023.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9023"
+        },
+        "watchOptions": [
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Matt Damon",
+            "James Cromwell",
+            "Daniel Studi",
+            "Chopper Bernet",
+            "Jeff LeBeau",
+            "John Rubano"
+        ],
+        "tmdbId": 9023
+    },
+    {
+        "title": "Training Day",
+        "description": "On his first day on the job as a narcotics officer, a rookie cop works with a rogue detective who isn't what he appears.",
+        "releaseYear": 2001,
+        "genre": [
+            "Action",
             "Crime",
             "Drama"
         ],
-        "duration": 91,
-        "director": "Yeung Chi Kin",
-        "rating": 5.2,
-        "language": "cn",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178517/movie-mafia/movies/tmdb-172760.jpg",
-            "public_id": "movie-mafia/movies/tmdb-172760"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Amy Yip Chi-Mei",
-            "Wu Ma",
-            "Lee Yuet-Sin",
-            "Jack Suen Kwok-Ming",
-            "Charlie Cho Cha-Lee",
-            "Lam Ching-Ying"
-        ],
-        "tmdbId": 172760
-    },
-    {
-        "title": "Damage",
-        "description": "The life of a respected British politician at the height of his career crumbles when he becomes obsessed with his son's lover.",
-        "releaseYear": 1992,
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "duration": 111,
-        "director": "Louis Malle",
-        "rating": 6.6,
+        "duration": 122,
+        "director": "Antoine Fuqua",
+        "rating": 7.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178521/movie-mafia/movies/tmdb-11012.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11012"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Jeremy Irons",
-            "Juliette Binoche",
-            "Miranda Richardson",
-            "Rupert Graves",
-            "Peter Stormare",
-            "Gemma Clarke"
-        ],
-        "tmdbId": 11012
-    },
-    {
-        "title": "Bram Stoker's Dracula",
-        "description": "Count Dracula, a 15th-century prince, is condemned to live off the blood of the living for eternity. Young lawyer Jonathan Harker is sent to Dracula's castle to finalise a land deal, but when the Count sees a photo of Harker's fiancée, Mina, the spitting image of his dead wife, he imprisons him and ",
-        "releaseYear": 1992,
-        "genre": [
-            "Romance",
-            "Horror"
-        ],
-        "duration": 128,
-        "director": "Francis Ford Coppola",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178523/movie-mafia/movies/tmdb-6114.jpg",
-            "public_id": "movie-mafia/movies/tmdb-6114"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239782/movie-mafia/movies/tmdb-2034.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2034"
         },
         "watchOptions": [
             {
                 "platform": "Apple TV Store",
                 "type": "rent",
                 "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Denzel Washington",
+            "Ethan Hawke",
+            "Scott Glenn",
+            "Tom Berenger",
+            "Harris Yulin",
+            "Raymond J. Barry"
+        ],
+        "tmdbId": 2034
+    },
+    {
+        "title": "Mission: Impossible II",
+        "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into ",
+        "releaseYear": 2000,
+        "genre": [
+            "Adventure",
+            "Action",
+            "Thriller"
+        ],
+        "duration": 123,
+        "director": "John Woo",
+        "rating": 6.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239784/movie-mafia/movies/tmdb-955.jpg",
+            "public_id": "movie-mafia/movies/tmdb-955"
+        },
+        "watchOptions": [
+            {
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
+            },
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
             },
             {
                 "platform": "Amazon Video",
@@ -7653,57 +2974,33 @@ const movies = [
             }
         ],
         "cast": [
-            "Gary Oldman",
-            "Winona Ryder",
-            "Anthony Hopkins",
-            "Keanu Reeves",
-            "Sadie Frost",
-            "Cary Elwes"
+            "Tom Cruise",
+            "Dougray Scott",
+            "Thandiwe Newton",
+            "Ving Rhames",
+            "Richard Roxburgh",
+            "John Polson"
         ],
-        "tmdbId": 6114
+        "tmdbId": 955
     },
     {
-        "title": "Batman Returns",
-        "description": "The monstrous Penguin, who dwells in the sewers beneath Gotham, joins up with corrupt mayoral candidate Max Shreck to topple the Batman once and for all. But when Shreck's timid assistant Selina Kyle finds out, and Shreck tries to kill her, she's transformed into the sexy Catwoman. She teams up with",
-        "releaseYear": 1992,
+        "title": "How the Grinch Stole Christmas",
+        "description": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
+        "releaseYear": 2000,
         "genre": [
-            "Action",
+            "Family",
+            "Comedy",
             "Fantasy"
         ],
-        "duration": 126,
-        "director": "Tim Burton",
-        "rating": 6.9,
+        "duration": 105,
+        "director": "Ron Howard",
+        "rating": 6.8,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178526/movie-mafia/movies/tmdb-364.jpg",
-            "public_id": "movie-mafia/movies/tmdb-364"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239786/movie-mafia/movies/tmdb-8871.jpg",
+            "public_id": "movie-mafia/movies/tmdb-8871"
         },
         "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
             {
                 "platform": "Google Play Movies",
                 "type": "buy",
@@ -7716,131 +3013,52 @@ const movies = [
             }
         ],
         "cast": [
-            "Michael Keaton",
-            "Danny DeVito",
-            "Michelle Pfeiffer",
-            "Christopher Walken",
-            "Michael Gough",
-            "Pat Hingle"
+            "Jim Carrey",
+            "Taylor Momsen",
+            "Jeffrey Tambor",
+            "Christine Baranski",
+            "Bill Irwin",
+            "Molly Shannon"
         ],
-        "tmdbId": 364
+        "tmdbId": 8871
     },
     {
-        "title": "The Last of the Mohicans",
-        "description": "In war-torn colonial America, in the midst of a bloody battle between British, the French and Native American allies, the aristocratic daughter of a British Colonel and her party are captured by a group of Huron warriors. Fortunately, a group of three Mohican trappers comes to their rescue.",
-        "releaseYear": 1992,
+        "title": "Crouching Tiger, Hidden Dragon",
+        "description": "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman's daughter, who is at a crossroads in her life.",
+        "releaseYear": 2000,
         "genre": [
-            "History",
-            "War",
-            "Drama"
+            "Adventure",
+            "Drama",
+            "Action",
+            "Romance",
+            "Fantasy"
         ],
-        "duration": 112,
-        "director": "Michael Mann",
+        "duration": 120,
+        "director": "Ang Lee",
         "rating": 7.4,
-        "language": "English",
+        "language": "Chinese",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178529/movie-mafia/movies/tmdb-9361.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9361"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239789/movie-mafia/movies/tmdb-146.jpg",
+            "public_id": "movie-mafia/movies/tmdb-146"
         },
         "watchOptions": [
             {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Daniel Day-Lewis",
-            "Madeleine Stowe",
-            "Jodhi May",
-            "Russell Means",
-            "Wes Studi",
-            "Eric Schweig"
-        ],
-        "tmdbId": 9361
-    },
-    {
-        "title": "Scent of a Woman",
-        "description": "Charlie Simms is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade, a cantankerous middle-aged ma",
-        "releaseYear": 1992,
-        "genre": [
-            "Drama"
-        ],
-        "duration": 156,
-        "director": "Martin Brest",
-        "rating": 7.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178532/movie-mafia/movies/tmdb-9475.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9475"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
+                "platform": "Netflix",
+                "type": "subscription",
+                "url": "https://www.netflix.com/in/"
             },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Al Pacino",
-            "Chris O'Donnell",
-            "James Rebhorn",
-            "Gabrielle Anwar",
-            "Philip Seymour Hoffman",
-            "Richard Venture"
-        ],
-        "tmdbId": 9475
-    },
-    {
-        "title": "Army of Darkness",
-        "description": "Ash, a handsome, shotgun-toting, chainsaw-armed department store clerk, is time warped backwards into England's Dark Ages, where he romances a beauty and faces legions of the undead.",
-        "releaseYear": 1992,
-        "genre": [
-            "Fantasy",
-            "Horror",
-            "Comedy"
-        ],
-        "duration": 81,
-        "director": "Sam Raimi",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178535/movie-mafia/movies/tmdb-766.jpg",
-            "public_id": "movie-mafia/movies/tmdb-766"
-        },
-        "watchOptions": [
             {
                 "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Sony Liv",
+                "type": "subscription",
+                "url": "https://www.sonyliv.com/"
+            },
+            {
+                "platform": "Sony Pictures Amazon Channel",
                 "type": "subscription",
                 "url": "https://www.primevideo.com/"
             },
@@ -7855,6 +3073,21 @@ const movies = [
                 "url": "https://tv.apple.com/in/"
             },
             {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
                 "platform": "Amazon Video",
                 "type": "rent",
                 "url": "https://www.primevideo.com/"
@@ -7863,62 +3096,279 @@ const movies = [
                 "platform": "Apple TV Store",
                 "type": "buy",
                 "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
             }
         ],
         "cast": [
-            "Bruce Campbell",
-            "Embeth Davidtz",
-            "Marcus Gilbert",
-            "Ian Abercrombie",
-            "Richard Grove",
-            "Michael Earl Reid"
+            "Chow Yun-Fat",
+            "Michelle Yeoh",
+            "Zhang Ziyi",
+            "Chang Chen",
+            "Lung Sihung",
+            "Cheng Pei-pei"
         ],
-        "tmdbId": 766
+        "tmdbId": 146
     },
     {
-        "title": "Alien³",
-        "description": "After escaping with Newt and Hicks from the alien planet, Ripley crash lands on Fiorina 161, a prison planet and host to a correctional facility. Unfortunately, although Newt and Hicks do not survive the crash, a more unwelcome visitor does. The prison does not allow weapons of any kind, and with ai",
-        "releaseYear": 1992,
+        "title": "Chicken Run",
+        "description": "The creators of Wallace & Gromit bring you an exciting and original story about a group of chickens determined to fly the coop–even if they can’t fly! It’s hardly poultry in motion when Rocky attempts to teach Ginger and her feathered friends to fly…but, with teamwork, determination and a little bit",
+        "releaseYear": 2000,
         "genre": [
-            "Sci-Fi",
-            "Action",
-            "Horror"
+            "Animation",
+            "Comedy",
+            "Family"
         ],
-        "duration": 114,
-        "director": "David Fincher",
-        "rating": 6.4,
+        "duration": 84,
+        "director": "Nick Park",
+        "rating": 6.9,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178539/movie-mafia/movies/tmdb-8077.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8077"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239792/movie-mafia/movies/tmdb-7443.jpg",
+            "public_id": "movie-mafia/movies/tmdb-7443"
+        },
+        "watchOptions": [
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Julia Sawalha",
+            "Mel Gibson",
+            "Imelda Staunton",
+            "Jane Horrocks",
+            "Lynn Ferguson",
+            "Miranda Richardson"
+        ],
+        "tmdbId": 7443
+    },
+    {
+        "title": "The Patriot",
+        "description": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly re",
+        "releaseYear": 2000,
+        "genre": [
+            "Drama",
+            "History",
+            "War",
+            "Action"
+        ],
+        "duration": 165,
+        "director": "Roland Emmerich",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239794/movie-mafia/movies/tmdb-2024.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2024"
+        },
+        "watchOptions": [
+            {
+                "platform": "Sony Liv",
+                "type": "subscription",
+                "url": "https://www.sonyliv.com/"
+            },
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Mel Gibson",
+            "Heath Ledger",
+            "Joely Richardson",
+            "Jason Isaacs",
+            "Chris Cooper",
+            "Tchéky Karyo"
+        ],
+        "tmdbId": 2024
+    },
+    {
+        "title": "Baise-moi",
+        "description": "Nadine and Manu are two mad women, as tidy as can be, almost perfectionists. They have several things in common: extreme sex, drugs, beer and the trigger. They find the solution to their problems with guns and beware to those who dare to get in their way!",
+        "releaseYear": 2000,
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "duration": 77,
+        "director": "Coralie Trinh Thi",
+        "rating": 4.8,
+        "language": "French",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239797/movie-mafia/movies/tmdb-3134.jpg",
+            "public_id": "movie-mafia/movies/tmdb-3134"
         },
         "watchOptions": [],
         "cast": [
-            "Sigourney Weaver",
-            "Charles S. Dutton",
-            "Charles Dance",
-            "Paul McGann",
-            "Brian Glover",
-            "Ralph Brown"
+            "Karen Lancaume",
+            "Raffaëla Anderson",
+            "Ouassini Embarek",
+            "Adama Niane",
+            "Marc Barrow",
+            "Patrick Eudeline"
         ],
-        "tmdbId": 8077
+        "tmdbId": 3134
     },
     {
-        "title": "A Few Good Men",
-        "description": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
-        "releaseYear": 1992,
+        "title": "Me, Myself & Irene",
+        "description": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "releaseYear": 2000,
         "genre": [
-            "Drama"
+            "Comedy"
         ],
-        "duration": 138,
-        "director": "Rob Reiner",
-        "rating": 7.6,
+        "duration": 117,
+        "director": "Peter Farrelly",
+        "rating": 6.6,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178541/movie-mafia/movies/tmdb-881.jpg",
-            "public_id": "movie-mafia/movies/tmdb-881"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239799/movie-mafia/movies/tmdb-2123.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2123"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Jim Carrey",
+            "Renée Zellweger",
+            "Mongo Brownlee",
+            "Zen Gesner",
+            "Chris Cooper",
+            "Anthony Anderson"
+        ],
+        "tmdbId": 2123
+    },
+    {
+        "title": "Bagnomaria",
+        "description": "In Pietrasanta all are excited for the annual party of summer end. Here we find four characters: Merigo, a naive guy passionate of bike; Pierre, son of the mayor; Simone, a pestiferous kid; Mario, lifeguard of \"Bagnomaria\".",
+        "releaseYear": 1999,
+        "genre": [
+            "Comedy"
+        ],
+        "duration": 86,
+        "director": "Giorgio Panariello",
+        "rating": 5.9,
+        "language": "Italian",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239802/movie-mafia/movies/tmdb-61930.jpg",
+            "public_id": "movie-mafia/movies/tmdb-61930"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Giorgio Panariello",
+            "Ugo Pagliai",
+            "Manuela Arcuri",
+            "Gianna Giachetti",
+            "Pietro Fornaciari",
+            "Lillo Petrolo"
+        ],
+        "tmdbId": 61930
+    },
+    {
+        "title": "Taxi",
+        "description": "In Marseilles a skilled pizza delivery boy Daniel who drives a scooter finally has his dreams come true. He gets a taxi license. Caught by the police for a huge speed infraction, he will help Emilien, a loser inspector who can't drive, on the track of German bank robbers, so he doesn't lose his lice",
+        "releaseYear": 1998,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime",
+            "Adventure"
+        ],
+        "duration": 86,
+        "director": "Gérard Pirès",
+        "rating": 6.7,
+        "language": "French",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239804/movie-mafia/movies/tmdb-2330.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2330"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Samy Naceri",
+            "Frédéric Diefenthal",
+            "Marion Cotillard",
+            "Manuela Gourary",
+            "Emma Wiklund",
+            "Bernard Farcy"
+        ],
+        "tmdbId": 2330
+    },
+    {
+        "title": "Jerry Maguire",
+        "description": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up ",
+        "releaseYear": 1996,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "duration": 139,
+        "director": "Cameron Crowe",
+        "rating": 7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239807/movie-mafia/movies/tmdb-9390.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9390"
         },
         "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "Sony Liv",
                 "type": "subscription",
@@ -7931,6 +3381,11 @@ const movies = [
             },
             {
                 "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
                 "type": "subscription",
                 "url": "https://www.primevideo.com/"
             },
@@ -7977,567 +3432,87 @@ const movies = [
         ],
         "cast": [
             "Tom Cruise",
-            "Jack Nicholson",
-            "Demi Moore",
-            "Kevin Bacon",
-            "Kiefer Sutherland",
-            "Kevin Pollak"
+            "Renée Zellweger",
+            "Cuba Gooding Jr.",
+            "Kelly Preston",
+            "Jerry O'Connell",
+            "Jay Mohr"
         ],
-        "tmdbId": 881
+        "tmdbId": 9390
     },
     {
-        "title": "The Bodyguard",
-        "description": "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who's threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash. But before long, all that tension sparks fireworks of another sort, and the love-averse tough guy is",
-        "releaseYear": 1992,
+        "title": "The Bridges of Madison County",
+        "description": "Photographer Robert Kincaid wanders into the life of housewife Francesca Johnson for four days in the 1960s.",
+        "releaseYear": 1995,
         "genre": [
-            "Action",
             "Drama",
             "Romance"
         ],
-        "duration": 129,
-        "director": "Mick Jackson",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178544/movie-mafia/movies/tmdb-619.jpg",
-            "public_id": "movie-mafia/movies/tmdb-619"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Kevin Costner",
-            "Whitney Houston",
-            "Gary Kemp",
-            "Bill Cobbs",
-            "Ralph Waite",
-            "Tomas Arana"
-        ],
-        "tmdbId": 619
-    },
-    {
-        "title": "The Heart of Justice",
-        "description": "David Leader investigates a seemingly senseless murder, and in the course of it is drawn into the labyrinth of a sinisterly unique wealthy family...",
-        "releaseYear": 1992,
-        "genre": [
-            "Mystery",
-            "Crime",
-            "Drama",
-            "Thriller",
-            "TV Movie"
-        ],
-        "duration": 88,
-        "director": "Bruno Barreto",
-        "rating": 5.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178547/movie-mafia/movies/tmdb-49822.jpg",
-            "public_id": "movie-mafia/movies/tmdb-49822"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Eric Stoltz",
-            "Jennifer Connelly",
-            "William H. Macy",
-            "Dennis Hopper",
-            "Harris Yulin",
-            "Dermot Mulroney"
-        ],
-        "tmdbId": 49822
-    },
-    {
-        "title": "Under Siege",
-        "description": "A disgruntled ex-CIA operative, his assistant and their assembled group of terrorists seize a battleship with nuclear blackmail in mind. They've planned for every contingency but ignore the ship's cook, former Navy SEAL Casey Ryback—an error that could be fatal.",
-        "releaseYear": 1992,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 102,
-        "director": "Andrew Davis",
-        "rating": 6.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178550/movie-mafia/movies/tmdb-8845.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8845"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Steven Seagal",
-            "Tommy Lee Jones",
-            "Gary Busey",
-            "Erika Eleniak",
-            "Colm Meaney",
-            "Damian Chapa"
-        ],
-        "tmdbId": 8845
-    },
-    {
-        "title": "Twin Peaks: Fire Walk with Me",
-        "description": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and supernatural encounters, Agent Dale Cooper chillingly predicts that the culprit",
-        "releaseYear": 1992,
-        "genre": [
-            "Drama",
-            "Mystery",
-            "Horror"
-        ],
         "duration": 135,
-        "director": "David Lynch",
-        "rating": 7.4,
+        "director": "Clint Eastwood",
+        "rating": 7.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178553/movie-mafia/movies/tmdb-1923.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1923"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239809/movie-mafia/movies/tmdb-688.jpg",
+            "public_id": "movie-mafia/movies/tmdb-688"
         },
         "watchOptions": [
-            {
-                "platform": "MUBI",
-                "type": "subscription",
-                "url": "https://mubi.com/"
-            },
-            {
-                "platform": "MUBI Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Sheryl Lee",
-            "Ray Wise",
-            "Mädchen Amick",
-            "Dana Ashbrook",
-            "Phoebe Augustine",
-            "David Bowie"
-        ],
-        "tmdbId": 1923
-    },
-    {
-        "title": "Robin Hood: Prince of Thieves",
-        "description": "Nobleman crusader Robin of Locksley breaks out of a Jerusalem prison with the help of Moorish fellow prisoner Azeem and travels back home to England. But upon arrival he discovers his dead father in the ruins of his family estate, killed by the vicious sheriff of Nottingham, Robin and Azeem join for",
-        "releaseYear": 1991,
-        "genre": [
-            "Action",
-            "Adventure",
-            "Drama"
-        ],
-        "duration": 143,
-        "director": "Kevin Reynolds",
-        "rating": 6.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178556/movie-mafia/movies/tmdb-8367.jpg",
-            "public_id": "movie-mafia/movies/tmdb-8367"
-        },
-        "watchOptions": [
-            {
-                "platform": "Netflix",
-                "type": "subscription",
-                "url": "https://www.netflix.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
             {
                 "platform": "Amazon Video",
                 "type": "rent",
                 "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
             }
         ],
         "cast": [
-            "Kevin Costner",
-            "Morgan Freeman",
-            "Mary Elizabeth Mastrantonio",
-            "Christian Slater",
-            "Alan Rickman",
-            "Geraldine McEwan"
+            "Meryl Streep",
+            "Clint Eastwood",
+            "Annie Corley",
+            "Victor Slezak",
+            "Jim Haynie",
+            "Sarah Zahn"
         ],
-        "tmdbId": 8367
+        "tmdbId": 688
     },
     {
-        "title": "Door II: Tokyo Diary",
-        "description": "Ai is a call girl that makes good money for what she does but there’s always at risk no matter how good the money is.",
-        "releaseYear": 1991,
+        "title": "Files of Love on Wedding Night",
+        "description": "This film collects 12 interesting anecdotes about the house. Realistic sex files between men and women. One of them involves sexual violence between a  husband and wife.",
+        "releaseYear": 1994,
         "genre": [
             "Drama",
-            "Thriller"
+            "Romance"
         ],
-        "duration": 82,
-        "director": "Banmei Takahashi",
-        "rating": 6.2,
-        "language": "Japanese",
+        "duration": 84,
+        "director": "Lok Ga-Chi",
+        "rating": 6,
+        "language": "cn",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178559/movie-mafia/movies/tmdb-405818.jpg",
-            "public_id": "movie-mafia/movies/tmdb-405818"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239812/movie-mafia/movies/tmdb-588627.jpg",
+            "public_id": "movie-mafia/movies/tmdb-588627"
         },
         "watchOptions": [],
         "cast": [
-            "Chikako Aoyama",
-            "Joe Yamanaka",
-            "Shingo Kazami",
-            "Chiharu Iwamoto",
-            "Yukino Tobita",
-            "Tatsuo Yamada"
+            "Yee Hung Yip",
+            "Amy Wong Oi-Mei",
+            "Matsuzaka Hiroko",
+            "Chi Lee"
         ],
-        "tmdbId": 405818
+        "tmdbId": 588627
     },
     {
-        "title": "Hook",
-        "description": "The boy who wasn't supposed to grow up—Peter Pan—does just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. During his trip to see Granny Wendy in London, the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland.",
-        "releaseYear": 1991,
+        "title": "Naked Gun 33⅓: The Final Insult",
+        "description": "Frank Drebin is persuaded out of retirement to go undercover in a state prison. There he has to find out what top terrorist, Rocco, has planned for when he escapes. Adding to his problems, Frank's wife, Jane, is desperate for a baby.",
+        "releaseYear": 1994,
         "genre": [
-            "Adventure",
-            "Fantasy",
             "Comedy",
-            "Family"
-        ],
-        "duration": 142,
-        "director": "Steven Spielberg",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178562/movie-mafia/movies/tmdb-879.jpg",
-            "public_id": "movie-mafia/movies/tmdb-879"
-        },
-        "watchOptions": [
-            {
-                "platform": "Sony Liv",
-                "type": "subscription",
-                "url": "https://www.sonyliv.com/"
-            },
-            {
-                "platform": "Sony Pictures Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Zee5",
-                "type": "rent",
-                "url": "https://www.zee5.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Dustin Hoffman",
-            "Robin Williams",
-            "Julia Roberts",
-            "Bob Hoskins",
-            "Maggie Smith",
-            "Caroline Goodall"
-        ],
-        "tmdbId": 879
-    },
-    {
-        "title": "Point Break",
-        "description": "In Los Angeles, a gang of bank robbers who call themselves The Ex-Presidents commit their crimes while wearing masks of Reagan, Carter, Nixon and Johnson. Believing that the members of the gang could be surfers, the F.B.I. sends young agent Johnny Utah to the beach undercover to mix with the surfers",
-        "releaseYear": 1991,
-        "genre": [
-            "Action",
-            "Thriller",
             "Crime"
         ],
-        "duration": 122,
-        "director": "Kathryn Bigelow",
-        "rating": 7.2,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178565/movie-mafia/movies/tmdb-1089.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1089"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Keanu Reeves",
-            "Patrick Swayze",
-            "Lori Petty",
-            "Gary Busey",
-            "John C. McGinley",
-            "James Le Gros"
-        ],
-        "tmdbId": 1089
-    },
-    {
-        "title": "The Addams Family",
-        "description": "When a man claiming to be long-lost Uncle Fester reappears after 25 years lost, the family plans a celebration to wake the dead. But the kids barely have time to warm up the electric chair before Morticia begins to suspect Fester is fraud when he can't recall any of the details of Fester's life.",
-        "releaseYear": 1991,
-        "genre": [
-            "Comedy",
-            "Fantasy"
-        ],
-        "duration": 100,
-        "director": "Barry Sonnenfeld",
-        "rating": 7.1,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178569/movie-mafia/movies/tmdb-2907.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2907"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Raúl Juliá",
-            "Anjelica Huston",
-            "Christopher Lloyd",
-            "Dan Hedaya",
-            "Elizabeth Wilson",
-            "Judith Malina"
-        ],
-        "tmdbId": 2907
-    },
-    {
-        "title": "Thelma & Louise",
-        "description": "Taking a break from their dreary lives, close friends Thelma and Louise embark on a short weekend trip that ends in unforeseen incriminating circumstances. As fugitives, both women rediscover the strength of their bond and their newfound resilience.",
-        "releaseYear": 1991,
-        "genre": [
-            "Drama",
-            "Crime",
-            "Adventure"
-        ],
-        "duration": 130,
-        "director": "Ridley Scott",
-        "rating": 7.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178572/movie-mafia/movies/tmdb-1541.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1541"
-        },
-        "watchOptions": [
-            {
-                "platform": "MGM Plus Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Susan Sarandon",
-            "Geena Davis",
-            "Harvey Keitel",
-            "Michael Madsen",
-            "Christopher McDonald",
-            "Stephen Tobolowsky"
-        ],
-        "tmdbId": 1541
-    },
-    {
-        "title": "Hot Shots!",
-        "description": "The gang that created Airplane! and The Naked Gun sets its sights on Top Gun in this spoof. Topper Harley is a talented but unstable fighter pilot with an axe to grind: clearing the family name. His mission is to avenge his father and save a mission sabotaged by greedy weapons manufacturers. He also",
-        "releaseYear": 1991,
-        "genre": [
-            "Action",
-            "Comedy",
-            "War"
-        ],
-        "duration": 85,
-        "director": "Jim Abrahams",
-        "rating": 6.6,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178574/movie-mafia/movies/tmdb-9595.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9595"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Charlie Sheen",
-            "Cary Elwes",
-            "Valeria Golino",
-            "Lloyd Bridges",
-            "Kevin Dunn",
-            "Jon Cryer"
-        ],
-        "tmdbId": 9595
-    },
-    {
-        "title": "Cape Fear",
-        "description": "Sam Bowden is a small-town corporate attorney. Max Cady is a tattooed, cigar-smoking, Bible-quoting, psychotic rapist. What do they have in common? 14 years ago, Sam was a public defender assigned to Max Cady's rape trial, and he made a serious error: he hid a document from his illiterate client tha",
-        "releaseYear": 1991,
-        "genre": [
-            "Drama",
-            "Crime",
-            "Thriller"
-        ],
-        "duration": 128,
-        "director": "Martin Scorsese",
-        "rating": 7.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178577/movie-mafia/movies/tmdb-1598.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1598"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Robert De Niro",
-            "Nick Nolte",
-            "Jessica Lange",
-            "Juliette Lewis",
-            "Joe Don Baker",
-            "Robert Mitchum"
-        ],
-        "tmdbId": 1598
-    },
-    {
-        "title": "Sleeping with the Enemy",
-        "description": "A young woman fakes her own death in an attempt to escape her nightmarish marriage, but discovers it is impossible to elude her controlling husband.",
-        "releaseYear": 1991,
-        "genre": [
-            "Drama",
-            "Thriller"
-        ],
-        "duration": 99,
-        "director": "Joseph Ruben",
+        "duration": 83,
+        "director": "Peter Segal",
         "rating": 6.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178582/movie-mafia/movies/tmdb-7442.jpg",
-            "public_id": "movie-mafia/movies/tmdb-7442"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Julia Roberts",
-            "Patrick Bergin",
-            "Kevin Anderson",
-            "Elizabeth Lawrence",
-            "Kyle Secor",
-            "Tony Abatemarco"
-        ],
-        "tmdbId": 7442
-    },
-    {
-        "title": "Hidden Desire",
-        "description": "David is sitting in a bar, musing over why he has bedded and left five or six of Asia's loveliest women in such a short time.",
-        "releaseYear": 1991,
-        "genre": [
-            "Romance",
-            "Drama"
-        ],
-        "duration": 78,
-        "director": "Ho Fan",
-        "rating": 5.3,
-        "language": "cn",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178585/movie-mafia/movies/tmdb-298094.jpg",
-            "public_id": "movie-mafia/movies/tmdb-298094"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Veronica Yip Yuk-hing",
-            "Rena Murakami",
-            "Sharon Kwok",
-            "Charlie Cho Cha-Lee",
-            "Ho Pak-Kwong",
-            "Lam Chung"
-        ],
-        "tmdbId": 298094
-    },
-    {
-        "title": "The Naked Gun 2½: The Smell of Fear",
-        "description": "Bumbling lieutenant Frank Drebin is out to foil the big boys in the energy industry, who intend to suppress technology that will put them out of business.",
-        "releaseYear": 1991,
-        "genre": [
-            "Comedy",
-            "Crime"
-        ],
-        "duration": 85,
-        "director": "David Zucker",
-        "rating": 6.8,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178588/movie-mafia/movies/tmdb-37137.jpg",
-            "public_id": "movie-mafia/movies/tmdb-37137"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239816/movie-mafia/movies/tmdb-36593.jpg",
+            "public_id": "movie-mafia/movies/tmdb-36593"
         },
         "watchOptions": [
             {
@@ -8581,61 +3556,72 @@ const movies = [
             "Priscilla Presley",
             "George Kennedy",
             "O. J. Simpson",
-            "Robert Goulet",
-            "Richard Griffiths"
+            "Fred Ward",
+            "Kathleen Freeman"
         ],
-        "tmdbId": 37137
+        "tmdbId": 36593
     },
     {
-        "title": "Lewd Family: Stepmother's Bedroom",
-        "description": "Wataru, a young, nerdy man who also narrates the film's story, uses some of his time to peep on his parents having sex, as well as on his sister, and is often seen masturbating to a porn magazine.",
-        "releaseYear": 1991,
-        "genre": [
-            "Drama"
-        ],
-        "duration": 54,
-        "director": "Akira Fukamachi",
-        "rating": 3.4,
-        "language": "Japanese",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178593/movie-mafia/movies/tmdb-349092.jpg",
-            "public_id": "movie-mafia/movies/tmdb-349092"
-        },
-        "watchOptions": [],
-        "cast": [
-            "Mayumi Inoue",
-            "Hitomi Hayase",
-            "Asako Mochizuki",
-            "Chiaki Nanjô",
-            "Masahiro Yoshida",
-            "Yutaka Ikejima"
-        ],
-        "tmdbId": 349092
-    },
-    {
-        "title": "Backdraft",
-        "description": "Two feuding siblings carrying on a heroic family tradition as Chicago firefighters. But when a puzzling series of arson attacks is reported, they are forced to set aside their differences to solve the mystery surrounding these crimes.",
-        "releaseYear": 1991,
+        "title": "The Firm",
+        "description": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murde",
+        "releaseYear": 1993,
         "genre": [
             "Drama",
-            "Thriller",
-            "Action",
-            "Crime"
+            "Mystery",
+            "Thriller"
         ],
-        "duration": 137,
-        "director": "Ron Howard",
+        "duration": 154,
+        "director": "Sydney Pollack",
         "rating": 6.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178596/movie-mafia/movies/tmdb-2924.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2924"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239818/movie-mafia/movies/tmdb-37233.jpg",
+            "public_id": "movie-mafia/movies/tmdb-37233"
         },
         "watchOptions": [
             {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
             },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Tom Cruise",
+            "Jeanne Tripplehorn",
+            "Gene Hackman",
+            "Hal Holbrook",
+            "Terry Kinney",
+            "Wilford Brimley"
+        ],
+        "tmdbId": 37233
+    },
+    {
+        "title": "Dennis the Menace",
+        "description": "Mr. Wilson's ever-present annoyance comes in the form of one mischievous kid named Dennis. But he'll need Dennis's tricks to uncover a collection of gold coins that go missing when a shady drifter named Switchblade Sam comes to town.",
+        "releaseYear": 1993,
+        "genre": [
+            "Family",
+            "Comedy"
+        ],
+        "duration": 96,
+        "director": "Nick Castle",
+        "rating": 5.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239821/movie-mafia/movies/tmdb-12139.jpg",
+            "public_id": "movie-mafia/movies/tmdb-12139"
+        },
+        "watchOptions": [
             {
                 "platform": "Apple TV Store",
                 "type": "rent",
@@ -8673,39 +3659,33 @@ const movies = [
             }
         ],
         "cast": [
-            "Kurt Russell",
-            "William Baldwin",
-            "Robert De Niro",
-            "Donald Sutherland",
-            "Jennifer Jason Leigh",
-            "Scott Glenn"
+            "Walter Matthau",
+            "Mason Gamble",
+            "Joan Plowright",
+            "Christopher Lloyd",
+            "Lea Thompson",
+            "Robert Stanton"
         ],
-        "tmdbId": 2924
+        "tmdbId": 12139
     },
     {
-        "title": "Double Impact",
-        "description": "Jean Claude Van Damme plays a dual role as Alex and Chad, twins separated at the death of their parents. Chad is raised by a family retainer in Paris, Alex becomes a petty crook in Hong Kong. Seeing a picture of Alex, Chad rejoins him and convinces him that his rival in Hong Kong is also the man who",
-        "releaseYear": 1991,
+        "title": "Hard Target",
+        "description": "When a woman's father goes missing, she enlists a local to aid in her search.  The pair soon discover that her father has died at the hands of a wealthy sportsman who hunts homeless men as a form of recreation.",
+        "releaseYear": 1993,
         "genre": [
-            "Thriller",
             "Action",
-            "Crime",
-            "Drama"
+            "Thriller",
+            "Crime"
         ],
-        "duration": 110,
-        "director": "Sheldon Lettich",
-        "rating": 6.2,
+        "duration": 99,
+        "director": "John Woo",
+        "rating": 6.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178599/movie-mafia/movies/tmdb-9594.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9594"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239823/movie-mafia/movies/tmdb-2019.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2019"
         },
         "watchOptions": [
-            {
-                "platform": "MGM Plus Amazon Channel",
-                "type": "subscription",
-                "url": "https://www.primevideo.com/"
-            },
             {
                 "platform": "Amazon Video",
                 "type": "rent",
@@ -8714,195 +3694,221 @@ const movies = [
         ],
         "cast": [
             "Jean-Claude Van Damme",
-            "Geoffrey Lewis",
-            "Alonna Shaw",
-            "Bolo Yeung",
-            "Cory Everson",
-            "Philip Chan Yan-Kin"
+            "Arnold Vosloo",
+            "Lance Henriksen",
+            "Yancy Butler",
+            "Sven-Ole Thorsen",
+            "Wilford Brimley"
         ],
-        "tmdbId": 9594
+        "tmdbId": 2019
     },
     {
-        "title": "Child's Play 3",
-        "description": "Eight years after seemingly destroying the killer doll, teen Andy Barclay is placed in a military school, and the spirit of Chucky returns to renew his quest and seek vengeance after being recreated from a mass of melted plastic.",
+        "title": "Sneakers",
+        "description": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retr",
+        "releaseYear": 1992,
+        "genre": [
+            "Comedy",
+            "Crime",
+            "Drama"
+        ],
+        "duration": 125,
+        "director": "Phil Alden Robinson",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239825/movie-mafia/movies/tmdb-2322.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2322"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Robert Redford",
+            "Sidney Poitier",
+            "David Strathairn",
+            "Dan Aykroyd",
+            "River Phoenix",
+            "Ben Kingsley"
+        ],
+        "tmdbId": 2322
+    },
+    {
+        "title": "Fried Green Tomatoes",
+        "description": "Amidst her own personality crisis, a southern housewife meets an outgoing old woman who tells her the story of Idgie Threadgoode and Ruth Jamison, two young women who experienced hardships and love in 1920s Whistle Stop, Alabama.",
         "releaseYear": 1991,
         "genre": [
-            "Horror"
-        ],
-        "duration": 90,
-        "director": "Jack Bender",
-        "rating": 5.9,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178602/movie-mafia/movies/tmdb-11187.jpg",
-            "public_id": "movie-mafia/movies/tmdb-11187"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Justin Whalin",
-            "Brad Dourif",
-            "Perrey Reeves",
-            "Jeremy Sylvers",
-            "Travis Fine",
-            "Dean Jacobson"
-        ],
-        "tmdbId": 11187
-    },
-    {
-        "title": "The Godfather Part III",
-        "description": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
-        "releaseYear": 1990,
-        "genre": [
-            "Crime",
             "Drama",
-            "Thriller"
+            "Comedy"
         ],
-        "duration": 162,
-        "director": "Francis Ford Coppola",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178606/movie-mafia/movies/tmdb-242.jpg",
-            "public_id": "movie-mafia/movies/tmdb-242"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Al Pacino",
-            "Diane Keaton",
-            "Talia Shire",
-            "Andy Garcia",
-            "Eli Wallach",
-            "Joe Mantegna"
-        ],
-        "tmdbId": 242
-    },
-    {
-        "title": "The Hunt for Red October",
-        "description": "A new technologically-superior Soviet nuclear sub, the Red October, is heading for the U.S. coast under the command of Captain Marko Ramius. The American government thinks Ramius is planning to attack. Lone CIA analyst Jack Ryan has a different idea: he thinks Ramius is planning to defect, but he ha",
-        "releaseYear": 1990,
-        "genre": [
-            "Action",
-            "Thriller"
-        ],
-        "duration": 135,
-        "director": "John McTiernan",
-        "rating": 7.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178609/movie-mafia/movies/tmdb-1669.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1669"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Sean Connery",
-            "Alec Baldwin",
-            "Scott Glenn",
-            "Sam Neill",
-            "James Earl Jones",
-            "Joss Ackland"
-        ],
-        "tmdbId": 1669
-    },
-    {
-        "title": "Edward Scissorhands",
-        "description": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
-        "releaseYear": 1990,
-        "genre": [
-            "Fantasy",
-            "Drama",
-            "Romance"
-        ],
-        "duration": 105,
-        "director": "Tim Burton",
+        "duration": 130,
+        "director": "Jon Avnet",
         "rating": 7.7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178612/movie-mafia/movies/tmdb-162.jpg",
-            "public_id": "movie-mafia/movies/tmdb-162"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239829/movie-mafia/movies/tmdb-1633.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1633"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Kathy Bates",
+            "Jessica Tandy",
+            "Mary-Louise Parker",
+            "Mary Stuart Masterson",
+            "Cicely Tyson",
+            "Stan Shaw"
+        ],
+        "tmdbId": 1633
+    },
+    {
+        "title": "JFK",
+        "description": "Follows the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison.",
+        "releaseYear": 1991,
+        "genre": [
+            "Drama",
+            "Thriller",
+            "History"
+        ],
+        "duration": 189,
+        "director": "Oliver Stone",
+        "rating": 7.6,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239832/movie-mafia/movies/tmdb-820.jpg",
+            "public_id": "movie-mafia/movies/tmdb-820"
         },
         "watchOptions": [
             {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
+                "platform": "VI movies and tv",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
             }
         ],
         "cast": [
-            "Johnny Depp",
-            "Winona Ryder",
-            "Dianne Wiest",
-            "Anthony Michael Hall",
-            "Kathy Baker",
-            "Robert Oliveri"
+            "Kevin Costner",
+            "Tommy Lee Jones",
+            "Gary Oldman",
+            "Kevin Bacon",
+            "Michael Rooker",
+            "Jack Lemmon"
         ],
-        "tmdbId": 162
+        "tmdbId": 820
     },
     {
-        "title": "Total Recall",
-        "description": "Construction worker Douglas Quaid's obsession with the planet Mars leads him to visit Rekall, a virtual vacation company that manufactures memories. When something goes wrong during Quaid's memory implant procedure, his life turns upside down, leading him to question what is reality and what isn't.",
+        "title": "Rocky V",
+        "description": "A lifetime of taking shots has ended Rocky’s career, and a crooked accountant has left him broke. Inspired by the memory of his trainer, however, Rocky finds glory in training and takes on an up-and-coming boxer.",
+        "releaseYear": 1990,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 104,
+        "director": "John G. Avildsen",
+        "rating": 5.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239835/movie-mafia/movies/tmdb-1375.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1375"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Sylvester Stallone",
+            "Talia Shire",
+            "Burt Young",
+            "Richard Gant",
+            "Tommy Morrison",
+            "Sage Stallone"
+        ],
+        "tmdbId": 1375
+    },
+    {
+        "title": "Awakenings",
+        "description": "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient rev",
+        "releaseYear": 1990,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 120,
+        "director": "Penny Marshall",
+        "rating": 7.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239838/movie-mafia/movies/tmdb-11005.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11005"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Robert De Niro",
+            "Robin Williams",
+            "John Heard",
+            "Julie Kavner",
+            "Penelope Ann Miller",
+            "Ruth Nelson"
+        ],
+        "tmdbId": 11005
+    },
+    {
+        "title": "RoboCop 2",
+        "description": "After a successful deployment of the RoboCop Law Enforcement unit, OCP sees its goal of urban pacification come closer and closer, but as this develops, a new narcotic known as \"Nuke\" invades the streets led by God-delirious leader Cane. As this menace grows, it may prove to be too much for Murphy t",
         "releaseYear": 1990,
         "genre": [
             "Action",
-            "Adventure",
-            "Sci-Fi"
+            "Sci-Fi",
+            "Thriller"
         ],
-        "duration": 113,
-        "director": "Paul Verhoeven",
-        "rating": 7.3,
+        "duration": 117,
+        "director": "Irvin Kershner",
+        "rating": 6,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178615/movie-mafia/movies/tmdb-861.jpg",
-            "public_id": "movie-mafia/movies/tmdb-861"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239841/movie-mafia/movies/tmdb-5549.jpg",
+            "public_id": "movie-mafia/movies/tmdb-5549"
         },
         "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
             {
                 "platform": "Amazon Video",
                 "type": "rent",
@@ -8910,31 +3916,31 @@ const movies = [
             }
         ],
         "cast": [
-            "Arnold Schwarzenegger",
-            "Rachel Ticotin",
-            "Sharon Stone",
-            "Michael Ironside",
-            "Marshall Bell",
-            "Michael Champion"
+            "Peter Weller",
+            "Nancy Allen",
+            "Tom Noonan",
+            "Belinda Bauer",
+            "Willard E. Pugh",
+            "Dan O'Herlihy"
         ],
-        "tmdbId": 861
+        "tmdbId": 5549
     },
     {
-        "title": "Back to the Future Part III",
-        "description": "The final installment finds Marty digging the trusty DeLorean out of a mineshaft and looking for Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty ",
-        "releaseYear": 1990,
+        "title": "Back to the Future Part II",
+        "description": "Marty and Doc are at it again as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teena",
+        "releaseYear": 1989,
         "genre": [
             "Adventure",
             "Comedy",
             "Sci-Fi"
         ],
-        "duration": 119,
+        "duration": 108,
         "director": "Robert Zemeckis",
-        "rating": 7.5,
+        "rating": 7.8,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178618/movie-mafia/movies/tmdb-196.jpg",
-            "public_id": "movie-mafia/movies/tmdb-196"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239843/movie-mafia/movies/tmdb-165.jpg",
+            "public_id": "movie-mafia/movies/tmdb-165"
         },
         "watchOptions": [
             {
@@ -8996,45 +4002,143 @@ const movies = [
         "cast": [
             "Michael J. Fox",
             "Christopher Lloyd",
-            "Mary Steenburgen",
-            "Thomas F. Wilson",
             "Lea Thompson",
-            "Elisabeth Shue"
+            "Thomas F. Wilson",
+            "Elisabeth Shue",
+            "James Tolkan"
         ],
-        "tmdbId": 196
+        "tmdbId": 165
     },
     {
-        "title": "Pretty Woman",
-        "description": "Vivian is a carefree, streetwise diamond in the rough when she meets sophisticated billionaire Edward in a chance encounter that turns into a week-long business arrangement. But Vivian's energetic spirit challenges Edward's no-nonsense approach to life, and soon they are teaching each other – and fa",
-        "releaseYear": 1990,
+        "title": "Steel Magnolias",
+        "description": "A young beautician, newly arrived in a small Louisiana town, finds work at the local salon, where a small group of women share a close bond of friendship and welcome her into the fold.",
+        "releaseYear": 1989,
         "genre": [
-            "Romance",
+            "Drama",
             "Comedy"
         ],
-        "duration": 120,
-        "director": "Garry Marshall",
+        "duration": 117,
+        "director": "Herbert Ross",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239845/movie-mafia/movies/tmdb-10860.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10860"
+        },
+        "watchOptions": [
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Sally Field",
+            "Dolly Parton",
+            "Shirley MacLaine",
+            "Daryl Hannah",
+            "Olympia Dukakis",
+            "Julia Roberts"
+        ],
+        "tmdbId": 10860
+    },
+    {
+        "title": "Batman",
+        "description": "Having witnessed his parents' brutal murder as a child, millionaire philanthropist Bruce Wayne fights crime in Gotham City disguised as Batman, a costumed hero who strikes fear into the hearts of villains. But when a deformed madman known as 'The Joker' seizes control of Gotham's criminal underworld",
+        "releaseYear": 1989,
+        "genre": [
+            "Fantasy",
+            "Action",
+            "Crime"
+        ],
+        "duration": 126,
+        "director": "Tim Burton",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239848/movie-mafia/movies/tmdb-268.jpg",
+            "public_id": "movie-mafia/movies/tmdb-268"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Michael Keaton",
+            "Jack Nicholson",
+            "Kim Basinger",
+            "Robert Wuhl",
+            "Pat Hingle",
+            "Billy Dee Williams"
+        ],
+        "tmdbId": 268
+    },
+    {
+        "title": "The Abyss",
+        "description": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy ",
+        "releaseYear": 1989,
+        "genre": [
+            "Adventure",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "duration": 140,
+        "director": "James Cameron",
         "rating": 7.4,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178621/movie-mafia/movies/tmdb-114.jpg",
-            "public_id": "movie-mafia/movies/tmdb-114"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239850/movie-mafia/movies/tmdb-2756.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2756"
         },
         "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
             {
                 "platform": "Google Play Movies",
                 "type": "buy",
@@ -9047,30 +4151,138 @@ const movies = [
             }
         ],
         "cast": [
-            "Julia Roberts",
-            "Richard Gere",
-            "Ralph Bellamy",
-            "Jason Alexander",
-            "Laura San Giacomo",
-            "Héctor Elizondo"
+            "Ed Harris",
+            "Mary Elizabeth Mastrantonio",
+            "Michael Biehn",
+            "Leo Burmester",
+            "Todd Graff",
+            "John Bedford Lloyd"
         ],
-        "tmdbId": 114
+        "tmdbId": 2756
     },
     {
-        "title": "Die Hard 2",
-        "description": "One year after his heroics in Los Angeles, John McClane is an off-duty cop who is the wrong guy in the wrong place at the wrong time. On a snowy Christmas Eve, as he waits for his wife's plane to land at Washington Dulles International Airport, terrorists take over the air traffic control system in ",
-        "releaseYear": 1990,
+        "title": "Born on the Fourth of July",
+        "description": "Paralyzed in the Vietnam war, Ron Kovic becomes an anti-war and pro-human rights political activist after feeling betrayed by the country he fought for.",
+        "releaseYear": 1989,
         "genre": [
-            "Action",
-            "Thriller"
+            "Drama",
+            "War"
         ],
-        "duration": 124,
-        "director": "Renny Harlin",
+        "duration": 145,
+        "director": "Oliver Stone",
         "rating": 7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178625/movie-mafia/movies/tmdb-1573.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1573"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239852/movie-mafia/movies/tmdb-2604.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2604"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            }
+        ],
+        "cast": [
+            "Tom Cruise",
+            "Raymond J. Barry",
+            "Caroline Kava",
+            "Kyra Sedgwick",
+            "Willem Dafoe",
+            "Jerry Levine"
+        ],
+        "tmdbId": 2604
+    },
+    {
+        "title": "Ghostbusters II",
+        "description": "The discovery of a massive river of ectoplasm and a resurgence of spectral activity allows the staff of Ghostbusters to revive the business.",
+        "releaseYear": 1989,
+        "genre": [
+            "Comedy",
+            "Fantasy"
+        ],
+        "duration": 108,
+        "director": "Ivan Reitman",
+        "rating": 6.6,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239855/movie-mafia/movies/tmdb-2978.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2978"
+        },
+        "watchOptions": [
+            {
+                "platform": "Sony Pictures Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Bill Murray",
+            "Dan Aykroyd",
+            "Sigourney Weaver",
+            "Harold Ramis",
+            "Ernie Hudson",
+            "Rick Moranis"
+        ],
+        "tmdbId": 2978
+    },
+    {
+        "title": "Honey, I Shrunk the Kids",
+        "description": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "releaseYear": 1989,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Family",
+            "Sci-Fi"
+        ],
+        "duration": 93,
+        "director": "Joe Johnston",
+        "rating": 6.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239857/movie-mafia/movies/tmdb-9354.webp",
+            "public_id": "movie-mafia/movies/tmdb-9354"
         },
         "watchOptions": [
             {
@@ -9100,30 +4312,517 @@ const movies = [
             }
         ],
         "cast": [
-            "Bruce Willis",
-            "Bonnie Bedelia",
-            "William Sadler",
-            "John Amos",
-            "Franco Nero",
-            "William Atherton"
+            "Rick Moranis",
+            "Matt Frewer",
+            "Marcia Strassman",
+            "Kristine Sutherland",
+            "Thomas Wilson Brown",
+            "Jared Rushton"
         ],
-        "tmdbId": 1573
+        "tmdbId": 9354
     },
     {
-        "title": "Misery",
-        "description": "After an accident, acclaimed novelist Paul Sheldon is rescued by a nurse who claims to be his biggest fan.  Her obsession takes a dark turn when she holds him captive in her remote Colorado home and forces him to write back to life the popular literary character he killed off.",
-        "releaseYear": 1990,
+        "title": "Lethal Weapon 2",
+        "description": "Riggs and Murtaugh are on the trail of South African diplomats using their immunity to engage in criminal activities.",
+        "releaseYear": 1989,
         "genre": [
-            "Drama",
-            "Thriller"
+            "Action",
+            "Thriller",
+            "Crime"
         ],
-        "duration": 107,
-        "director": "Rob Reiner",
-        "rating": 7.8,
+        "duration": 114,
+        "director": "Richard Donner",
+        "rating": 7,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178629/movie-mafia/movies/tmdb-1700.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1700"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239859/movie-mafia/movies/tmdb-942.jpg",
+            "public_id": "movie-mafia/movies/tmdb-942"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Mel Gibson",
+            "Danny Glover",
+            "Joe Pesci",
+            "Joss Ackland",
+            "Derrick O'Connor",
+            "Patsy Kensit"
+        ],
+        "tmdbId": 942
+    },
+    {
+        "title": "When Harry Met Sally...",
+        "description": "Sex always gets in the way of friendships between men and women. At least, that's what Harry Burns believes. So when Harry meets Sally Albright and a deep friendship blossoms between them, Harry's determined not to let his attraction to Sally destroy it. But when a night of weakness ends in a mornin",
+        "releaseYear": 1989,
+        "genre": [
+            "Comedy",
+            "Romance",
+            "Drama"
+        ],
+        "duration": 96,
+        "director": "Rob Reiner",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239862/movie-mafia/movies/tmdb-639.jpg",
+            "public_id": "movie-mafia/movies/tmdb-639"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Billy Crystal",
+            "Meg Ryan",
+            "Carrie Fisher",
+            "Bruno Kirby",
+            "Steven Ford",
+            "Lisa Jane Persky"
+        ],
+        "tmdbId": 639
+    },
+    {
+        "title": "Pet Sematary",
+        "description": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
+        "releaseYear": 1989,
+        "genre": [
+            "Horror"
+        ],
+        "duration": 103,
+        "director": "Mary Lambert",
+        "rating": 6.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239864/movie-mafia/movies/tmdb-8913.jpg",
+            "public_id": "movie-mafia/movies/tmdb-8913"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Dale Midkiff",
+            "Fred Gwynne",
+            "Denise Crosby",
+            "Brad Greenquist",
+            "Michael Lombard",
+            "Miko Hughes"
+        ],
+        "tmdbId": 8913
+    },
+    {
+        "title": "Licence to Kill",
+        "description": "After capturing the notorious drug lord Franz Sanchez, Bond's close friend and former CIA agent Felix Leiter is left for dead and his wife is murdered. Bond goes rogue and seeks vengeance on those responsible, as he infiltrates Sanchez's organization from the inside.",
+        "releaseYear": 1989,
+        "genre": [
+            "Adventure",
+            "Action",
+            "Thriller"
+        ],
+        "duration": 133,
+        "director": "John Glen",
+        "rating": 6.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239866/movie-mafia/movies/tmdb-709.jpg",
+            "public_id": "movie-mafia/movies/tmdb-709"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Timothy Dalton",
+            "Carey Lowell",
+            "Robert Davi",
+            "Talisa Soto",
+            "Anthony Zerbe",
+            "Frank McRae"
+        ],
+        "tmdbId": 709
+    },
+    {
+        "title": "Glory",
+        "description": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "releaseYear": 1989,
+        "genre": [
+            "Drama",
+            "History",
+            "War"
+        ],
+        "duration": 122,
+        "director": "Edward Zwick",
+        "rating": 7.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239868/movie-mafia/movies/tmdb-9665.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9665"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Matthew Broderick",
+            "Denzel Washington",
+            "Cary Elwes",
+            "Morgan Freeman",
+            "Jihmi Kennedy",
+            "Andre Braugher"
+        ],
+        "tmdbId": 9665
+    },
+    {
+        "title": "All Dogs Go to Heaven",
+        "description": "When a casino-owning dog named Charlie is murdered by his rival Carface, he finds himself in Heaven. Wanting to get back at his killer, he cons his way back to the living with the warning that doing so damns him to Hell. Once back, he teams with his old partner, Itchy, to prep his retaliation. He st",
+        "releaseYear": 1989,
+        "genre": [
+            "Drama",
+            "Animation",
+            "Family",
+            "Comedy",
+            "Fantasy"
+        ],
+        "duration": 84,
+        "director": "Don Bluth",
+        "rating": 6.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239871/movie-mafia/movies/tmdb-11497.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11497"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Burt Reynolds",
+            "Dom DeLuise",
+            "Judith Barsi",
+            "Vic Tayback",
+            "Melba Moore",
+            "Ken Page"
+        ],
+        "tmdbId": 11497
+    },
+    {
+        "title": "The Karate Kid Part III",
+        "description": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi.",
+        "releaseYear": 1989,
+        "genre": [
+            "Action",
+            "Family",
+            "Drama",
+            "Adventure"
+        ],
+        "duration": 112,
+        "director": "John G. Avildsen",
+        "rating": 5.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239873/movie-mafia/movies/tmdb-10495.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10495"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Zee5",
+                "type": "rent",
+                "url": "https://www.zee5.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Ralph Macchio",
+            "Pat Morita",
+            "Robyn Lively",
+            "Thomas Ian Griffith",
+            "Martin Kove",
+            "Sean Kanan"
+        ],
+        "tmdbId": 10495
+    },
+    {
+        "title": "Tango & Cash",
+        "description": "Ray Tango and Gabriel Cash are two successful narcotics detectives who can't stand each other. Crime lord Yves Perret, furious at the loss of income they have caused him, plots an elaborate revenge against them.",
+        "releaseYear": 1989,
+        "genre": [
+            "Action",
+            "Crime",
+            "Comedy",
+            "Thriller"
+        ],
+        "duration": 104,
+        "director": "Andrei Konchalovsky",
+        "rating": 6.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239875/movie-mafia/movies/tmdb-9618.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9618"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Sylvester Stallone",
+            "Kurt Russell",
+            "Teri Hatcher",
+            "Jack Palance",
+            "Brion James",
+            "James Hong"
+        ],
+        "tmdbId": 9618
+    },
+    {
+        "title": "sex, lies, and videotape",
+        "description": "Ann, a frustrated wife, enters into counseling due to a troubled marriage. Unbeknownst to her, her husband John has begun an affair with her sister. When John’s best friend Graham arrives, his penchant for interviewing women about their sex lives forever changes John and Ann’s rocky marriage.",
+        "releaseYear": 1989,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 101,
+        "director": "Steven Soderbergh",
+        "rating": 7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239878/movie-mafia/movies/tmdb-1412.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1412"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "James Spader",
+            "Andie MacDowell",
+            "Peter Gallagher",
+            "Laura San Giacomo",
+            "Ron Vawter",
+            "Steven Brill"
+        ],
+        "tmdbId": 1412
+    },
+    {
+        "title": "Door",
+        "description": "Yasuko, a housewife, lives in an urban high-rise apartment with her husband Satoru and her son Takuto.  Annoyed by spam calls and door-to-door salesmen, Yasuko slams the door on a salesman’s hand when he tries to squeeze a flyer through the apartment's chained front door. He leaves, but the next day",
+        "releaseYear": 1988,
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "duration": 94,
+        "director": "Banmei Takahashi",
+        "rating": 6,
+        "language": "Japanese",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239880/movie-mafia/movies/tmdb-405746.jpg",
+            "public_id": "movie-mafia/movies/tmdb-405746"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Keiko Takahashi",
+            "Daijiro Tsutsumi",
+            "Shirō Shimomoto",
+            "Takuto Yonezu",
+            "Masao Ishida",
+            "Hiroshi Noguchi"
+        ],
+        "tmdbId": 405746
+    },
+    {
+        "title": "Sa Bang-ji",
+        "description": "Sa Bangji was an intersex person who according to historical records lived during Korea’s Joseon Dynasty. Taken in by a kindly benefactor, Sa Bangji lives in a monastery that is one day visited by a young widow, Lee So-sa, who is in mourning following the death of her husband. The pair’s meeting see",
+        "releaseYear": 1988,
+        "genre": [
+            "Drama",
+            "Romance",
+            "History"
+        ],
+        "duration": 94,
+        "director": "Song Gyeong-sik",
+        "rating": 6.6,
+        "language": "Korean",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239882/movie-mafia/movies/tmdb-585032.jpg",
+            "public_id": "movie-mafia/movies/tmdb-585032"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Lee Hye-young",
+            "Bang Hee",
+            "Kwak Jeong-Hee",
+            "Park Am",
+            "Lee Kyeong-hui"
+        ],
+        "tmdbId": 585032
+    },
+    {
+        "title": "Beetlejuice",
+        "description": "A newly dead New England couple seeks help from a deranged demon exorcist to scare an affluent New York family out of their home.",
+        "releaseYear": 1988,
+        "genre": [
+            "Fantasy",
+            "Comedy"
+        ],
+        "duration": 92,
+        "director": "Tim Burton",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239885/movie-mafia/movies/tmdb-4011.jpg",
+            "public_id": "movie-mafia/movies/tmdb-4011"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Alec Baldwin",
+            "Geena Davis",
+            "Winona Ryder",
+            "Catherine O'Hara",
+            "Jeffrey Jones",
+            "Michael Keaton"
+        ],
+        "tmdbId": 4011
+    },
+    {
+        "title": "Child's Play",
+        "description": "After being shot in a toy store, a serial killer transfers his soul into a Good Guy doll. A mother then gifts it to her six-year-old son Andy, which unleashes terror upon the city.",
+        "releaseYear": 1988,
+        "genre": [
+            "Horror"
+        ],
+        "duration": 87,
+        "director": "Tom Holland",
+        "rating": 6.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239888/movie-mafia/movies/tmdb-10585.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10585"
         },
         "watchOptions": [
             {
@@ -9138,318 +4837,1215 @@ const movies = [
             }
         ],
         "cast": [
-            "Kathy Bates",
-            "James Caan",
-            "Richard Farnsworth",
-            "Lauren Bacall",
-            "Frances Sternhagen",
-            "Graham Jarvis"
+            "Alex Vincent",
+            "Catherine Hicks",
+            "Brad Dourif",
+            "Chris Sarandon",
+            "Dinah Manoff",
+            "Tommy Swerdlow"
         ],
-        "tmdbId": 1700
+        "tmdbId": 10585
     },
     {
-        "title": "Ghost",
-        "description": "After a young man is murdered, his spirit stays behind to warn his lover of impending danger, with the help of a reluctant psychic.",
-        "releaseYear": 1990,
+        "title": "The Naked Gun: From the Files of Police Squad!",
+        "description": "When the bumbling Lieutenant Frank Drebin investigates events following the shooting of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth II.",
+        "releaseYear": 1988,
+        "genre": [
+            "Comedy",
+            "Crime"
+        ],
+        "duration": 86,
+        "director": "David Zucker",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239890/movie-mafia/movies/tmdb-37136.jpg",
+            "public_id": "movie-mafia/movies/tmdb-37136"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Leslie Nielsen",
+            "Priscilla Presley",
+            "Ricardo Montalban",
+            "George Kennedy",
+            "O. J. Simpson",
+            "Susan Beaubian"
+        ],
+        "tmdbId": 37136
+    },
+    {
+        "title": "Rambo III",
+        "description": "Combat has taken its toll on Rambo, but he's finally begun to find inner peace in a monastery. When Rambo's friend and mentor Col. Trautman asks for his help on a top secret mission to Afghanistan, Rambo declines but must reconsider when Trautman is captured.",
+        "releaseYear": 1988,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Thriller",
+            "War"
+        ],
+        "duration": 102,
+        "director": "Peter MacDonald",
+        "rating": 6.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239893/movie-mafia/movies/tmdb-1370.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1370"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate Play",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Apple TV Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Lionsgate Play Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Sylvester Stallone",
+            "Richard Crenna",
+            "Marc de Jonge",
+            "Kurtwood Smith",
+            "Spiros Focás",
+            "Sasson Gabai"
+        ],
+        "tmdbId": 1370
+    },
+    {
+        "title": "Who Framed Roger Rabbit",
+        "description": "Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "releaseYear": 1988,
         "genre": [
             "Fantasy",
-            "Romance",
+            "Animation",
+            "Comedy",
+            "Crime"
+        ],
+        "duration": 104,
+        "director": "Robert Zemeckis",
+        "rating": 7.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239895/movie-mafia/movies/tmdb-856.jpg",
+            "public_id": "movie-mafia/movies/tmdb-856"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Bob Hoskins",
+            "Christopher Lloyd",
+            "Joanna Cassidy",
+            "Charles Fleischer",
+            "Kathleen Turner",
+            "Stubby Kaye"
+        ],
+        "tmdbId": 856
+    },
+    {
+        "title": "Coming to America",
+        "description": "An African prince decides it’s time for him to find a princess... and his mission leads him and his most loyal friend to Queens, New York. In disguise as an impoverished immigrant, the pampered prince quickly finds himself a new job, new friends, new digs, new enemies and lots of trouble.",
+        "releaseYear": 1988,
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "duration": 117,
+        "director": "John Landis",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239898/movie-mafia/movies/tmdb-9602.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9602"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Eddie Murphy",
+            "Arsenio Hall",
+            "Shari Headley",
+            "John Amos",
+            "James Earl Jones",
+            "Madge Sinclair"
+        ],
+        "tmdbId": 9602
+    },
+    {
+        "title": "Rain Man",
+        "description": "When car dealer Charlie Babbitt learns that his estranged father has died, he returns home to Cincinnati, where he discovers that he has a savant older brother named Raymond and that his father's $3 million fortune is being left to the mental institution in which Raymond lives. Motivated by his fath",
+        "releaseYear": 1988,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 134,
+        "director": "Barry Levinson",
+        "rating": 7.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239900/movie-mafia/movies/tmdb-380.jpg",
+            "public_id": "movie-mafia/movies/tmdb-380"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Dustin Hoffman",
+            "Tom Cruise",
+            "Valeria Golino",
+            "Gerald R. Molen",
+            "Jack Murdock",
+            "Michael D. Roberts"
+        ],
+        "tmdbId": 380
+    },
+    {
+        "title": "Bloodsport",
+        "description": "An American Army Major goes AWOL to Hong Kong for an outlawed martial arts contest called the Kumite.",
+        "releaseYear": 1988,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Drama"
+        ],
+        "duration": 92,
+        "director": "Newt Arnold",
+        "rating": 7.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239902/movie-mafia/movies/tmdb-11690.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11690"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Jean-Claude Van Damme",
+            "Donald Gibb",
+            "Leah Ayres",
+            "Norman Burton",
+            "Forest Whitaker",
+            "Bolo Yeung"
+        ],
+        "tmdbId": 11690
+    },
+    {
+        "title": "They Live",
+        "description": "A lone drifter stumbles upon a unique pair of sunglasses that reveal aliens are systematically gaining control of the Earth by masquerading as humans and lulling the public into submission.",
+        "releaseYear": 1988,
+        "genre": [
+            "Sci-Fi",
+            "Action",
             "Thriller"
         ],
-        "duration": 127,
-        "director": "Jerry Zucker",
+        "duration": 93,
+        "director": "John Carpenter",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239904/movie-mafia/movies/tmdb-8337.jpg",
+            "public_id": "movie-mafia/movies/tmdb-8337"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Roddy Piper",
+            "Keith David",
+            "Meg Foster",
+            "George Buck Flower",
+            "Peter Jason",
+            "Raymond St. Jacques"
+        ],
+        "tmdbId": 8337
+    },
+    {
+        "title": "The Last Temptation of Christ",
+        "description": "Jesus, a humble Judean carpenter beginning to see that he is the son of God, is drawn into revolutionary action against the Roman occupiers by Judas -- despite his protestations that love, not violence, is the path to salvation. The burden of being the savior of mankind torments Jesus throughout his",
+        "releaseYear": 1988,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 164,
+        "director": "Martin Scorsese",
         "rating": 7.2,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178633/movie-mafia/movies/tmdb-251.jpg",
-            "public_id": "movie-mafia/movies/tmdb-251"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Patrick Swayze",
-            "Demi Moore",
-            "Whoopi Goldberg",
-            "Tony Goldwyn",
-            "Vincent Schiavelli",
-            "Rick Aviles"
-        ],
-        "tmdbId": 251
-    },
-    {
-        "title": "Predator 2",
-        "description": "A police chief in the war-torn streets of Los Angeles discovers that an extraterrestrial creature is hunting down residents - and that he is the next target.",
-        "releaseYear": 1990,
-        "genre": [
-            "Sci-Fi",
-            "Action",
-            "Thriller"
-        ],
-        "duration": 108,
-        "director": "Stephen Hopkins",
-        "rating": 6.3,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178635/movie-mafia/movies/tmdb-169.jpg",
-            "public_id": "movie-mafia/movies/tmdb-169"
-        },
-        "watchOptions": [
-            {
-                "platform": "JioHotstar",
-                "type": "subscription",
-                "url": "https://www.jiohotstar.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "rent",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "rent",
-                "url": "https://www.youtube.com/"
-            },
-            {
-                "platform": "Google Play Movies",
-                "type": "buy",
-                "url": "https://play.google.com/store/movies"
-            },
-            {
-                "platform": "YouTube",
-                "type": "buy",
-                "url": "https://www.youtube.com/"
-            }
-        ],
-        "cast": [
-            "Danny Glover",
-            "Gary Busey",
-            "Rubén Blades",
-            "María Conchita Alonso",
-            "Bill Paxton",
-            "Robert Davi"
-        ],
-        "tmdbId": 169
-    },
-    {
-        "title": "Days of Thunder",
-        "description": "Talented but unproven stock car driver Cole Trickle gets a break and with the guidance of veteran Harry Hogge turns heads on the track. The young hotshot develops a rivalry with a fellow racer that threatens his career when the two smash their cars. But with the help of his doctor, Cole just might o",
-        "releaseYear": 1990,
-        "genre": [
-            "Adventure",
-            "Action",
-            "Drama"
-        ],
-        "duration": 107,
-        "director": "Tony Scott",
-        "rating": 6.4,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178638/movie-mafia/movies/tmdb-2119.jpg",
-            "public_id": "movie-mafia/movies/tmdb-2119"
-        },
-        "watchOptions": [
-            {
-                "platform": "Apple TV Store",
-                "type": "rent",
-                "url": "https://tv.apple.com/in/"
-            },
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            },
-            {
-                "platform": "Apple TV Store",
-                "type": "buy",
-                "url": "https://tv.apple.com/in/"
-            }
-        ],
-        "cast": [
-            "Tom Cruise",
-            "Robert Duvall",
-            "Nicole Kidman",
-            "Randy Quaid",
-            "Cary Elwes",
-            "Michael Rooker"
-        ],
-        "tmdbId": 2119
-    },
-    {
-        "title": "Gremlins 2: The New Batch",
-        "description": "Young sweethearts Billy and Kate move to the Big Apple, land jobs in a high-tech office park and soon reunite with the friendly and lovable Gizmo. But a series of accidents creates a whole new generation of Gremlins. The situation worsens when the devilish green creatures invade a top-secret laborat",
-        "releaseYear": 1990,
-        "genre": [
-            "Comedy",
-            "Horror",
-            "Fantasy"
-        ],
-        "duration": 106,
-        "director": "Joe Dante",
-        "rating": 6.5,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178641/movie-mafia/movies/tmdb-928.jpg",
-            "public_id": "movie-mafia/movies/tmdb-928"
-        },
-        "watchOptions": [
-            {
-                "platform": "Amazon Video",
-                "type": "rent",
-                "url": "https://www.primevideo.com/"
-            }
-        ],
-        "cast": [
-            "Zach Galligan",
-            "Phoebe Cates",
-            "John Glover",
-            "Robert Prosky",
-            "Robert Picardo",
-            "Christopher Lee"
-        ],
-        "tmdbId": 928
-    },
-    {
-        "title": "Teenage Mutant Ninja Turtles",
-        "description": "A quartet of humanoid turtles, trained by their mentor in Ninjutsu, must learn to work together to face the menace of Shredder and the Foot Clan.",
-        "releaseYear": 1990,
-        "genre": [
-            "Sci-Fi",
-            "Action",
-            "Adventure",
-            "Comedy",
-            "Family"
-        ],
-        "duration": 93,
-        "director": "Steve Barron",
-        "rating": 6.7,
-        "language": "English",
-        "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178645/movie-mafia/movies/tmdb-1498.jpg",
-            "public_id": "movie-mafia/movies/tmdb-1498"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239907/movie-mafia/movies/tmdb-11051.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11051"
         },
         "watchOptions": [],
         "cast": [
-            "Brian Tochi",
-            "Josh Pais",
-            "Corey Feldman",
-            "Robbie Rist",
-            "Judith Hoag",
-            "Elias Koteas"
+            "Willem Dafoe",
+            "Harvey Keitel",
+            "Paul Greco",
+            "Steve Shill",
+            "Verna Bloom",
+            "Barbara Hershey"
         ],
-        "tmdbId": 1498
+        "tmdbId": 11051
     },
     {
-        "title": "The Hot Spot",
-        "description": "Upon arriving to a small town, a drifter quickly gets into trouble with the local authorities — and the local women — after he robs a bank.",
-        "releaseYear": 1990,
+        "title": "Twins",
+        "description": "Julius and Vincent Benedict are the results of an experiment that would allow for the perfect child. Julius was planned and grows to athletic proportions. Vincent is an accident and is somewhat smaller in stature. Vincent is placed in an orphanage while Julius is taken to a south seas island and rai",
+        "releaseYear": 1988,
         "genre": [
-            "Romance",
+            "Comedy"
+        ],
+        "duration": 107,
+        "director": "Ivan Reitman",
+        "rating": 6.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239909/movie-mafia/movies/tmdb-9493.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9493"
+        },
+        "watchOptions": [
+            {
+                "platform": "JioHotstar",
+                "type": "subscription",
+                "url": "https://www.jiohotstar.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Arnold Schwarzenegger",
+            "Danny DeVito",
+            "Kelly Preston",
+            "Chloe Webb",
+            "Bonnie Bartlett",
+            "Marshall Bell"
+        ],
+        "tmdbId": 9493
+    },
+    {
+        "title": "Lethal Weapon",
+        "description": "A veteran cop and an unstable detective become partners who must put their differences aside in order to bring down a heroin-smuggling ring run by ex-Special Forces.",
+        "releaseYear": 1987,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "duration": 110,
+        "director": "Richard Donner",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239912/movie-mafia/movies/tmdb-941.jpg",
+            "public_id": "movie-mafia/movies/tmdb-941"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Mel Gibson",
+            "Danny Glover",
+            "Gary Busey",
+            "Mitchell Ryan",
+            "Tom Atkins",
+            "Darlene Love"
+        ],
+        "tmdbId": 941
+    },
+    {
+        "title": "The Untouchables",
+        "description": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname “The Untouchables”.",
+        "releaseYear": 1987,
+        "genre": [
             "Crime",
+            "History",
+            "Thriller"
+        ],
+        "duration": 119,
+        "director": "Brian De Palma",
+        "rating": 7.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239914/movie-mafia/movies/tmdb-117.jpg",
+            "public_id": "movie-mafia/movies/tmdb-117"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Kevin Costner",
+            "Sean Connery",
+            "Robert De Niro",
+            "Charles Martin Smith",
+            "Andy Garcia",
+            "Richard Bradford"
+        ],
+        "tmdbId": 117
+    },
+    {
+        "title": "RoboCop",
+        "description": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can ",
+        "releaseYear": 1987,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "duration": 102,
+        "director": "Paul Verhoeven",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239916/movie-mafia/movies/tmdb-5548.jpg",
+            "public_id": "movie-mafia/movies/tmdb-5548"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Prime Video",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Prime Video with Ads",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Peter Weller",
+            "Nancy Allen",
+            "Dan O'Herlihy",
+            "Ronny Cox",
+            "Kurtwood Smith",
+            "Miguel Ferrer"
+        ],
+        "tmdbId": 5548
+    },
+    {
+        "title": "Dirty Dancing",
+        "description": "Expecting the usual tedium that accompanies a summer in the Catskills with her family, 17-year-old Frances 'Baby' Houseman is surprised to find herself stepping into the shoes of a professional hoofer—and unexpectedly falling in love.",
+        "releaseYear": 1987,
+        "genre": [
+            "Drama",
+            "Music",
+            "Romance"
+        ],
+        "duration": 100,
+        "director": "Emile Ardolino",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239919/movie-mafia/movies/tmdb-88.jpg",
+            "public_id": "movie-mafia/movies/tmdb-88"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate+ Amazon Channels",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Jennifer Grey",
+            "Patrick Swayze",
+            "Jerry Orbach",
+            "Cynthia Rhodes",
+            "Jack Weston",
+            "Jane Brucker"
+        ],
+        "tmdbId": 88
+    },
+    {
+        "title": "Spaceballs",
+        "description": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the",
+        "releaseYear": 1987,
+        "genre": [
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "duration": 96,
+        "director": "Mel Brooks",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239922/movie-mafia/movies/tmdb-957.jpg",
+            "public_id": "movie-mafia/movies/tmdb-957"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Bill Pullman",
+            "Rick Moranis",
+            "Mel Brooks",
+            "John Candy",
+            "Daphne Zuniga",
+            "Dick Van Patten"
+        ],
+        "tmdbId": 957
+    },
+    {
+        "title": "The Princess Bride",
+        "description": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "releaseYear": 1987,
+        "genre": [
+            "Adventure",
+            "Fantasy",
+            "Romance",
+            "Family"
+        ],
+        "duration": 99,
+        "director": "Rob Reiner",
+        "rating": 7.7,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239924/movie-mafia/movies/tmdb-2493.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2493"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate+ Amazon Channels",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            }
+        ],
+        "cast": [
+            "Cary Elwes",
+            "Robin Wright",
+            "Mandy Patinkin",
+            "Chris Sarandon",
+            "Christopher Guest",
+            "Wallace Shawn"
+        ],
+        "tmdbId": 2493
+    },
+    {
+        "title": "The Fourth Protocol",
+        "description": "Led by Kim Philby, Plan Aurora is a plan that breaches the top-secret Fourth Protocol and turns the fears that shaped it into a living nightmare. A crack Soviet agent, placed under cover in a quiet English country town, begins to assemble a nuclear bomb, whilst an MI5 agent attempts to prevent its d",
+        "releaseYear": 1987,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "duration": 119,
+        "director": "John Mackenzie",
+        "rating": 6.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239927/movie-mafia/movies/tmdb-4918.jpg",
+            "public_id": "movie-mafia/movies/tmdb-4918"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Michael Caine",
+            "Pierce Brosnan",
+            "Ned Beatty",
+            "Joanna Cassidy",
+            "Julian Glover",
+            "Michael Gough"
+        ],
+        "tmdbId": 4918
+    },
+    {
+        "title": "Evil Dead II",
+        "description": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from \"The Book of the Dead.\" As they play the recording an evil power is unleashed taking over Linda's body.",
+        "releaseYear": 1987,
+        "genre": [
+            "Horror",
+            "Comedy",
+            "Fantasy"
+        ],
+        "duration": 84,
+        "director": "Sam Raimi",
+        "rating": 7.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239929/movie-mafia/movies/tmdb-765.jpg",
+            "public_id": "movie-mafia/movies/tmdb-765"
+        },
+        "watchOptions": [
+            {
+                "platform": "Lionsgate+ Amazon Channels",
+                "type": "subscription",
+                "url": "https://www.lionsgateplay.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Bruce Campbell",
+            "Sarah Berry",
+            "Dan Hicks",
+            "Kassie DePaiva",
+            "Ted Raimi",
+            "Denise Bixler"
+        ],
+        "tmdbId": 765
+    },
+    {
+        "title": "The Last Emperor",
+        "description": "A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his decline and dissolute lifestyle; his exploitation by the invading Japanese, and finally to his obscu",
+        "releaseYear": 1987,
+        "genre": [
+            "Drama",
+            "History"
+        ],
+        "duration": 163,
+        "director": "Bernardo Bertolucci",
+        "rating": 7.6,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239931/movie-mafia/movies/tmdb-746.jpg",
+            "public_id": "movie-mafia/movies/tmdb-746"
+        },
+        "watchOptions": [],
+        "cast": [
+            "John Lone",
+            "Joan Chen",
+            "Peter O'Toole",
+            "Ruocheng Ying",
+            "Victor Wong",
+            "Dennis Dun"
+        ],
+        "tmdbId": 746
+    },
+    {
+        "title": "The Living Daylights",
+        "description": "After a defecting Russian general reveals a plot to assassinate foreign spies, James Bond is assigned a secret mission to dispatch the new head of the KGB to prevent an escalation of tensions between the Soviet Union and the West.",
+        "releaseYear": 1987,
+        "genre": [
+            "Action",
+            "Adventure",
             "Thriller"
         ],
         "duration": 130,
-        "director": "Dennis Hopper",
-        "rating": 6.3,
+        "director": "John Glen",
+        "rating": 6.5,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178648/movie-mafia/movies/tmdb-14864.jpg",
-            "public_id": "movie-mafia/movies/tmdb-14864"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239933/movie-mafia/movies/tmdb-708.jpg",
+            "public_id": "movie-mafia/movies/tmdb-708"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Timothy Dalton",
+            "Maryam D'Abo",
+            "Joe Don Baker",
+            "Art Malik",
+            "John Rhys-Davies",
+            "Jeroen Krabbé"
+        ],
+        "tmdbId": 708
+    },
+    {
+        "title": "Hellraiser",
+        "description": "A hedonistic man finds a mysterious puzzle box that summons a group of gruesome beings known as the Cenobites. These otherworldly entities open the doors to a dominion where pain and pleasure are indivisible.",
+        "releaseYear": 1987,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "duration": 93,
+        "director": "Clive Barker",
+        "rating": 6.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239936/movie-mafia/movies/tmdb-9003.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9003"
         },
         "watchOptions": [],
         "cast": [
-            "Don Johnson",
-            "Virginia Madsen",
-            "Jennifer Connelly",
-            "Charles Martin Smith",
-            "William Sadler",
-            "Jerry Hardin"
+            "Andrew Robinson",
+            "Clare Higgins",
+            "Ashley Laurence",
+            "Oliver Smith",
+            "Sean Chapman",
+            "Robert Hines"
         ],
-        "tmdbId": 14864
+        "tmdbId": 9003
     },
     {
-        "title": "Erotic Ghost Story",
-        "description": "After one thousand years, three vixens transform into humans. They seduce a poor young scholar who soon finds himself in a horrifying situation.",
-        "releaseYear": 1990,
+        "title": "Masters of the Universe",
+        "description": "When the evil Skeletor finds a mysterious power called the Cosmic Key, he becomes nearly invincible, seizing Castle Grayskull and the surrounding city. The Sorceress is now Skeletor's prisoner and he begins to drain her life-force as he waits for the moon of Eternia to align with the Great Eye of th",
+        "releaseYear": 1987,
         "genre": [
+            "Action",
             "Fantasy",
+            "Sci-Fi"
+        ],
+        "duration": 106,
+        "director": "Gary Goddard",
+        "rating": 5.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239938/movie-mafia/movies/tmdb-11649.jpg",
+            "public_id": "movie-mafia/movies/tmdb-11649"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Dolph Lundgren",
+            "Frank Langella",
+            "Billy Barty",
+            "Jon Cypher",
+            "Courteney Cox",
+            "James Tolkan"
+        ],
+        "tmdbId": 11649
+    },
+    {
+        "title": "The Running Man",
+        "description": "By 2017, the global economy has collapsed and U.S. society has become a totalitarian police state, censoring all cultural activity. The government pacifies the populace by broadcasting a number of game shows in which convicted criminals fight for their lives, including the gladiator-style The Runnin",
+        "releaseYear": 1987,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Sci-Fi"
+        ],
+        "duration": 101,
+        "director": "Paul Michael Glaser",
+        "rating": 6.5,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239941/movie-mafia/movies/tmdb-865.jpg",
+            "public_id": "movie-mafia/movies/tmdb-865"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Arnold Schwarzenegger",
+            "Richard Dawson",
+            "María Conchita Alonso",
+            "Yaphet Kotto",
+            "Jim Brown",
+            "Jesse Ventura"
+        ],
+        "tmdbId": 865
+    },
+    {
+        "title": "Firehouse",
+        "description": "Some sexy women get out of Fire Fighter School and go for the jobs they trained for, but first they must survive their male counterparts teasing them.",
+        "releaseYear": 1987,
+        "genre": [
+            "Comedy"
+        ],
+        "duration": 91,
+        "director": "J. Christian Ingvordsen",
+        "rating": 3.9,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239943/movie-mafia/movies/tmdb-131304.jpg",
+            "public_id": "movie-mafia/movies/tmdb-131304"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Gianna Ranaudo",
+            "Martha Peterson",
+            "Renee Raiford",
+            "Gideon Fountain",
+            "Peter MacKenzie",
+            "Joe Viviani"
+        ],
+        "tmdbId": 131304
+    },
+    {
+        "title": "Yu Pui Tsuen II",
+        "description": "Before Michael Mak’s Sex And Zen became a cult favourite in the ’90s, there was Ho Fan’s Yu Pui Tsuen (The Carnal Prayer Mat, 1987). But without sex bomb Amy Yip, coarse humour or lesbian love affairs, Yu Pui Tsuen had to rely on the nudity and sex from his cast of relative unknowns to save the day.",
+        "releaseYear": 1987,
+        "genre": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "duration": 90,
+        "director": "Ho Fan",
+        "rating": 5.4,
+        "language": "cn",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239946/movie-mafia/movies/tmdb-410119.jpg",
+            "public_id": "movie-mafia/movies/tmdb-410119"
+        },
+        "watchOptions": [],
+        "cast": [
+            "邓耀辉",
+            "Cheng Yuen-Man",
+            "Chou Ying-Ti",
+            "Eliza Yue Chi-Wai",
+            "Sun Chien",
+            "Joh Chung-Sing"
+        ],
+        "tmdbId": 410119
+    },
+    {
+        "title": "Planes, Trains and Automobiles",
+        "description": "An irritable marketing executive, Neal Page, is heading home to Chicago for Thanksgiving when a number of delays force him to travel with a well meaning but overbearing shower curtain ring salesman, Del Griffith.",
+        "releaseYear": 1987,
+        "genre": [
+            "Comedy"
+        ],
+        "duration": 92,
+        "director": "John Hughes",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239948/movie-mafia/movies/tmdb-2609.jpg",
+            "public_id": "movie-mafia/movies/tmdb-2609"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Steve Martin",
+            "John Candy",
+            "Laila Robins",
+            "Michael McKean",
+            "Dylan Baker",
+            "Kevin Bacon"
+        ],
+        "tmdbId": 2609
+    },
+    {
+        "title": "Convent of Sinners",
+        "description": "Convent of Sinners is the story of Susanna, a young girl who is raped by her own father and sent to a convent for her sins, where she falls in love with a priest. The other nuns, however, are jealous and angry, they want Susanna for themselves, and accuse her of being possessed by the Devil.",
+        "releaseYear": 1986,
+        "genre": [
             "Drama",
             "Horror"
         ],
         "duration": 88,
-        "director": "Lam Ngai Kai",
-        "rating": 6.2,
-        "language": "cn",
+        "director": "Joe D'Amato",
+        "rating": 5.3,
+        "language": "Italian",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178652/movie-mafia/movies/tmdb-60898.jpg",
-            "public_id": "movie-mafia/movies/tmdb-60898"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239950/movie-mafia/movies/tmdb-29187.jpg",
+            "public_id": "movie-mafia/movies/tmdb-29187"
         },
         "watchOptions": [],
         "cast": [
-            "Amy Yip Chi-Mei",
-            "Man Siu",
-            "Hitomi Kudô",
-            "Pal Sinn Lap-Man",
-            "Susan Ha Chi-Chun",
-            "贝塚里美"
+            "Eva Grimaldi",
+            "Karin Well",
+            "Gabriele Gori",
+            "Jessica Moore",
+            "Martin Philips",
+            "Gabriele Tinti"
         ],
-        "tmdbId": 60898
+        "tmdbId": 29187
     },
     {
-        "title": "Tremors",
-        "description": "Val McKee and Earl Bassett are in a fight for their lives when they discover that their desolate town has been infested with gigantic, man-eating creatures that live below the ground.",
-        "releaseYear": 1990,
+        "title": "The Boy Who Could Fly",
+        "description": "Milly and Louis, and their recently-widowed mom, Charlene, move to a new neighborhood. Once there, they all deal with a variety of personal problems, but Milly finds a friend in Eric, her autistic next door neighbor. Eric has a fascination with flight, and as the story progresses, he exerts an enthr",
+        "releaseYear": 1986,
         "genre": [
-            "Comedy",
+            "Drama",
+            "Family",
+            "Fantasy"
+        ],
+        "duration": 114,
+        "director": "Nick Castle",
+        "rating": 6.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239953/movie-mafia/movies/tmdb-24086.jpg",
+            "public_id": "movie-mafia/movies/tmdb-24086"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Lucy Deakins",
+            "Jay Underwood",
+            "Fred Savage",
+            "Bonnie Bedelia",
+            "Colleen Dewhurst",
+            "Fred Gwynne"
+        ],
+        "tmdbId": 24086
+    },
+    {
+        "title": "The Fly",
+        "description": "When brilliant, eccentric scientist Seth Brundle makes a huge technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "releaseYear": 1986,
+        "genre": [
             "Horror",
             "Sci-Fi"
         ],
         "duration": 96,
-        "director": "Ron Underwood",
+        "director": "David Cronenberg",
+        "rating": 7.4,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239955/movie-mafia/movies/tmdb-9426.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9426"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Jeff Goldblum",
+            "Geena Davis",
+            "John Getz",
+            "Joy Boushel",
+            "Leslie Carlson",
+            "George Chuvalo"
+        ],
+        "tmdbId": 9426
+    },
+    {
+        "title": "Platoon",
+        "description": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "releaseYear": 1986,
+        "genre": [
+            "Drama",
+            "War",
+            "Action"
+        ],
+        "duration": 120,
+        "director": "Oliver Stone",
+        "rating": 7.8,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239958/movie-mafia/movies/tmdb-792.jpg",
+            "public_id": "movie-mafia/movies/tmdb-792"
+        },
+        "watchOptions": [
+            {
+                "platform": "MGM Plus Amazon Channel",
+                "type": "subscription",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Charlie Sheen",
+            "Willem Dafoe",
+            "Tom Berenger",
+            "Kevin Dillon",
+            "Forest Whitaker",
+            "Mark Moses"
+        ],
+        "tmdbId": 792
+    },
+    {
+        "title": "Senza vergogna",
+        "description": "A partially paralyzed teenager is failing to have sex for the first time. He's eager but clumsy and sickly, so the local country girls reject him. He starts to realize that the only affectionate person in his life is his beautiful mother.",
+        "releaseYear": 1986,
+        "genre": [
+            "Drama"
+        ],
+        "duration": 94,
+        "director": "Gianni Siragusa",
+        "rating": 4.8,
+        "language": "Italian",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239961/movie-mafia/movies/tmdb-393850.jpg",
+            "public_id": "movie-mafia/movies/tmdb-393850"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Christian Borromeo",
+            "Malisa Longo",
+            "Rita Silva",
+            "Dino Strano",
+            "Gabriele Tinti",
+            "Paul Müller"
+        ],
+        "tmdbId": 393850
+    },
+    {
+        "title": "Highlander",
+        "description": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+        "releaseYear": 1986,
+        "genre": [
+            "Adventure",
+            "Action",
+            "Fantasy"
+        ],
+        "duration": 116,
+        "director": "Russell Mulcahy",
         "rating": 6.9,
         "language": "English",
         "poster": {
-            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788178655/movie-mafia/movies/tmdb-9362.jpg",
-            "public_id": "movie-mafia/movies/tmdb-9362"
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239963/movie-mafia/movies/tmdb-8009.jpg",
+            "public_id": "movie-mafia/movies/tmdb-8009"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "Christopher Lambert",
+            "Roxanne Hart",
+            "Clancy Brown",
+            "Sean Connery",
+            "Beatie Edney",
+            "Alan North"
+        ],
+        "tmdbId": 8009
+    },
+    {
+        "title": "Ferris Bueller's Day Off",
+        "description": "After high school slacker Ferris Bueller successfully fakes an illness in order to skip school for the day, he goes on a series of adventures throughout Chicago with his girlfriend Sloane and best friend Cameron, all the while trying to outwit his wily school principal and fed-up sister.",
+        "releaseYear": 1986,
+        "genre": [
+            "Comedy"
+        ],
+        "duration": 103,
+        "director": "John Hughes",
+        "rating": 7.6,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239966/movie-mafia/movies/tmdb-9377.jpg",
+            "public_id": "movie-mafia/movies/tmdb-9377"
         },
         "watchOptions": [
             {
@@ -9469,14 +6065,219 @@ const movies = [
             }
         ],
         "cast": [
-            "Kevin Bacon",
-            "Fred Ward",
-            "Finn Carter",
-            "Michael Gross",
-            "Reba McEntire",
-            "Victor Wong"
+            "Matthew Broderick",
+            "Alan Ruck",
+            "Mia Sara",
+            "Jeffrey Jones",
+            "Jennifer Grey",
+            "Cindy Pickett"
         ],
-        "tmdbId": 9362
+        "tmdbId": 9377
+    },
+    {
+        "title": "Big Trouble in Little China",
+        "description": "Truck driver Jack Burton gets embroiled in a supernatural battle when his best friend Wang Chi's green-eyed fiancée is kidnapped by henchmen of the sorcerer Lo Pan, who must marry a girl with green eyes in order to return to the human realm.",
+        "releaseYear": 1986,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "duration": 100,
+        "director": "John Carpenter",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239968/movie-mafia/movies/tmdb-6978.jpg",
+            "public_id": "movie-mafia/movies/tmdb-6978"
+        },
+        "watchOptions": [
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "Kurt Russell",
+            "Kim Cattrall",
+            "Dennis Dun",
+            "James Hong",
+            "Victor Wong",
+            "Kate Burton"
+        ],
+        "tmdbId": 6978
+    },
+    {
+        "title": "Labyrinth",
+        "description": "Frustrated with babysitting on yet another weekend night, Sarah, a teenager with an active imagination, summons the Goblins to take her baby stepbrother away. When little Toby actually disappears, Sarah must follow him into a fantastical world to rescue him from the Goblin King. Guarding his castle ",
+        "releaseYear": 1986,
+        "genre": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+        ],
+        "duration": 101,
+        "director": "Jim Henson",
+        "rating": 7.3,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239970/movie-mafia/movies/tmdb-13597.jpg",
+            "public_id": "movie-mafia/movies/tmdb-13597"
+        },
+        "watchOptions": [
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            }
+        ],
+        "cast": [
+            "David Bowie",
+            "Jennifer Connelly",
+            "Toby Froud",
+            "Shelley Thompson",
+            "Christopher Malcolm",
+            "Brian Henson"
+        ],
+        "tmdbId": 13597
+    },
+    {
+        "title": "The Transformers: The Movie",
+        "description": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons.",
+        "releaseYear": 1986,
+        "genre": [
+            "Animation",
+            "Sci-Fi",
+            "Action",
+            "Adventure",
+            "Family"
+        ],
+        "duration": 85,
+        "director": "Nelson Shin",
+        "rating": 7.1,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239974/movie-mafia/movies/tmdb-1857.jpg",
+            "public_id": "movie-mafia/movies/tmdb-1857"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Judd Nelson",
+            "Peter Cullen",
+            "Frank Welker",
+            "Leonard Nimoy",
+            "Orson Welles",
+            "Casey Kasem"
+        ],
+        "tmdbId": 1857
+    },
+    {
+        "title": "Star Trek IV: The Voyage Home",
+        "description": "When a huge alien probe enters the galaxy and begins to vaporize Earth's oceans, Kirk and his crew must travel back in time in order to bring back whales and save the planet.",
+        "releaseYear": 1986,
+        "genre": [
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "duration": 118,
+        "director": "Leonard Nimoy",
+        "rating": 7.2,
+        "language": "English",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239976/movie-mafia/movies/tmdb-168.jpg",
+            "public_id": "movie-mafia/movies/tmdb-168"
+        },
+        "watchOptions": [
+            {
+                "platform": "Apple TV Store",
+                "type": "rent",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "rent",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "rent",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "platform": "Amazon Video",
+                "type": "rent",
+                "url": "https://www.primevideo.com/"
+            },
+            {
+                "platform": "Apple TV Store",
+                "type": "buy",
+                "url": "https://tv.apple.com/in/"
+            },
+            {
+                "platform": "Google Play Movies",
+                "type": "buy",
+                "url": "https://play.google.com/store/movies"
+            },
+            {
+                "platform": "YouTube",
+                "type": "buy",
+                "url": "https://www.youtube.com/"
+            }
+        ],
+        "cast": [
+            "William Shatner",
+            "Leonard Nimoy",
+            "DeForest Kelley",
+            "James Doohan",
+            "George Takei",
+            "Walter Koenig"
+        ],
+        "tmdbId": 168
+    },
+    {
+        "title": "Armour of God",
+        "description": "After an adventurer known as the Asian Hawk steals a mysterious sword known to be a piece of the Armour of God, a magical suit of armour that dates back to the Crusades, a cult of Satanic monks kidnap his ex-girlfriend and demand he turn over the sword and recover the rest of the armour.",
+        "releaseYear": 1986,
+        "genre": [
+            "Adventure",
+            "Action",
+            "Comedy"
+        ],
+        "duration": 97,
+        "director": "Jackie Chan",
+        "rating": 7,
+        "language": "cn",
+        "poster": {
+            "url": "https://res.cloudinary.com/epj7ngum/image/upload/v1788239979/movie-mafia/movies/tmdb-10974.jpg",
+            "public_id": "movie-mafia/movies/tmdb-10974"
+        },
+        "watchOptions": [],
+        "cast": [
+            "Jackie Chan",
+            "Alan Tam",
+            "Lola Forner",
+            "Rosamund Kwan Chi-Lam",
+            "Ken Boyle",
+            "John Ladalski"
+        ],
+        "tmdbId": 10974
     }
 ];
 
