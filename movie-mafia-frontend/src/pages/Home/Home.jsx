@@ -12,6 +12,7 @@ const genres = [
   "Drama",
   "Fantasy",
   "Horror",
+  "K-Drama",
   "Mystery",
   "Romance",
   "Sci-Fi",
@@ -34,26 +35,20 @@ function Home() {
     fetchMovies();
   }, []);
 
-  const koreanMovies = movies.filter(
-    (movie) => movie.language === "Korean"
-  );
-
   return (
     <>
       <Hero />
 
       <main className="mx-auto w-full max-w-6xl px-4 pb-10">
-        {koreanMovies.length > 0 && (
-          <MovieSection
-            title="K-Drama"
-            movies={koreanMovies}
-          />
-        )}
-
         {genres.map((genre) => {
-          const genreMovies = movies.filter((movie) =>
-            movie.genre?.includes(genre)
-          );
+          const genreMovies =
+            genre === "K-Drama"
+              ? movies.filter(
+                  (movie) => movie.language === "Korean"
+                )
+              : movies.filter((movie) =>
+                  movie.genre?.includes(genre)
+                );
 
           return (
             <MovieSection
