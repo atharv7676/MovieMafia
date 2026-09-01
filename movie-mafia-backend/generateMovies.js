@@ -20,10 +20,17 @@ const TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 const args = process.argv.slice(2);
 const countArg = args.find((arg) => arg.startsWith("--count="));
+const koreanArg = args.find((arg) => arg.startsWith("--korean="));
 
 const TARGET_COUNT = countArg
     ? parseInt(countArg.split("=")[1], 10)
     : 50;
+
+// Number of Korean movies to prioritize at the top of this batch.
+// Defaults to 0 (skip Korean-specific fetch) if flag not passed.
+const KOREAN_COUNT = koreanArg
+    ? parseInt(koreanArg.split("=")[1], 10)
+    : 0;
 
 const OUTPUT_FILE = "./data/generatedMovies.js";
 
@@ -173,32 +180,75 @@ async function getExistingTmdbIds() {
     );
 }
 
-async function getCandidateMovies(targetCount, existingTmdbIds) {
+// Fetches Korean-language candidates across multiple pages until we have
+// enough NEW (not-in-DB) candidates to satisfy koreanCount, or we run out
+// of pages to check.
+async function getKoreanCandidates(koreanCount, existingTmdbIds) {
     const candidates = [];
 
-    // 🇰🇷 Get Korean movies first
-    const koreanMovies = await tmdbGet("/discover/movie", {
-        with_original_language: "ko",
-        sort_by: "popularity.desc",
-        region: "IN",
-        page: 1
-    });
-
-    for (const movie of koreanMovies.results || []) {
-        if (existingTmdbIds.has(movie.id)) {
-            continue;
-        }
-
-        if (!movie.poster_path) {
-            continue;
-        }
-
-        if (!movie.id) {
-            continue;
-        }
-
-        candidates.push(movie);
+    if (koreanCount <= 0) {
+        return candidates;
     }
+
+    let page = 1;
+    const maxPages = 20;
+
+    while (candidates.length < koreanCount && page <= maxPages) {
+        const data = await tmdbGet("/discover/movie", {
+            with_original_language: "ko",
+            sort_by: "popularity.desc",
+            region: "IN",
+            page
+        });
+
+        const results = data.results || [];
+
+        if (results.length === 0) {
+            // No more pages available from TMDB
+            break;
+        }
+
+        for (const movie of results) {
+            if (existingTmdbIds.has(movie.id)) {
+                continue;
+            }
+
+            if (!movie.poster_path) {
+                continue;
+            }
+
+            if (!movie.id) {
+                continue;
+            }
+
+            candidates.push(movie);
+
+            if (candidates.length >= koreanCount) {
+                break;
+            }
+        }
+
+        page++;
+        await sleep(120);
+    }
+
+    console.log(
+        `Korean candidates found: ${candidates.length} (requested ${koreanCount})`
+    );
+
+    return candidates;
+}
+
+async function getCandidateMovies(targetCount, koreanCount, existingTmdbIds) {
+    // Korean movies fetched first so they end up prioritized/processed
+    // before other genres, landing at the top of the generated batch.
+    const koreanCandidates = await getKoreanCandidates(
+        koreanCount,
+        existingTmdbIds
+    );
+
+    const candidates = [...koreanCandidates];
+
     const lists = [
         "popular",
         "top_rated",
@@ -280,6 +330,8 @@ async function getCandidateMovies(targetCount, existingTmdbIds) {
         await sleep(120);
     }
 
+    // Dedupe while preserving order (Korean movies stay first since
+    // they were added to `candidates` before anything else)
     const uniqueMovies = [];
     const seen = new Set();
 
@@ -401,23 +453,30 @@ async function buildMovieRecord(movie) {
     const cast = getCast(credits);
     const genres = getGenres(details);
 
+    const title = details.title || movie.title || `TMDB #${movie.id}`;
+
     if (!director) {
+        console.log(`Rejected ${movie.id} (${title}): no director`);
         return null;
     }
 
     if (cast.length === 0) {
+        console.log(`Rejected ${movie.id} (${title}): no cast`);
         return null;
     }
 
     if (!details.runtime || details.runtime < 30) {
+        console.log(`Rejected ${movie.id} (${title}): runtime=${details.runtime}`);
         return null;
     }
 
     if (!details.release_date) {
+        console.log(`Rejected ${movie.id} (${title}): no release_date`);
         return null;
     }
 
     if (!details.poster_path) {
+        console.log(`Rejected ${movie.id} (${title}): no poster_path`);
         return null;
     }
 
@@ -425,10 +484,12 @@ async function buildMovieRecord(movie) {
         !details.overview ||
         details.overview.trim().length < 50
     ) {
+        console.log(`Rejected ${movie.id} (${title}): overview too short`);
         return null;
     }
 
     if (genres.length === 0) {
+        console.log(`Rejected ${movie.id} (${title}): no mapped genres (raw genres: ${JSON.stringify(details.genres)})`);
         return null;
     }
 
@@ -484,6 +545,7 @@ async function buildMovieRecord(movie) {
 
 async function main() {
     console.log(`Target movies: ${TARGET_COUNT}`);
+    console.log(`Korean priority count: ${KOREAN_COUNT}`);
 
     await connectDb();
 
@@ -501,6 +563,7 @@ async function main() {
     try {
         candidates = await getCandidateMovies(
             TARGET_COUNT,
+            KOREAN_COUNT,
             existingTmdbIds
         );
     } catch (error) {
